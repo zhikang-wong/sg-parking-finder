@@ -6,8 +6,10 @@ const AVAIL_API = "https://api.data.gov.sg/v1/transport/carpark-availability";
 const LTA_AVAIL_URL = "https://raw.githubusercontent.com/zhikang-wong/sg-parking-finder/availability/availability.json";
 const MATCH_RADIUS = 150; // m: max distance to pair an LTA record with a carpark
 const WALK_SPEED = 80;      // metres per minute
-const ROUTE_FACTOR = 1.25;  // straight-line -> street distance fudge
+const ROUTE_FACTOR = 1.25;  // straight-line -> street distance fudge (fallback only)
 const MAX_RESULTS = 40;
+// real pedestrian routing over the OpenStreetMap network (OSRM foot profile)
+const OSRM_TABLE = "https://routing.openstreetmap.de/routed-foot/table/v1/foot/";
 
 const state = {
   carparks: [],
@@ -16,6 +18,8 @@ const state = {
   dest: null,         // {lat, lng, name}
   sort: "walk",
   activeId: null,
+  walkCache: new Map(),   // "destKey|cpId" -> {dist m, secs} from OSRM
+  routingFor: null,       // destKey of the in-flight OSRM request
 };
 const getAvail = (cp) => cp.hdbNo ? state.avail[cp.hdbNo] : state.availById[cp.id];
 
@@ -224,21 +228,53 @@ function candidates() {
   const when = selectedWhen();
   const durMin = +$("duration").value;
 
+  const destKey = `${dest.lat.toFixed(5)},${dest.lng.toFixed(5)}`;
   let rows = state.carparks
     .map(cp => {
       const dist = haversine(dest.lat, dest.lng, cp.lat, cp.lng);
       if (dist > radius) return null;
-      return { cp, dist, av: getAvail(cp), cost: estimateCost(cp.rates, when, durMin) };
+      const rt = state.walkCache.get(`${destKey}|${cp.id}`);
+      return {
+        cp, dist, av: getAvail(cp), cost: estimateCost(cp.rates, when, durMin),
+        walkM: rt ? rt.dist : dist * ROUTE_FACTOR,
+        walkMin: rt ? Math.max(1, Math.round(rt.secs / 60)) : walkMins(dist),
+        routed: !!rt,
+      };
     })
     .filter(Boolean)
     .filter(r => !shelteredOnly || r.cp.sheltered)
     .filter(r => !mustHaveLots || (r.av && r.av.lots > 0));
 
   const price = (r) => r.cost ?? Infinity;
-  if (state.sort === "walk") rows.sort((a, b) => a.dist - b.dist);
-  else if (state.sort === "price") rows.sort((a, b) => price(a) - price(b) || a.dist - b.dist);
-  else if (state.sort === "avail") rows.sort((a, b) => (b.av?.lots ?? -1) - (a.av?.lots ?? -1) || a.dist - b.dist);
+  if (state.sort === "walk") rows.sort((a, b) => a.walkM - b.walkM);
+  else if (state.sort === "price") rows.sort((a, b) => price(a) - price(b) || a.walkM - b.walkM);
+  else if (state.sort === "avail") rows.sort((a, b) => (b.av?.lots ?? -1) - (a.av?.lots ?? -1) || a.walkM - b.walkM);
   return rows.slice(0, MAX_RESULTS);
+}
+
+async function fetchWalkRoutes(rows) {
+  // Fill walkCache with real OSM pedestrian network distances for unrouted rows.
+  const { dest } = state;
+  const destKey = `${dest.lat.toFixed(5)},${dest.lng.toFixed(5)}`;
+  const todo = rows.filter(r => !r.routed);
+  if (!todo.length || state.routingFor === destKey) return;
+  state.routingFor = destKey;
+  try {
+    const coords = [`${dest.lng},${dest.lat}`,
+      ...todo.map(r => `${r.cp.lng},${r.cp.lat}`)].join(";");
+    const res = await fetch(`${OSRM_TABLE}${coords}?sources=0&annotations=duration,distance`);
+    const data = await res.json();
+    if (data.code !== "Ok") return;
+    todo.forEach((r, i) => {
+      const secs = data.durations?.[0]?.[i + 1];
+      const dist = data.distances?.[0]?.[i + 1];
+      if (secs != null && dist != null)
+        state.walkCache.set(`${destKey}|${r.cp.id}`, { dist, secs });
+    });
+    if (state.dest && `${state.dest.lat.toFixed(5)},${state.dest.lng.toFixed(5)}` === destKey)
+      render();
+  } catch { /* keep straight-line estimates */ }
+  finally { state.routingFor = null; }
 }
 
 function lotsBadge(av) {
@@ -266,8 +302,9 @@ function render() {
   markerLayer.clearLayers();
 
   const bounds = [[state.dest.lat, state.dest.lng]];
+  fetchWalkRoutes(rows);
   rows.forEach((r, i) => {
-    const { cp, dist, av, cost } = r;
+    const { cp, av, cost } = r;
     const card = document.createElement("div");
     card.className = "card";
     card.dataset.id = cp.id;
@@ -281,7 +318,7 @@ function render() {
         <div class="price-box">${priceBox(cost, durMin)}</div>
       </div>
       <div class="badges">
-        <span class="badge walk">🚶 ${walkMins(dist)} min · ${fmtDist(dist)}</span>
+        <span class="badge walk" title="${r.routed ? "Walking route via OpenStreetMap" : "Straight-line estimate"}">🚶 ${r.routed ? "" : "~"}${r.walkMin} min · ${fmtDist(r.walkM)}</span>
         ${cp.sheltered ? '<span class="badge shelter">☂️ Sheltered</span>' : ""}
         ${lotsBadge(av)}
         ${cp.gantry ? `<span class="badge">↕ ${cp.gantry.toFixed(2)} m</span>` : ""}

@@ -20,6 +20,7 @@ with live HDB lot availability and one-tap navigation via Google Maps or Waze.
 | data.gov.sg carpark-availability API | Live HDB lot counts (no API key needed) | live |
 | LTA DataMall CarParkAvailabilityv2 | Live mall/URA lot counts, via scheduled GitHub Action | live, 5-min refresh |
 | OneMap search API | Destination geocoding (client-side) | live |
+| OSRM foot routing (routing.openstreetmap.de) | Real walking distance/time over the OSM pedestrian network | live |
 
 Mall availability: DataMall blocks browser calls (no CORS) and needs an AccountKey, so
 `.github/workflows/availability.yml` fetches it every 5 minutes (key in the `DATAMALL_KEY`
