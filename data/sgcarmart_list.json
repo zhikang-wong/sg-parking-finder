@@ -1,0 +1,9178 @@
+[
+ {
+  "id": 710,
+  "name": "*Scape",
+  "road": "Orchard Link",
+  "location": "s",
+  "latitude": 1.301016,
+  "longitude": 103.836021
+ },
+ {
+  "id": 806,
+  "name": "10 Raeburn Park",
+  "road": "Raeburn Park",
+  "location": "s",
+  "latitude": 1.2739,
+  "longitude": 103.833
+ },
+ {
+  "id": 745,
+  "name": "10 Winstedt",
+  "road": "Winstedt Road",
+  "location": "s",
+  "latitude": 1.31,
+  "longitude": 103.842934
+ },
+ {
+  "id": 858,
+  "name": "100 AM Shopping Mall",
+  "road": "Tras Street",
+  "location": "s",
+  "latitude": 1.27493,
+  "longitude": 103.843552
+ },
+ {
+  "id": 898,
+  "name": "100 Pasir Panjang",
+  "road": "Pasir Panjang Road",
+  "location": "w",
+  "latitude": 1.275496,
+  "longitude": 103.795868
+ },
+ {
+  "id": 748,
+  "name": "1001 Bukit Merah Lane 3",
+  "road": "Bukit Merah Lane 3",
+  "location": "s",
+  "latitude": 1.2845,
+  "longitude": 103.805962
+ },
+ {
+  "id": 260,
+  "name": "111 Somerset",
+  "road": "Somerset Road",
+  "location": "s",
+  "latitude": 1.30016,
+  "longitude": 103.837357
+ },
+ {
+  "id": 1149,
+  "name": "12 Tai Seng Link",
+  "road": "Tai Seng Link",
+  "location": "e",
+  "latitude": 1.337073,
+  "longitude": 103.890656
+ },
+ {
+  "id": 1020,
+  "name": "15 Changi Business Park",
+  "road": "Changi Business Park Central 1",
+  "location": "e",
+  "latitude": 1.336986,
+  "longitude": 103.965172
+ },
+ {
+  "id": 808,
+  "name": "1557 Keppel Road",
+  "road": "Keppel Road",
+  "location": "s",
+  "latitude": 1.273127,
+  "longitude": 103.840637
+ },
+ {
+  "id": 464,
+  "name": "171 Kallang Way",
+  "road": "Kallang Way",
+  "location": "s",
+  "latitude": 1.324374,
+  "longitude": 103.873924
+ },
+ {
+  "id": 1230,
+  "name": "18 Cross",
+  "road": "Cross Street",
+  "location": "s",
+  "latitude": 1.283636,
+  "longitude": 103.846916
+ },
+ {
+  "id": 953,
+  "name": "18 New Industrial Road",
+  "road": "Industrial Road",
+  "location": "e",
+  "latitude": 1.343242,
+  "longitude": 103.886246
+ },
+ {
+  "id": 892,
+  "name": "18 Tai Seng",
+  "road": "Tai Seng Street",
+  "location": "e",
+  "latitude": 1.336472,
+  "longitude": 103.888817
+ },
+ {
+  "id": 1116,
+  "name": "183 Longhaus",
+  "road": "Upper Thomson Road",
+  "location": "e",
+  "latitude": 1.350964,
+  "longitude": 103.835526
+ },
+ {
+  "id": 1148,
+  "name": "2 Bukit Merah Central",
+  "road": "Bukit Merah Central",
+  "location": "w",
+  "latitude": 1.284294,
+  "longitude": 103.81369
+ },
+ {
+  "id": 307,
+  "name": "20 Collyer Quay",
+  "road": "Collyer Quay",
+  "location": "s",
+  "latitude": 1.284644,
+  "longitude": 103.852631
+ },
+ {
+  "id": 1161,
+  "name": "211 Henderson",
+  "road": "Henderson Road",
+  "location": "s",
+  "latitude": 1.281758,
+  "longitude": 103.819687
+ },
+ {
+  "id": 980,
+  "name": "22 Martin Road",
+  "road": "Martin Road",
+  "location": "s",
+  "latitude": 1.291843,
+  "longitude": 103.838455
+ },
+ {
+  "id": 811,
+  "name": "25 Lorong 8 Toa Payoh",
+  "road": "Lorong 8 Toa Payoh",
+  "location": "n",
+  "latitude": 1.33866,
+  "longitude": 103.86026
+ },
+ {
+  "id": 763,
+  "name": "26 Tai Seng Street",
+  "road": "Tai Seng Street",
+  "location": "e",
+  "latitude": 1.335869,
+  "longitude": 103.889214
+ },
+ {
+  "id": 1057,
+  "name": "268 Orchard Road",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.303148,
+  "longitude": 103.836983
+ },
+ {
+  "id": 198,
+  "name": "28 Maxwell Rd",
+  "road": "Maxwell Road",
+  "location": "s",
+  "latitude": 1.278207,
+  "longitude": 103.845596
+ },
+ {
+  "id": 129,
+  "name": "30 Bencoolen",
+  "road": "Bencoolen Street",
+  "location": "s",
+  "latitude": 1.298442,
+  "longitude": 103.85041
+ },
+ {
+  "id": 689,
+  "name": "313@Somerset",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.300856,
+  "longitude": 103.838089
+ },
+ {
+  "id": 1186,
+  "name": "321 Clementi",
+  "road": "Clementi Ave 3",
+  "location": "w",
+  "latitude": 1.311983,
+  "longitude": 103.764999
+ },
+ {
+  "id": 1167,
+  "name": "33 Park Crescent (MSCP)",
+  "road": "Park Crescent",
+  "location": "",
+  "latitude": 1.285524,
+  "longitude": 103.842392
+ },
+ {
+  "id": 1129,
+  "name": "336 River Valley",
+  "road": "River Valley Road",
+  "location": "s",
+  "latitude": 1.295993,
+  "longitude": 103.838478
+ },
+ {
+  "id": 807,
+  "name": "34 Boon Leat Terrace",
+  "road": "Boon Leat Terrace",
+  "location": "s",
+  "latitude": 1.276432,
+  "longitude": 103.797234
+ },
+ {
+  "id": 1018,
+  "name": "35-43 Kranji Way",
+  "road": "Kranji Way",
+  "location": "n",
+  "latitude": 1.437966,
+  "longitude": 103.743805
+ },
+ {
+  "id": 1158,
+  "name": "351 on Braddell",
+  "road": "Braddell Road",
+  "location": "n",
+  "latitude": 1.343441,
+  "longitude": 103.845505
+ },
+ {
+  "id": 1034,
+  "name": "3B Toh Guan Road East",
+  "road": "Toh Guan Road East",
+  "location": "w",
+  "latitude": 1.338396,
+  "longitude": 103.749626
+ },
+ {
+  "id": 1199,
+  "name": "50 Armenian Street",
+  "road": "50 Armenian Street",
+  "location": "",
+  "latitude": 1.294368,
+  "longitude": 103.849602
+ },
+ {
+  "id": 975,
+  "name": "50 Scotts Road",
+  "road": "Scotts Road",
+  "location": "s",
+  "latitude": 1.311086,
+  "longitude": 103.837036
+ },
+ {
+  "id": 220,
+  "name": "51 Bencoolen Street",
+  "road": "Bencoolen Street",
+  "location": "s",
+  "latitude": 1.299391,
+  "longitude": 103.850319
+ },
+ {
+  "id": 269,
+  "name": "51 Cuppage Road",
+  "road": "Cuppage Road",
+  "location": "s",
+  "latitude": 1.302818,
+  "longitude": 103.840218
+ },
+ {
+  "id": 740,
+  "name": "6 Raffles Quay",
+  "road": "Raffles Quay",
+  "location": "s",
+  "latitude": 1.28175,
+  "longitude": 103.851433
+ },
+ {
+  "id": 236,
+  "name": "61 Robinson",
+  "road": "Robinson Road",
+  "location": "s",
+  "latitude": 1.27921,
+  "longitude": 103.849327
+ },
+ {
+  "id": 1103,
+  "name": "7 & 9 Tampines Grande (Hitachi Square)",
+  "road": "Tampines Grande",
+  "location": "e",
+  "latitude": 1.355631,
+  "longitude": 103.941635
+ },
+ {
+  "id": 773,
+  "name": "71 Robinson Road",
+  "road": "Robinson Road",
+  "location": "s",
+  "latitude": 1.2782,
+  "longitude": 103.848763
+ },
+ {
+  "id": 1203,
+  "name": "745 Lorong 5 Toa Payoh",
+  "road": "Lorong 5 Toa Payoh",
+  "location": "",
+  "latitude": 1.333412,
+  "longitude": 103.852806
+ },
+ {
+  "id": 219,
+  "name": "79 Anson Road",
+  "road": "Anson Road",
+  "location": "s",
+  "latitude": 1.274138,
+  "longitude": 103.845581
+ },
+ {
+  "id": 1064,
+  "name": "8 Central Link",
+  "road": "Jalan Kilang Barat",
+  "location": "s",
+  "latitude": 1.285291,
+  "longitude": 103.807953
+ },
+ {
+  "id": 1208,
+  "name": "8 Duke's Road",
+  "road": "8 Duke's Road",
+  "location": "",
+  "latitude": 1.32297,
+  "longitude": 103.811958
+ },
+ {
+  "id": 218,
+  "name": "888 Plaza",
+  "road": "Woodlands Drive 50",
+  "location": "n",
+  "latitude": 1.438083,
+  "longitude": 103.795082
+ },
+ {
+  "id": 756,
+  "name": "991 Alexandra Road",
+  "road": "Alexandra Road",
+  "location": "w",
+  "latitude": 1.273926,
+  "longitude": 103.803467
+ },
+ {
+  "id": 934,
+  "name": "9@Tagore",
+  "road": "Tagore Lane",
+  "location": "n",
+  "latitude": 1.38357,
+  "longitude": 103.826225
+ },
+ {
+  "id": 492,
+  "name": "Abdul Gaffoor Mosque",
+  "road": "Dunlop Street",
+  "location": "s",
+  "latitude": 1.30441,
+  "longitude": 103.853714
+ },
+ {
+  "id": 226,
+  "name": "ABI Plaza",
+  "road": "Keppel Road",
+  "location": "s",
+  "latitude": 1.273107,
+  "longitude": 103.842896
+ },
+ {
+  "id": 611,
+  "name": "ACTION Theatre",
+  "road": "Waterloo Street",
+  "location": "s",
+  "latitude": 1.298189,
+  "longitude": 103.850777
+ },
+ {
+  "id": 217,
+  "name": "Adam Road Medical Centre",
+  "road": "Bukit Timah Road",
+  "location": "w",
+  "latitude": 1.32335,
+  "longitude": 103.810806
+ },
+ {
+  "id": 775,
+  "name": "Admirax",
+  "road": "Admiralty Street",
+  "location": "n",
+  "latitude": 1.462475,
+  "longitude": 103.815804
+ },
+ {
+  "id": 372,
+  "name": "Advantech Industrial Building",
+  "road": "Sims Drive",
+  "location": "e",
+  "latitude": 1.318439,
+  "longitude": 103.876465
+ },
+ {
+  "id": 568,
+  "name": "Aero-Green Technology",
+  "road": "Neo Tiew Crescent",
+  "location": "w",
+  "latitude": 1.444882,
+  "longitude": 103.729935
+ },
+ {
+  "id": 779,
+  "name": "AIA Tower",
+  "road": "Robinson Road",
+  "location": "s",
+  "latitude": 1.281891,
+  "longitude": 103.851112
+ },
+ {
+  "id": 1081,
+  "name": "Albert Centre Market and Food Centre",
+  "road": "Queen Street",
+  "location": "s",
+  "latitude": 1.301003,
+  "longitude": 103.854172
+ },
+ {
+  "id": 215,
+  "name": "Albert Complex",
+  "road": "Albert Street",
+  "location": "s",
+  "latitude": 1.302221,
+  "longitude": 103.853851
+ },
+ {
+  "id": 214,
+  "name": "Albert Court Hotel",
+  "road": "Albert Street",
+  "location": "s",
+  "latitude": 1.304238,
+  "longitude": 103.850853
+ },
+ {
+  "id": 1005,
+  "name": "Alexandra Central",
+  "road": "Alexandra Road",
+  "location": "w",
+  "latitude": 1.287392,
+  "longitude": 103.805176
+ },
+ {
+  "id": 213,
+  "name": "Alexandra Hospital",
+  "road": "Alexandra Road",
+  "location": "w",
+  "latitude": 1.286724,
+  "longitude": 103.800903
+ },
+ {
+  "id": 855,
+  "name": "Alexandra Retail Centre",
+  "road": "Alexandra Road",
+  "location": "s",
+  "latitude": 1.27364,
+  "longitude": 103.80159
+ },
+ {
+  "id": 1101,
+  "name": "Alexis",
+  "road": "Alexandra Road",
+  "location": "w",
+  "latitude": 1.291144,
+  "longitude": 103.80722
+ },
+ {
+  "id": 1090,
+  "name": "Aljunied-Hougang Town Council",
+  "road": "Serangoon North Ave 1",
+  "location": "e",
+  "latitude": 1.368506,
+  "longitude": 103.872566
+ },
+ {
+  "id": 636,
+  "name": "Alliance Francaise de Singapour",
+  "road": "Sarkies Road",
+  "location": "s",
+  "latitude": 1.314057,
+  "longitude": 103.837189
+ },
+ {
+  "id": 1118,
+  "name": "Altez",
+  "road": "Enggor Street",
+  "location": "s",
+  "latitude": 1.274424,
+  "longitude": 103.844162
+ },
+ {
+  "id": 211,
+  "name": "Amara Hotel",
+  "road": "Tanjong Pagar Road",
+  "location": "s",
+  "latitude": 1.274364,
+  "longitude": 103.843452
+ },
+ {
+  "id": 366,
+  "name": "AMK Autopoint",
+  "road": "Ang Mo Kio Industrial Park 2A",
+  "location": "n",
+  "latitude": 1.376952,
+  "longitude": 103.868843
+ },
+ {
+  "id": 444,
+  "name": "AMK Hub",
+  "road": "Ang Mo Kio Avenue 3",
+  "location": "n",
+  "latitude": 1.370017,
+  "longitude": 103.848755
+ },
+ {
+  "id": 961,
+  "name": "Amoy Street Off Street",
+  "road": "Amoy Street",
+  "location": "s",
+  "latitude": 1.280935,
+  "longitude": 103.847107
+ },
+ {
+  "id": 210,
+  "name": "Amtech Building",
+  "road": "Sin Ming Road",
+  "location": "n",
+  "latitude": 1.356382,
+  "longitude": 103.837486
+ },
+ {
+  "id": 208,
+  "name": "Anchorpoint Shopping Centre",
+  "road": "Alexandra Road",
+  "location": "s",
+  "latitude": 1.288984,
+  "longitude": 103.805321
+ },
+ {
+  "id": 207,
+  "name": "Ang Mo Kio Community Hospital",
+  "road": "Ang Mo Kio Avenue 9",
+  "location": "n",
+  "latitude": 1.383977,
+  "longitude": 103.840363
+ },
+ {
+  "id": 981,
+  "name": "Ang Mo Kio Polyclinic (NHGP)",
+  "road": "Ang Mo Kio Central 2",
+  "location": "n",
+  "latitude": 1.374376,
+  "longitude": 103.845726
+ },
+ {
+  "id": 948,
+  "name": "Anglican Care Centre (Simei)",
+  "road": "Simei Street",
+  "location": "e",
+  "latitude": 1.342043,
+  "longitude": 103.949265
+ },
+ {
+  "id": 796,
+  "name": "Angullia Park",
+  "road": "Angullia Park",
+  "location": "s",
+  "latitude": 1.30396,
+  "longitude": 103.829674
+ },
+ {
+  "id": 903,
+  "name": "Aperia Mall",
+  "road": "Kallang Avenue",
+  "location": "s",
+  "latitude": 1.310041,
+  "longitude": 103.86451
+ },
+ {
+  "id": 328,
+  "name": "Apex @ Henderson",
+  "road": "Henderson Road",
+  "location": "w",
+  "latitude": 1.282657,
+  "longitude": 103.820503
+ },
+ {
+  "id": 355,
+  "name": "APS Industrial Building",
+  "road": "Jalan Pemimpin",
+  "location": "e",
+  "latitude": 1.350966,
+  "longitude": 103.841797
+ },
+ {
+  "id": 1102,
+  "name": "ARC 380",
+  "road": "Jalan Besar",
+  "location": "s",
+  "latitude": 1.313317,
+  "longitude": 103.860237
+ },
+ {
+  "id": 575,
+  "name": "ARC @ mTower",
+  "road": "Alexandra Road",
+  "location": "w",
+  "latitude": 1.273686,
+  "longitude": 103.801323
+ },
+ {
+  "id": 833,
+  "name": "Arena Country Club",
+  "road": "Upper Jurong Road",
+  "location": "w",
+  "latitude": 1.32944,
+  "longitude": 103.682861
+ },
+ {
+  "id": 939,
+  "name": "Ark @ Gambas",
+  "road": "Gambas Crescent",
+  "location": "n",
+  "latitude": 1.444878,
+  "longitude": 103.812874
+ },
+ {
+  "id": 930,
+  "name": "Ark @ KB",
+  "road": "Kaki Bukit Avenue 6",
+  "location": "e",
+  "latitude": 1.341191,
+  "longitude": 103.9142
+ },
+ {
+  "id": 494,
+  "name": "Armenian Church of Saint Gregory",
+  "road": "Hill Street",
+  "location": "s",
+  "latitude": 1.29299,
+  "longitude": 103.849472
+ },
+ {
+  "id": 776,
+  "name": "Asia Square Tower 1",
+  "road": "Marina View",
+  "location": "s",
+  "latitude": 1.27916,
+  "longitude": 103.851372
+ },
+ {
+  "id": 863,
+  "name": "Asia Square Tower 2",
+  "road": "Marina View",
+  "location": "s",
+  "latitude": 1.27845,
+  "longitude": 103.850967
+ },
+ {
+  "id": 452,
+  "name": "Asian Civilisations Museum",
+  "road": "Empress Place",
+  "location": "s",
+  "latitude": 1.287357,
+  "longitude": 103.851379
+ },
+ {
+  "id": 1220,
+  "name": "Asiawide Industrial Building",
+  "road": "Pereira Road",
+  "location": "s",
+  "latitude": 1.33743,
+  "longitude": 103.886093
+ },
+ {
+  "id": 1115,
+  "name": "Aspial One",
+  "road": "Ubi Avenue 3",
+  "location": "e",
+  "latitude": 1.333668,
+  "longitude": 103.897194
+ },
+ {
+  "id": 1135,
+  "name": "Atrix Building",
+  "road": "Lorong 23 Geylang",
+  "location": "e",
+  "latitude": 1.316695,
+  "longitude": 103.881355
+ },
+ {
+  "id": 1152,
+  "name": "Audio House Building",
+  "road": "Ubi Road",
+  "location": "e",
+  "latitude": 1.330731,
+  "longitude": 103.900063
+ },
+ {
+  "id": 204,
+  "name": "Automobile Megamart (AML)",
+  "road": "Ubi Avenue 2",
+  "location": "e",
+  "latitude": 1.331833,
+  "longitude": 103.901474
+ },
+ {
+  "id": 1061,
+  "name": "AXA Tower",
+  "road": "Shenton Way",
+  "location": "s",
+  "latitude": 1.275321,
+  "longitude": 103.847252
+ },
+ {
+  "id": 351,
+  "name": "Ayer Rajah Industrial Estate",
+  "road": "Ayer Rajah Crescent",
+  "location": "w",
+  "latitude": 1.296579,
+  "longitude": 103.786568
+ },
+ {
+  "id": 203,
+  "name": "Balestier Plaza",
+  "road": "Balestier Road",
+  "location": "s",
+  "latitude": 1.325658,
+  "longitude": 103.850349
+ },
+ {
+  "id": 202,
+  "name": "Balestier Point",
+  "road": "Balestier Road",
+  "location": "s",
+  "latitude": 1.322683,
+  "longitude": 103.851997
+ },
+ {
+  "id": 345,
+  "name": "Balestier Towers",
+  "road": "Balestier Road",
+  "location": "s",
+  "latitude": 1.32092,
+  "longitude": 103.852409
+ },
+ {
+  "id": 334,
+  "name": "Balestier Warehouse",
+  "road": "Jalan Ampas",
+  "location": "s",
+  "latitude": 1.3263,
+  "longitude": 103.852005
+ },
+ {
+  "id": 746,
+  "name": "Balmoral Plaza",
+  "road": "Bukit Timah Road",
+  "location": "w",
+  "latitude": 1.316556,
+  "longitude": 103.835434
+ },
+ {
+  "id": 201,
+  "name": "Bangkok Bank Building",
+  "road": "Cecil Street",
+  "location": "s",
+  "latitude": 1.279337,
+  "longitude": 103.847618
+ },
+ {
+  "id": 944,
+  "name": "Bay Hotel Singapore",
+  "road": "Telok Blangah Road",
+  "location": "s",
+  "latitude": 1.266356,
+  "longitude": 103.823776
+ },
+ {
+  "id": 200,
+  "name": "Beach Centre",
+  "road": "Beach Road",
+  "location": "s",
+  "latitude": 1.295766,
+  "longitude": 103.85553
+ },
+ {
+  "id": 1132,
+  "name": "Beauty World Centre",
+  "road": "Upper Bukit Timah Road",
+  "location": "w",
+  "latitude": 1.342381,
+  "longitude": 103.776253
+ },
+ {
+  "id": 388,
+  "name": "Beauty World Plaza",
+  "road": "Upper Bukit Timah Road",
+  "location": "w",
+  "latitude": 1.341815,
+  "longitude": 103.776222
+ },
+ {
+  "id": 677,
+  "name": "Bedok Central Blk 215A (Multi-Storey Car Park)",
+  "road": "Bedok Central",
+  "location": "e",
+  "latitude": 1.326115,
+  "longitude": 103.934143
+ },
+ {
+  "id": 1121,
+  "name": "Bedok Community Centre",
+  "road": "New Upper Changi Road",
+  "location": "e",
+  "latitude": 1.324348,
+  "longitude": 103.935989
+ },
+ {
+  "id": 829,
+  "name": "Bedok Mall",
+  "road": "New Upper Changi Road",
+  "location": "e",
+  "latitude": 1.32486,
+  "longitude": 103.929825
+ },
+ {
+  "id": 490,
+  "name": "Bedok Reservoir Park",
+  "road": "Bedok Reservoir Road",
+  "location": "e",
+  "latitude": 1.338108,
+  "longitude": 103.923653
+ },
+ {
+  "id": 995,
+  "name": "Bedok Reservoir Park B",
+  "road": "Tampines Avenue 10",
+  "location": "e",
+  "latitude": 1.347923,
+  "longitude": 103.924767
+ },
+ {
+  "id": 346,
+  "name": "Bedok Shopping Complex",
+  "road": "Bedok Road",
+  "location": "e",
+  "latitude": 1.331363,
+  "longitude": 103.948265
+ },
+ {
+  "id": 509,
+  "name": "Bedok Stadium / Sports Hall / ClubFITT Gym",
+  "road": "Bedok North Street 2",
+  "location": "e",
+  "latitude": 1.326634,
+  "longitude": 103.938225
+ },
+ {
+  "id": 1085,
+  "name": "Bendemeer Market and Food Centre",
+  "road": "Bendemeer Road",
+  "location": "s",
+  "latitude": 1.319218,
+  "longitude": 103.862953
+ },
+ {
+  "id": 468,
+  "name": "Berjaya Hotel",
+  "road": "Duxton Road",
+  "location": "s",
+  "latitude": 1.278659,
+  "longitude": 103.843056
+ },
+ {
+  "id": 721,
+  "name": "Bestway Building",
+  "road": "Prince Edward Road",
+  "location": "s",
+  "latitude": 1.274035,
+  "longitude": 103.847748
+ },
+ {
+  "id": 529,
+  "name": "Big Splash",
+  "road": "East Coast Parkway",
+  "location": "e",
+  "latitude": 1.297484,
+  "longitude": 103.899956
+ },
+ {
+  "id": 1182,
+  "name": "Bijou Condo",
+  "road": "Jalan Mat Jambol",
+  "location": "s",
+  "latitude": 1.276902,
+  "longitude": 103.791641
+ },
+ {
+  "id": 337,
+  "name": "Biopolis",
+  "road": "Biopolis Way",
+  "location": "w",
+  "latitude": 1.304623,
+  "longitude": 103.791054
+ },
+ {
+  "id": 834,
+  "name": "Biopolis 3",
+  "road": "Biopolis Drive",
+  "location": "w",
+  "latitude": 1.30144,
+  "longitude": 103.793442
+ },
+ {
+  "id": 510,
+  "name": "Bishan Sports Centre",
+  "road": "Bishan Street 14",
+  "location": "n",
+  "latitude": 1.354429,
+  "longitude": 103.850662
+ },
+ {
+  "id": 840,
+  "name": "Blk 334/333 Kreta Ayer, Blk 4 Sago Lane",
+  "road": "Kreta Ayer Road",
+  "location": "s",
+  "latitude": 1.28032,
+  "longitude": 103.84272
+ },
+ {
+  "id": 569,
+  "name": "Bollywood Veggies / Poison Ivy Bistro",
+  "road": "Neo Tiew Road",
+  "location": "w",
+  "latitude": 1.418535,
+  "longitude": 103.716545
+ },
+ {
+  "id": 197,
+  "name": "Bras Basah Complex",
+  "road": "Bain Street",
+  "location": "s",
+  "latitude": 1.296534,
+  "longitude": 103.853668
+ },
+ {
+  "id": 825,
+  "name": "BreadTalk IHQ",
+  "road": "Tai Seng Street",
+  "location": "e",
+  "latitude": 1.334729,
+  "longitude": 103.889984
+ },
+ {
+  "id": 176,
+  "name": "Bright Vision Hospital",
+  "road": "Lorong Napiri",
+  "location": "e",
+  "latitude": 1.37197,
+  "longitude": 103.877892
+ },
+ {
+  "id": 495,
+  "name": "Buddha Tooth Relic Temple and Museum (Singapore)",
+  "road": "South Bridge Road",
+  "location": "s",
+  "latitude": 1.2813,
+  "longitude": 103.844414
+ },
+ {
+  "id": 46,
+  "name": "Bugis Junction",
+  "road": "Victoria Street",
+  "location": "s",
+  "latitude": 1.29922,
+  "longitude": 103.855476
+ },
+ {
+  "id": 698,
+  "name": "Bugis+",
+  "road": "Victoria Street",
+  "location": "s",
+  "latitude": 1.299225,
+  "longitude": 103.854027
+ },
+ {
+  "id": 397,
+  "name": "Bukit Batok Driving Centre (BBDC)",
+  "road": "Bukit Batok West Avenue 5",
+  "location": "w",
+  "latitude": 1.366888,
+  "longitude": 103.750175
+ },
+ {
+  "id": 1210,
+  "name": "Bukit Canberra",
+  "road": "Canberra Link",
+  "location": "n",
+  "latitude": 1.449408,
+  "longitude": 103.822762
+ },
+ {
+  "id": 511,
+  "name": "Bukit Gombak Stadium / Sports Hall / ClubFITT Gym",
+  "road": "Bukit Batok West Avenue 5",
+  "location": "w",
+  "latitude": 1.358853,
+  "longitude": 103.752792
+ },
+ {
+  "id": 177,
+  "name": "Bukit Panjang Plaza",
+  "road": "Jelebu Road",
+  "location": "w",
+  "latitude": 1.379194,
+  "longitude": 103.763054
+ },
+ {
+  "id": 481,
+  "name": "Bukit Timah Nature Reserve",
+  "road": "Hindhede Drive",
+  "location": "w",
+  "latitude": 1.348987,
+  "longitude": 103.777161
+ },
+ {
+  "id": 708,
+  "name": "Bukit Timah Plaza",
+  "road": "Jalan Anak Bukit",
+  "location": "w",
+  "latitude": 1.338596,
+  "longitude": 103.778534
+ },
+ {
+  "id": 178,
+  "name": "Bukit Timah Plaza (Multi-Storey Car Park)",
+  "road": "Jalan Anak Bukit",
+  "location": "w",
+  "latitude": 1.338596,
+  "longitude": 103.778534
+ },
+ {
+  "id": 179,
+  "name": "Bukit Timah Shopping Centre",
+  "road": "Upper Bukit Timah Road",
+  "location": "w",
+  "latitude": 1.34309,
+  "longitude": 103.776031
+ },
+ {
+  "id": 810,
+  "name": "Burghley Lifestyle Hub",
+  "road": "Burghley Drive",
+  "location": "n",
+  "latitude": 1.360151,
+  "longitude": 103.859886
+ },
+ {
+  "id": 180,
+  "name": "Burlington Square",
+  "road": "Bencoolen Street",
+  "location": "s",
+  "latitude": 1.302149,
+  "longitude": 103.852692
+ },
+ {
+  "id": 181,
+  "name": "Cairnhill Art Centre",
+  "road": "Cairnhill Road",
+  "location": "s",
+  "latitude": 1.308487,
+  "longitude": 103.837479
+ },
+ {
+  "id": 1174,
+  "name": "Cairnhill Community Club (CC)",
+  "road": "Anthony Road",
+  "location": "s",
+  "latitude": 1.310505,
+  "longitude": 103.838882
+ },
+ {
+  "id": 950,
+  "name": "Cambridge Industrial Trust",
+  "road": "Jalan Kilang Barat",
+  "location": "w",
+  "latitude": 1.285719,
+  "longitude": 103.80793
+ },
+ {
+  "id": 425,
+  "name": "Camden Medical Centre",
+  "road": "Orchard Boulevard",
+  "location": "s",
+  "latitude": 1.303578,
+  "longitude": 103.82563
+ },
+ {
+  "id": 697,
+  "name": "Capella Singapore",
+  "road": "The Knolls Sentosa Island",
+  "location": "s",
+  "latitude": 1.249793,
+  "longitude": 103.825348
+ },
+ {
+  "id": 876,
+  "name": "CapitaGreen",
+  "road": "Market Street",
+  "location": "s",
+  "latitude": 1.28185,
+  "longitude": 103.850052
+ },
+ {
+  "id": 183,
+  "name": "Capital Square",
+  "road": "Church Street",
+  "location": "s",
+  "latitude": 1.283794,
+  "longitude": 103.84903
+ },
+ {
+  "id": 184,
+  "name": "Capital Tower",
+  "road": "Robinson Road",
+  "location": "s",
+  "latitude": 1.277547,
+  "longitude": 103.847588
+ },
+ {
+  "id": 1176,
+  "name": "CapitaSpring",
+  "road": "Market Street",
+  "location": "s",
+  "latitude": 1.28416,
+  "longitude": 103.850082
+ },
+ {
+  "id": 185,
+  "name": "Capitol Centre",
+  "road": "North Bridge Road",
+  "location": "s",
+  "latitude": 1.292918,
+  "longitude": 103.851051
+ },
+ {
+  "id": 865,
+  "name": "Capitol Piazza",
+  "road": "Stamford Road",
+  "location": "s",
+  "latitude": 1.293166,
+  "longitude": 103.85128
+ },
+ {
+  "id": 904,
+  "name": "Capri By Fraser",
+  "road": "Changi",
+  "location": "e",
+  "latitude": 1.334169,
+  "longitude": 103.963562
+ },
+ {
+  "id": 881,
+  "name": "Carlton City Hotel, Singapore",
+  "road": "Gopeng Street",
+  "location": "s",
+  "latitude": 1.275989,
+  "longitude": 103.843758
+ },
+ {
+  "id": 187,
+  "name": "Carlton Hotel",
+  "road": "Bras Basah Road",
+  "location": "s",
+  "latitude": 1.29591,
+  "longitude": 103.852493
+ },
+ {
+  "id": 884,
+  "name": "Carpark @ 22 Bideford Road",
+  "road": "Bideford Road",
+  "location": "s",
+  "latitude": 1.303563,
+  "longitude": 103.836838
+ },
+ {
+  "id": 188,
+  "name": "Causeway Point",
+  "road": "Woodlands Square",
+  "location": "n",
+  "latitude": 1.435976,
+  "longitude": 103.786179
+ },
+ {
+  "id": 1094,
+  "name": "Cendex Centre",
+  "road": "Lower Delta Road",
+  "location": "s",
+  "latitude": 1.28018,
+  "longitude": 103.82251
+ },
+ {
+  "id": 581,
+  "name": "Centennial Tower",
+  "road": "Temasek Avenue",
+  "location": "s",
+  "latitude": 1.29327,
+  "longitude": 103.860352
+ },
+ {
+  "id": 189,
+  "name": "Central Mall",
+  "road": "Magazine Road",
+  "location": "s",
+  "latitude": 1.288605,
+  "longitude": 103.842308
+ },
+ {
+  "id": 378,
+  "name": "Central Square",
+  "road": "Havelock Road",
+  "location": "s",
+  "latitude": 1.288053,
+  "longitude": 103.843246
+ },
+ {
+  "id": 1133,
+  "name": "Centrium Square",
+  "road": "Serangoon Road",
+  "location": "e",
+  "latitude": 1.310741,
+  "longitude": 103.855057
+ },
+ {
+  "id": 192,
+  "name": "Century Square",
+  "road": "Tampines Central 5",
+  "location": "e",
+  "latitude": 1.352204,
+  "longitude": 103.94371
+ },
+ {
+  "id": 399,
+  "name": "Certis CISCO Centre",
+  "road": "Jalan Afifi",
+  "location": "e",
+  "latitude": 1.321906,
+  "longitude": 103.891968
+ },
+ {
+  "id": 886,
+  "name": "CES Centre",
+  "road": "Chin Swee Road",
+  "location": "s",
+  "latitude": 1.286807,
+  "longitude": 103.840378
+ },
+ {
+  "id": 457,
+  "name": "Chancerlodge Complex",
+  "road": "Sims Avenue",
+  "location": "e",
+  "latitude": 1.3146,
+  "longitude": 103.877403
+ },
+ {
+  "id": 1140,
+  "name": "Chang Hua Building",
+  "road": "Lavender Street",
+  "location": "s",
+  "latitude": 1.311214,
+  "longitude": 103.862831
+ },
+ {
+  "id": 587,
+  "name": "Changi Airfreight Centre (CAC)",
+  "road": "Airline Road",
+  "location": "e",
+  "latitude": 1.382829,
+  "longitude": 103.999535
+ },
+ {
+  "id": 850,
+  "name": "Changi Airport South Carpark",
+  "road": "Airport Boulevard",
+  "location": "e",
+  "latitude": 1.351761,
+  "longitude": 103.987068
+ },
+ {
+  "id": 1001,
+  "name": "Changi Airport Terminal 1 / Jewel (General Parking B3 to B5)",
+  "road": "Airport Boulevard",
+  "location": "e",
+  "latitude": 1.3598,
+  "longitude": 103.988937
+ },
+ {
+  "id": 1000,
+  "name": "Changi Airport Terminal 1 / Jewel Short-term Parking (B2M an",
+  "road": "Airport Boulevard",
+  "location": "e",
+  "latitude": 1.359822,
+  "longitude": 103.988907
+ },
+ {
+  "id": 436,
+  "name": "Changi Airport Terminal 2",
+  "road": "Airport Boulevard",
+  "location": "e",
+  "latitude": 1.356961,
+  "longitude": 103.989265
+ },
+ {
+  "id": 499,
+  "name": "Changi Airport Terminal 3",
+  "road": "Airport Boulevard",
+  "location": "e",
+  "latitude": 1.357161,
+  "longitude": 103.987869
+ },
+ {
+  "id": 922,
+  "name": "Changi Airport Terminal 4",
+  "road": "Airport Boulevard",
+  "location": "e",
+  "latitude": 1.338256,
+  "longitude": 103.982552
+ },
+ {
+  "id": 385,
+  "name": "Changi Budget Terminal",
+  "road": "Airport Boulevard",
+  "location": "e",
+  "latitude": 1.342242,
+  "longitude": 103.983589
+ },
+ {
+  "id": 473,
+  "name": "Changi Chapel and Museum (The Changi Museum)",
+  "road": "Upper Changi Road North",
+  "location": "e",
+  "latitude": 1.362219,
+  "longitude": 103.973801
+ },
+ {
+  "id": 751,
+  "name": "Changi City Point",
+  "road": "Changi Business Park Central 1",
+  "location": "e",
+  "latitude": 1.33408,
+  "longitude": 103.963097
+ },
+ {
+  "id": 416,
+  "name": "Changi Ferry Terminal",
+  "road": "Changi Ferry Road",
+  "location": "e",
+  "latitude": 1.373163,
+  "longitude": 104.007378
+ },
+ {
+  "id": 194,
+  "name": "Changi Hospital (CGH)",
+  "road": "Simei Street 3",
+  "location": "e",
+  "latitude": 1.34036,
+  "longitude": 103.94928
+ },
+ {
+  "id": 665,
+  "name": "Changi Hotel",
+  "road": "Changi Road",
+  "location": "e",
+  "latitude": 1.316352,
+  "longitude": 103.900452
+ },
+ {
+  "id": 573,
+  "name": "Changi Point Coastal Walk / Changi Beach (Car Park 1 to 6)",
+  "road": "Changi Beach",
+  "location": "e",
+  "latitude": 1.389986,
+  "longitude": 103.994308
+ },
+ {
+  "id": 1038,
+  "name": "Changi Sailing Club",
+  "road": "Netheravon Road",
+  "location": "e",
+  "latitude": 1.392244,
+  "longitude": 103.979622
+ },
+ {
+  "id": 195,
+  "name": "Changi Village Hotel",
+  "road": "Netheravon Road",
+  "location": "e",
+  "latitude": 1.390171,
+  "longitude": 103.985931
+ },
+ {
+  "id": 765,
+  "name": "Charles & Keith Building",
+  "road": "Tai Seng Street",
+  "location": "e",
+  "latitude": 1.336199,
+  "longitude": 103.889885
+ },
+ {
+  "id": 1086,
+  "name": "Cheng Yan Court",
+  "road": "Queen Street",
+  "location": "s",
+  "latitude": 1.300614,
+  "longitude": 103.853699
+ },
+ {
+  "id": 717,
+  "name": "Chevron House",
+  "road": "Raffles Place",
+  "location": "s",
+  "latitude": 1.28412,
+  "longitude": 103.851776
+ },
+ {
+  "id": 196,
+  "name": "Chijmes (Basement Car Park)",
+  "road": "Victoria Street",
+  "location": "s",
+  "latitude": 1.295024,
+  "longitude": 103.852203
+ },
+ {
+  "id": 126,
+  "name": "Chijmes (Valet Parking)",
+  "road": "Victoria Street",
+  "location": "s",
+  "latitude": 1.295024,
+  "longitude": 103.851807
+ },
+ {
+  "id": 479,
+  "name": "Children's Museum Singapore",
+  "road": "Coleman Street",
+  "location": "s",
+  "latitude": 1.292827,
+  "longitude": 103.848724
+ },
+ {
+  "id": 1027,
+  "name": "Chin Bee HVP",
+  "road": "Fourth Chin Bee Road",
+  "location": "w",
+  "latitude": 1.332033,
+  "longitude": 103.718689
+ },
+ {
+  "id": 406,
+  "name": "China Court",
+  "road": "Cross Street",
+  "location": "s",
+  "latitude": 1.28384,
+  "longitude": 103.847488
+ },
+ {
+  "id": 777,
+  "name": "Chinatown Complex",
+  "road": "Smith Street",
+  "location": "s",
+  "latitude": 1.28239,
+  "longitude": 103.843201
+ },
+ {
+  "id": 467,
+  "name": "Chinatown Heritage Centre",
+  "road": "Pagoda Street",
+  "location": "s",
+  "latitude": 1.283568,
+  "longitude": 103.844337
+ },
+ {
+  "id": 127,
+  "name": "Chinatown Point",
+  "road": "New Bridge Road",
+  "location": "s",
+  "latitude": 1.285024,
+  "longitude": 103.844887
+ },
+ {
+  "id": 482,
+  "name": "Chinese Garden",
+  "road": "Chinese Garden Road",
+  "location": "w",
+  "latitude": 1.338795,
+  "longitude": 103.729866
+ },
+ {
+  "id": 1177,
+  "name": "Chinese Swimming Club",
+  "road": "Amber Road",
+  "location": "e",
+  "latitude": 1.300064,
+  "longitude": 103.900551
+ },
+ {
+  "id": 513,
+  "name": "Choa Chu Kang Stadium / Sports Hall / ClubFITT Gym",
+  "road": "Choa Chu Kang Street 53",
+  "location": "w",
+  "latitude": 1.391355,
+  "longitude": 103.747604
+ },
+ {
+  "id": 1059,
+  "name": "CIDC Centre",
+  "road": "Eu Tong Sen Street",
+  "location": "s",
+  "latitude": 1.282113,
+  "longitude": 103.841179
+ },
+ {
+  "id": 900,
+  "name": "Cideco Industrial Complex",
+  "road": "Genting Lane",
+  "location": "s",
+  "latitude": 1.327614,
+  "longitude": 103.87368
+ },
+ {
+  "id": 128,
+  "name": "Cineleisure Orchard",
+  "road": "Grange Road",
+  "location": "s",
+  "latitude": 1.301516,
+  "longitude": 103.836418
+ },
+ {
+  "id": 459,
+  "name": "Citilink Warehouse Complex",
+  "road": "Pasir Panjang Road",
+  "location": "w",
+  "latitude": 1.276018,
+  "longitude": 103.79528
+ },
+ {
+  "id": 931,
+  "name": "Citimac Industrial Complex",
+  "road": "Macpherson Road",
+  "location": "e",
+  "latitude": 1.333606,
+  "longitude": 103.887604
+ },
+ {
+  "id": 1079,
+  "name": "City Gate",
+  "road": "Beach Road",
+  "location": "s",
+  "latitude": 1.302221,
+  "longitude": 103.862419
+ },
+ {
+  "id": 901,
+  "name": "City Industrial Building",
+  "road": "Tannery Lane",
+  "location": "s",
+  "latitude": 1.326894,
+  "longitude": 103.879135
+ },
+ {
+  "id": 392,
+  "name": "City Plaza",
+  "road": "Geylang Road",
+  "location": "e",
+  "latitude": 1.314744,
+  "longitude": 103.893394
+ },
+ {
+  "id": 688,
+  "name": "City Square Mall",
+  "road": "Kitchener Road",
+  "location": "n",
+  "latitude": 1.311996,
+  "longitude": 103.856445
+ },
+ {
+  "id": 606,
+  "name": "Civil Service Club (Bukit Batok Clubhouse)",
+  "road": "Bukit Batok West Avenue 2",
+  "location": "w",
+  "latitude": 1.35243,
+  "longitude": 103.749542
+ },
+ {
+  "id": 350,
+  "name": "Civil Service Club (Changi Clubhouse)",
+  "road": "Netheravon Road",
+  "location": "e",
+  "latitude": 1.391229,
+  "longitude": 103.986259
+ },
+ {
+  "id": 605,
+  "name": "Civil Service Club (Tessensohn Clubhouse)",
+  "road": "Tessensohn Road",
+  "location": "s",
+  "latitude": 1.315748,
+  "longitude": 103.856506
+ },
+ {
+  "id": 421,
+  "name": "Civil Service College",
+  "road": "North Buona Vista Road",
+  "location": "w",
+  "latitude": 1.309808,
+  "longitude": 103.791924
+ },
+ {
+  "id": 130,
+  "name": "Clarke Quay",
+  "road": "River Valley Road",
+  "location": "s",
+  "latitude": 1.289943,
+  "longitude": 103.844772
+ },
+ {
+  "id": 535,
+  "name": "Clarke Quay Central",
+  "road": "Eu Tong Sen Street",
+  "location": "s",
+  "latitude": 1.289032,
+  "longitude": 103.846359
+ },
+ {
+  "id": 22,
+  "name": "Claymore Connect",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.307556,
+  "longitude": 103.828537
+ },
+ {
+  "id": 296,
+  "name": "Claymore Plaza",
+  "road": "Claymore Hill",
+  "location": "s",
+  "latitude": 1.306806,
+  "longitude": 103.831589
+ },
+ {
+  "id": 1010,
+  "name": "CleanTech One",
+  "road": "CleanTech Loop",
+  "location": "w",
+  "latitude": 1.355404,
+  "longitude": 103.692116
+ },
+ {
+  "id": 960,
+  "name": "Clemenceau Avenue Off Street",
+  "road": "Clemenceau Avenue",
+  "location": "s",
+  "latitude": 1.293673,
+  "longitude": 103.84433
+ },
+ {
+  "id": 512,
+  "name": "Clementi Stadium / Sports Hall / ClubFITT Gym",
+  "road": "West Coast Walk",
+  "location": "w",
+  "latitude": 1.311472,
+  "longitude": 103.765503
+ },
+ {
+  "id": 131,
+  "name": "Clifford Centre",
+  "road": "Raffles Place",
+  "location": "s",
+  "latitude": 1.283812,
+  "longitude": 103.852104
+ },
+ {
+  "id": 846,
+  "name": "Cluny Court",
+  "road": null,
+  "location": "w",
+  "latitude": 1.322541,
+  "longitude": 103.814346
+ },
+ {
+  "id": 1200,
+  "name": "Coliwoo Hotel Pasir Panjang",
+  "road": "Pasir Panjang Road",
+  "location": "",
+  "latitude": 1.292084,
+  "longitude": 103.770142
+ },
+ {
+  "id": 360,
+  "name": "Comcentre / SingTel Building",
+  "road": "Exeter Road",
+  "location": "s",
+  "latitude": 1.298903,
+  "longitude": 103.838249
+ },
+ {
+  "id": 651,
+  "name": "ComfortDelGro Driving Centre",
+  "road": "Ubi Avenue 4",
+  "location": "e",
+  "latitude": 1.335676,
+  "longitude": 103.89753
+ },
+ {
+  "id": 856,
+  "name": "Commerze @ Irving",
+  "road": "Irving Place",
+  "location": "e",
+  "latitude": 1.336187,
+  "longitude": 103.886238
+ },
+ {
+  "id": 132,
+  "name": "Compass One",
+  "road": "Sengkang Square",
+  "location": "e",
+  "latitude": 1.392235,
+  "longitude": 103.89476
+ },
+ {
+  "id": 86,
+  "name": "Concorde Hotel Singapore",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.300585,
+  "longitude": 103.842072
+ },
+ {
+  "id": 1166,
+  "name": "Concorde Shopping Centre",
+  "road": "Outram Road",
+  "location": "s",
+  "latitude": 1.28917,
+  "longitude": 103.833916
+ },
+ {
+  "id": 538,
+  "name": "Connection One",
+  "road": "Jalan Bukit Merah",
+  "location": "w",
+  "latitude": 1.283008,
+  "longitude": 103.818405
+ },
+ {
+  "id": 134,
+  "name": "Conrad Centennial Singapore (Basement Car Park)",
+  "road": "Temasek Boulevard",
+  "location": "s",
+  "latitude": 1.293324,
+  "longitude": 103.85891
+ },
+ {
+  "id": 135,
+  "name": "Copthorne King's Hotel",
+  "road": "Havelock Road",
+  "location": "s",
+  "latitude": 1.288207,
+  "longitude": 103.836647
+ },
+ {
+  "id": 136,
+  "name": "Copthorne Orchid Hotel",
+  "road": "Dunearn Road",
+  "location": "s",
+  "latitude": 1.322376,
+  "longitude": 103.82328
+ },
+ {
+  "id": 332,
+  "name": "Coronation Shopping Plaza",
+  "road": "Bukit Timah Road",
+  "location": "w",
+  "latitude": 1.323741,
+  "longitude": 103.809952
+ },
+ {
+  "id": 34,
+  "name": "Costa Sands Resort (Downtown East)",
+  "road": "Pasir Ris Close",
+  "location": "e",
+  "latitude": 1.376787,
+  "longitude": 103.955513
+ },
+ {
+  "id": 593,
+  "name": "Costa Sands Resort (Pasir Ris)",
+  "road": "Jalan Loyang Besar",
+  "location": "e",
+  "latitude": 1.37911,
+  "longitude": 103.957825
+ },
+ {
+  "id": 957,
+  "name": "Courtyard by Marriott Singapore Novena",
+  "road": "Irrawaddy Road",
+  "location": "s",
+  "latitude": 1.320703,
+  "longitude": 103.843163
+ },
+ {
+  "id": 138,
+  "name": "CPF Tampines Building Car Park",
+  "road": "Tampines Central 5",
+  "location": "e",
+  "latitude": 1.35291,
+  "longitude": 103.943657
+ },
+ {
+  "id": 734,
+  "name": "Craig Place",
+  "road": "Craig Road",
+  "location": "s",
+  "latitude": 1.278041,
+  "longitude": 103.8423
+ },
+ {
+  "id": 398,
+  "name": "Creative Technologies",
+  "road": "International Business Park",
+  "location": "w",
+  "latitude": 1.328949,
+  "longitude": 103.746071
+ },
+ {
+  "id": 579,
+  "name": "Crocodile House",
+  "road": "Ubi Avenue 3",
+  "location": "e",
+  "latitude": 1.330992,
+  "longitude": 103.890465
+ },
+ {
+  "id": 1080,
+  "name": "Cross Street Exchange",
+  "road": "Cross Street",
+  "location": "s",
+  "latitude": 1.283546,
+  "longitude": 103.846916
+ },
+ {
+  "id": 737,
+  "name": "Crown Centre",
+  "road": "Bukit Timah Road",
+  "location": "w",
+  "latitude": 1.322941,
+  "longitude": 103.810944
+ },
+ {
+  "id": 909,
+  "name": "Crowne Plaza Changi Airport",
+  "road": "Airport Boulevard",
+  "location": "e",
+  "latitude": 1.358784,
+  "longitude": 103.987877
+ },
+ {
+  "id": 910,
+  "name": "CT Hub",
+  "road": "Kallang Ave",
+  "location": "s",
+  "latitude": 1.312221,
+  "longitude": 103.863091
+ },
+ {
+  "id": 1156,
+  "name": "CT Hub 2",
+  "road": "Lavender Street",
+  "location": "s",
+  "latitude": 1.311563,
+  "longitude": 103.863693
+ },
+ {
+  "id": 1217,
+  "name": "Cuppage Plaza",
+  "road": "Koek Road",
+  "location": "s",
+  "latitude": 1.301975,
+  "longitude": 103.840736
+ },
+ {
+  "id": 349,
+  "name": "Da Jin Factory Building",
+  "road": "Upper Paya Lebar Road",
+  "location": "e",
+  "latitude": 1.348027,
+  "longitude": 103.881157
+ },
+ {
+  "id": 736,
+  "name": "Dawson Place",
+  "road": "Dawson Road",
+  "location": "w",
+  "latitude": 1.292584,
+  "longitude": 103.810814
+ },
+ {
+  "id": 143,
+  "name": "Delfi Orchard",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.30714,
+  "longitude": 103.828461
+ },
+ {
+  "id": 505,
+  "name": "Delta Hockey Pitch",
+  "road": "Tiong Bahru Road",
+  "location": "w",
+  "latitude": 1.289058,
+  "longitude": 103.8209
+ },
+ {
+  "id": 976,
+  "name": "Delta House",
+  "road": "Alexandra Road",
+  "location": "s",
+  "latitude": 1.291097,
+  "longitude": 103.825546
+ },
+ {
+  "id": 514,
+  "name": "Delta Sports Hall / ClubFITT Gym",
+  "road": "Tiong Bahru Road",
+  "location": "w",
+  "latitude": 1.290558,
+  "longitude": 103.820496
+ },
+ {
+  "id": 882,
+  "name": "Devan Nair Institute for Employment and Employability",
+  "road": "Jurong East Street 21",
+  "location": "w",
+  "latitude": 1.335843,
+  "longitude": 103.744881
+ },
+ {
+  "id": 570,
+  "name": "DreamFish (Lim Chu Kang Agrotechnology Park)",
+  "road": "Neo Tiew Crescent",
+  "location": "w",
+  "latitude": 1.439674,
+  "longitude": 103.726845
+ },
+ {
+  "id": 757,
+  "name": "DSO National Laboratories",
+  "road": "Science Park Drive",
+  "location": "w",
+  "latitude": 1.2892,
+  "longitude": 103.788689
+ },
+ {
+  "id": 1169,
+  "name": "Dunearn Village",
+  "road": "Dunearn Road",
+  "location": "s",
+  "latitude": 1.336727,
+  "longitude": 103.783691
+ },
+ {
+  "id": 983,
+  "name": "DUO Tower",
+  "road": "DUO Tower",
+  "location": "s",
+  "latitude": 1.300066,
+  "longitude": 103.857697
+ },
+ {
+  "id": 967,
+  "name": "Duxton Hill Off Street",
+  "road": null,
+  "location": "s",
+  "latitude": 1.279041,
+  "longitude": 103.842903
+ },
+ {
+  "id": 1044,
+  "name": "East Coast Park Carpark B1",
+  "road": "East Coast Parkway",
+  "location": "e",
+  "latitude": 1.295246,
+  "longitude": 103.893005
+ },
+ {
+  "id": 1043,
+  "name": "East Coast Park Carpark B2",
+  "road": "East Coast Parkway",
+  "location": "e",
+  "latitude": 1.298407,
+  "longitude": 103.902534
+ },
+ {
+  "id": 577,
+  "name": "East Coast Park Carpark C1",
+  "road": "East Coast Parkway",
+  "location": "e",
+  "latitude": 1.299503,
+  "longitude": 103.906036
+ },
+ {
+  "id": 38,
+  "name": "East Coast Park Carpark E1",
+  "road": "East Coast Park Service Road",
+  "location": "e",
+  "latitude": 1.30742,
+  "longitude": 103.930527
+ },
+ {
+  "id": 814,
+  "name": "East Coast Park Carpark E2",
+  "road": "East Coast Park Service Road",
+  "location": "e",
+  "latitude": 1.30726,
+  "longitude": 103.935631
+ },
+ {
+  "id": 813,
+  "name": "East Coast Park Carpark E3",
+  "road": "East Coast Park Serivce Road",
+  "location": "e",
+  "latitude": 1.30868,
+  "longitude": 103.936111
+ },
+ {
+  "id": 854,
+  "name": "East Village",
+  "road": "Upper Changi Road",
+  "location": "e",
+  "latitude": 1.33267,
+  "longitude": 103.946732
+ },
+ {
+  "id": 145,
+  "name": "Eastgate",
+  "road": "Tampines Street 92",
+  "location": "e",
+  "latitude": 1.30442,
+  "longitude": 103.903267
+ },
+ {
+  "id": 146,
+  "name": "Eastpoint Mall",
+  "road": "Simei Street 6",
+  "location": "e",
+  "latitude": 1.342937,
+  "longitude": 103.953026
+ },
+ {
+  "id": 462,
+  "name": "EDB Learning Center",
+  "road": "Jalan Bukit Merah",
+  "location": "w",
+  "latitude": 1.282258,
+  "longitude": 103.82193
+ },
+ {
+  "id": 373,
+  "name": "Edinburg Tower",
+  "road": "Edinburg Road",
+  "location": "s",
+  "latitude": 1.32192,
+  "longitude": 103.85321
+ },
+ {
+  "id": 147,
+  "name": "Elias Mall",
+  "road": "Elias Road",
+  "location": "e",
+  "latitude": 1.378281,
+  "longitude": 103.941963
+ },
+ {
+  "id": 148,
+  "name": "Elizabeth Hotel",
+  "road": "Mount Elizabeth",
+  "location": "s",
+  "latitude": 1.308081,
+  "longitude": 103.835724
+ },
+ {
+  "id": 958,
+  "name": "Enabling Village",
+  "road": "Lengkok Bahru",
+  "location": "s",
+  "latitude": 1.287223,
+  "longitude": 103.814774
+ },
+ {
+  "id": 150,
+  "name": "Eng Cheong Tower",
+  "road": "North Bridge Road",
+  "location": "s",
+  "latitude": 1.306308,
+  "longitude": 103.864235
+ },
+ {
+  "id": 463,
+  "name": "Eng Say Garden",
+  "road": "Siglap Road",
+  "location": "e",
+  "latitude": 1.3127,
+  "longitude": 103.924095
+ },
+ {
+  "id": 1039,
+  "name": "Enterprise Industrial Building",
+  "road": "Lorong 17 Geylang",
+  "location": "e",
+  "latitude": 1.314896,
+  "longitude": 103.878662
+ },
+ {
+  "id": 82,
+  "name": "Enterprise One",
+  "road": "Kaki Bukit Road 1",
+  "location": "e",
+  "latitude": 1.33303,
+  "longitude": 103.902351
+ },
+ {
+  "id": 1136,
+  "name": "Entrepreneur Centre",
+  "road": "Tagore Lane",
+  "location": "n",
+  "latitude": 1.383789,
+  "longitude": 103.828392
+ },
+ {
+  "id": 151,
+  "name": "Environment Building",
+  "road": "Scotts Road",
+  "location": "s",
+  "latitude": 1.310811,
+  "longitude": 103.836617
+ },
+ {
+  "id": 1097,
+  "name": "Eon Shenton",
+  "road": "Shenton Way",
+  "location": "s",
+  "latitude": 1.273884,
+  "longitude": 103.846275
+ },
+ {
+  "id": 943,
+  "name": "Esplanade - Theatres on the Bay",
+  "road": "Esplanade Drive",
+  "location": "s",
+  "latitude": 1.289801,
+  "longitude": 103.855774
+ },
+ {
+  "id": 152,
+  "name": "Esplanade Mall",
+  "road": "Raffles Avenue",
+  "location": "s",
+  "latitude": 1.289509,
+  "longitude": 103.855515
+ },
+ {
+  "id": 936,
+  "name": "ESR BizPark @ Chai Chee",
+  "road": "Chai Chee Road",
+  "location": "e",
+  "latitude": 1.323551,
+  "longitude": 103.922585
+ },
+ {
+  "id": 830,
+  "name": "ESR BizPark @ Changi",
+  "road": "Changi Business Park Avenue 1",
+  "location": "e",
+  "latitude": 1.334991,
+  "longitude": 103.963646
+ },
+ {
+  "id": 52,
+  "name": "Eunos Technolink",
+  "road": "Kaki Bukit Road 1",
+  "location": "e",
+  "latitude": 1.334018,
+  "longitude": 103.901062
+ },
+ {
+  "id": 153,
+  "name": "Euro-Asia Centre",
+  "road": "Hoe Chiang Road",
+  "location": "s",
+  "latitude": 1.273713,
+  "longitude": 103.842194
+ },
+ {
+  "id": 832,
+  "name": "Excalibur Centre",
+  "road": "Ubi Crescent",
+  "location": "e",
+  "latitude": 1.32686,
+  "longitude": 103.898323
+ },
+ {
+  "id": 633,
+  "name": "Fairmont Singapore",
+  "road": "Bras Basah Road",
+  "location": "s",
+  "latitude": 1.293982,
+  "longitude": 103.85376
+ },
+ {
+  "id": 862,
+  "name": "Fairprice Hub",
+  "road": null,
+  "location": "e",
+  "latitude": 1.32634,
+  "longitude": 103.678513
+ },
+ {
+  "id": 335,
+  "name": "Fajar Shopping Centre",
+  "road": "Fajar Road",
+  "location": "w",
+  "latitude": 1.383861,
+  "longitude": 103.770493
+ },
+ {
+  "id": 154,
+  "name": "Far East Plaza",
+  "road": "Scotts Road",
+  "location": "s",
+  "latitude": 1.307176,
+  "longitude": 103.833466
+ },
+ {
+  "id": 155,
+  "name": "Far East Shopping Centre",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.305558,
+  "longitude": 103.829895
+ },
+ {
+  "id": 156,
+  "name": "Far East Square",
+  "road": "Pekin Street",
+  "location": "s",
+  "latitude": 1.282935,
+  "longitude": 103.847832
+ },
+ {
+  "id": 157,
+  "name": "Far Eastern Bank Building",
+  "road": "Cecil Street",
+  "location": "s",
+  "latitude": 1.279961,
+  "longitude": 103.84816
+ },
+ {
+  "id": 506,
+  "name": "Farrer Park Field",
+  "road": "Rutland Road",
+  "location": "s",
+  "latitude": 1.31107,
+  "longitude": 103.849106
+ },
+ {
+  "id": 847,
+  "name": "Farrer Park Hospital",
+  "road": null,
+  "location": "n",
+  "latitude": 1.312395,
+  "longitude": 103.853905
+ },
+ {
+  "id": 848,
+  "name": "Farrer Park Medical Centre",
+  "road": null,
+  "location": "n",
+  "latitude": 1.312595,
+  "longitude": 103.854103
+ },
+ {
+  "id": 968,
+  "name": "Farrer Park Sports Centre",
+  "road": "Rutland Road",
+  "location": "s",
+  "latitude": 1.311685,
+  "longitude": 103.848518
+ },
+ {
+  "id": 695,
+  "name": "Festive Hotel",
+  "road": "Sentosa Gateway",
+  "location": "s",
+  "latitude": 1.255872,
+  "longitude": 103.819199
+ },
+ {
+  "id": 571,
+  "name": "Fire Flies Health Farm",
+  "road": "Lim Chu Kang Lane 2",
+  "location": "w",
+  "latitude": 1.430679,
+  "longitude": 103.715782
+ },
+ {
+  "id": 1078,
+  "name": "FloraVista & FloraView",
+  "road": "Ang Mo Kio Street 66",
+  "location": "n",
+  "latitude": 1.391503,
+  "longitude": 103.850563
+ },
+ {
+  "id": 402,
+  "name": "Fook Hai Building",
+  "road": "South Bridge Road",
+  "location": "s",
+  "latitude": 1.284888,
+  "longitude": 103.846519
+ },
+ {
+  "id": 1045,
+  "name": "Foot Care & Limb Design Centre (FLC)",
+  "road": "Jalan Tan Tock Seng",
+  "location": "s",
+  "latitude": 1.32067,
+  "longitude": 103.848282
+ },
+ {
+  "id": 1053,
+  "name": "Fort Canning Car Park A (Canning Walk)",
+  "road": "Canning Walk",
+  "location": "s",
+  "latitude": 1.296219,
+  "longitude": 103.847672
+ },
+ {
+  "id": 485,
+  "name": "Fort Canning Car Park B (Percival Road)",
+  "road": "Percival Road",
+  "location": "s",
+  "latitude": 1.296503,
+  "longitude": 103.846603
+ },
+ {
+  "id": 1052,
+  "name": "Fort Canning Car Park C (Canning Walk)",
+  "road": "Canning Walk",
+  "location": "s",
+  "latitude": 1.296667,
+  "longitude": 103.845024
+ },
+ {
+  "id": 159,
+  "name": "Fortune Centre",
+  "road": "Middle Road",
+  "location": "s",
+  "latitude": 1.300296,
+  "longitude": 103.852249
+ },
+ {
+  "id": 160,
+  "name": "Forum The Shopping Mall",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.306109,
+  "longitude": 103.828705
+ },
+ {
+  "id": 234,
+  "name": "Four Points by Sheraton",
+  "road": "Havelock Road",
+  "location": "s",
+  "latitude": 1.289346,
+  "longitude": 103.836624
+ },
+ {
+  "id": 161,
+  "name": "Four Seasons Hotel",
+  "road": "Orchard Boulevard",
+  "location": "s",
+  "latitude": 1.305133,
+  "longitude": 103.828667
+ },
+ {
+  "id": 539,
+  "name": "Fragrance Empire Building",
+  "road": "Alexandra Road",
+  "location": "w",
+  "latitude": 1.275105,
+  "longitude": 103.801392
+ },
+ {
+  "id": 1197,
+  "name": "Fraser Residence River Promenade",
+  "road": "5 Jiak Kim Street",
+  "location": "s",
+  "latitude": 1.291252,
+  "longitude": 103.835327
+ },
+ {
+  "id": 1065,
+  "name": "Frasers Tower",
+  "road": "Cecil Street",
+  "location": "s",
+  "latitude": 1.279115,
+  "longitude": 103.847054
+ },
+ {
+  "id": 162,
+  "name": "Fu Lu Shou Complex",
+  "road": "Rochor Road",
+  "location": "s",
+  "latitude": 1.301417,
+  "longitude": 103.854523
+ },
+ {
+  "id": 163,
+  "name": "Fuji Xerox Towers",
+  "road": "Anson Road",
+  "location": "s",
+  "latitude": 1.273044,
+  "longitude": 103.843636
+ },
+ {
+  "id": 794,
+  "name": "Fullerton Bay Hotel",
+  "road": "Fullerton Square",
+  "location": "s",
+  "latitude": 1.2834,
+  "longitude": 103.8535
+ },
+ {
+  "id": 20,
+  "name": "Fullerton Hotel",
+  "road": "Fullerton Square",
+  "location": "s",
+  "latitude": 1.28619,
+  "longitude": 103.853149
+ },
+ {
+  "id": 164,
+  "name": "Funan",
+  "road": "North Bridge Road",
+  "location": "s",
+  "latitude": 1.291413,
+  "longitude": 103.849365
+ },
+ {
+  "id": 165,
+  "name": "Furama City Centre Singapore",
+  "road": "Eu Tong Sen Street",
+  "location": "s",
+  "latitude": 1.286471,
+  "longitude": 103.844612
+ },
+ {
+  "id": 455,
+  "name": "Furama RiverFront Singapore",
+  "road": "Havelock Road",
+  "location": "s",
+  "latitude": 1.287438,
+  "longitude": 103.836243
+ },
+ {
+  "id": 691,
+  "name": "Fusionopolis",
+  "road": "Fusionopolis Way",
+  "location": "w",
+  "latitude": 1.3,
+  "longitude": 103.786964
+ },
+ {
+  "id": 1022,
+  "name": "Fusionopolis 2 (Tower A & B)",
+  "road": "Fusionopolis Way",
+  "location": "w",
+  "latitude": 1.298347,
+  "longitude": 103.78862
+ },
+ {
+  "id": 534,
+  "name": "G-MAX Reverse Bungy / GX-5 Xtreme Swing",
+  "road": "River Valley Road",
+  "location": "s",
+  "latitude": 1.290343,
+  "longitude": 103.84697
+ },
+ {
+  "id": 1185,
+  "name": "Gain City Megastore",
+  "road": "Sungei Kadut Drive",
+  "location": "n",
+  "latitude": 1.412769,
+  "longitude": 103.746002
+ },
+ {
+  "id": 902,
+  "name": "Galaxis",
+  "road": "Fusionopolis Place",
+  "location": "s",
+  "latitude": 1.299705,
+  "longitude": 103.788307
+ },
+ {
+  "id": 920,
+  "name": "Gallop Stable (Horsecity)",
+  "road": "Turf Club Road",
+  "location": "w",
+  "latitude": 1.333275,
+  "longitude": 103.796692
+ },
+ {
+  "id": 671,
+  "name": "Garden Hotel",
+  "road": "Balmoral Road",
+  "location": "s",
+  "latitude": 1.314741,
+  "longitude": 103.832726
+ },
+ {
+  "id": 787,
+  "name": "Gardens by the Bay",
+  "road": null,
+  "location": "s",
+  "latitude": 1.282111,
+  "longitude": 103.8638
+ },
+ {
+  "id": 589,
+  "name": "Gek Poh Shopping Centre",
+  "road": "Jurong West Street 75",
+  "location": "w",
+  "latitude": 1.349049,
+  "longitude": 103.698288
+ },
+ {
+  "id": 985,
+  "name": "Gemini @ Sims",
+  "road": "Sims Close",
+  "location": "s",
+  "latitude": 1.325318,
+  "longitude": 103.888283
+ },
+ {
+  "id": 1226,
+  "name": "Geneo",
+  "road": "Science Park Drive",
+  "location": "s",
+  "latitude": 1.2925,
+  "longitude": 103.785522
+ },
+ {
+  "id": 1041,
+  "name": "Genting Centre",
+  "road": "Lim Teck Kim Road",
+  "location": "s",
+  "latitude": 1.273179,
+  "longitude": 103.842323
+ },
+ {
+  "id": 895,
+  "name": "Genting Hotel Jurong",
+  "road": "Town Hall Link",
+  "location": "w",
+  "latitude": 1.331621,
+  "longitude": 103.739594
+ },
+ {
+  "id": 700,
+  "name": "German Centre",
+  "road": "International Business Park",
+  "location": "w",
+  "latitude": 1.325278,
+  "longitude": 103.746056
+ },
+ {
+  "id": 507,
+  "name": "Geylang Field",
+  "road": "Lorong 12 Geylang",
+  "location": "e",
+  "latitude": 1.311004,
+  "longitude": 103.877823
+ },
+ {
+  "id": 1087,
+  "name": "Geylang Serai Market",
+  "road": "Geylang Serai",
+  "location": "e",
+  "latitude": 1.317125,
+  "longitude": 103.898354
+ },
+ {
+  "id": 816,
+  "name": "Gillman Barracks",
+  "road": "Lock Road",
+  "location": "s",
+  "latitude": 1.27827,
+  "longitude": 103.804962
+ },
+ {
+  "id": 169,
+  "name": "Gleneagles Hospital",
+  "road": "Napier Road",
+  "location": "s",
+  "latitude": 1.307375,
+  "longitude": 103.819511
+ },
+ {
+  "id": 170,
+  "name": "Goldbell Towers",
+  "road": "Scotts Road",
+  "location": "s",
+  "latitude": 1.31233,
+  "longitude": 103.837029
+ },
+ {
+  "id": 758,
+  "name": "Golden Agri Plaza",
+  "road": "Pasir Panjang Road",
+  "location": "w",
+  "latitude": 1.2765,
+  "longitude": 103.794296
+ },
+ {
+  "id": 871,
+  "name": "Golden Landmark Shopping Complex",
+  "road": "Victoria Street ",
+  "location": "s",
+  "latitude": 1.302408,
+  "longitude": 103.857742
+ },
+ {
+  "id": 172,
+  "name": "Golden Mile Complex",
+  "road": "Beach Road",
+  "location": "s",
+  "latitude": 1.302737,
+  "longitude": 103.865219
+ },
+ {
+  "id": 502,
+  "name": "Golden Mile Food Centre",
+  "road": "Beach Road",
+  "location": "e",
+  "latitude": 1.30332,
+  "longitude": 103.863853
+ },
+ {
+  "id": 733,
+  "name": "Golden Mile Tower",
+  "road": "Beach Road",
+  "location": "s",
+  "latitude": 1.301837,
+  "longitude": 103.86335
+ },
+ {
+  "id": 174,
+  "name": "Goldhill Plaza",
+  "road": "Goldhill Plaza",
+  "location": "s",
+  "latitude": 1.318126,
+  "longitude": 103.842598
+ },
+ {
+  "id": 1122,
+  "name": "Goodwill Court",
+  "road": "Upper East Coast Road",
+  "location": "e",
+  "latitude": 1.313349,
+  "longitude": 103.927681
+ },
+ {
+  "id": 175,
+  "name": "Goodwood Park Hotel",
+  "road": "Scotts Road",
+  "location": "s",
+  "latitude": 1.30799,
+  "longitude": 103.833443
+ },
+ {
+  "id": 766,
+  "name": "Gordon Warehouse Building",
+  "road": "Kaki Bukit Road",
+  "location": "e",
+  "latitude": 1.338323,
+  "longitude": 103.897392
+ },
+ {
+  "id": 42,
+  "name": "GR.iD",
+  "road": "Selegie Road",
+  "location": "s",
+  "latitude": 1.300042,
+  "longitude": 103.849228
+ },
+ {
+  "id": 1164,
+  "name": "Grab HQ @ One-North",
+  "road": "Media Close",
+  "location": "s",
+  "latitude": 1.29179,
+  "longitude": 103.793015
+ },
+ {
+  "id": 125,
+  "name": "Grand Copthorne Waterfront Hotel",
+  "road": "Havelock Road",
+  "location": "s",
+  "latitude": 1.290386,
+  "longitude": 103.835075
+ },
+ {
+  "id": 94,
+  "name": "Grand Hyatt Singapore",
+  "road": "Scotts Road",
+  "location": "s",
+  "latitude": 1.306426,
+  "longitude": 103.833076
+ },
+ {
+  "id": 95,
+  "name": "Grand Mercure Roxy Hotel",
+  "road": "East Coast Road",
+  "location": "e",
+  "latitude": 1.303243,
+  "longitude": 103.904503
+ },
+ {
+  "id": 96,
+  "name": "Grand Park City Hall",
+  "road": "Coleman Street",
+  "location": "s",
+  "latitude": 1.292583,
+  "longitude": 103.850243
+ },
+ {
+  "id": 1127,
+  "name": "Grandlink Square",
+  "road": "Guillemard Road",
+  "location": "e",
+  "latitude": 1.314226,
+  "longitude": 103.891472
+ },
+ {
+  "id": 801,
+  "name": "Grange Road / Somerset Road",
+  "road": "Grange Road / Somerset Road",
+  "location": "s",
+  "latitude": 1.30103,
+  "longitude": 103.837021
+ },
+ {
+  "id": 1212,
+  "name": "Grantral Mall / Grantral Complex @ Macpherson",
+  "road": "Macpherson Road",
+  "location": "e",
+  "latitude": 1.33379,
+  "longitude": 103.887688
+ },
+ {
+  "id": 1179,
+  "name": "Grantral Mall @ Clementi",
+  "road": "Commonwealth Avenue West",
+  "location": "w",
+  "latitude": 1.314255,
+  "longitude": 103.765175
+ },
+ {
+  "id": 97,
+  "name": "Great Eastern @ Changi",
+  "road": "Changi Road",
+  "location": "e",
+  "latitude": 1.317042,
+  "longitude": 103.903366
+ },
+ {
+  "id": 409,
+  "name": "Great Eastern Centre",
+  "road": "Pickering Street",
+  "location": "s",
+  "latitude": 1.284744,
+  "longitude": 103.847702
+ },
+ {
+  "id": 99,
+  "name": "Great World City",
+  "road": "Kim Seng Promenade",
+  "location": "s",
+  "latitude": 1.293659,
+  "longitude": 103.831947
+ },
+ {
+  "id": 100,
+  "name": "Greenridge Shopping Centre",
+  "road": "Jelapang Road",
+  "location": "w",
+  "latitude": 1.385315,
+  "longitude": 103.766136
+ },
+ {
+  "id": 795,
+  "name": "Greenwich Village",
+  "road": "Seletar Road",
+  "location": "",
+  "latitude": 1.3877,
+  "longitude": 103.869438
+ },
+ {
+  "id": 1191,
+  "name": "Guoco Midtown",
+  "road": "Beach Road",
+  "location": "s",
+  "latitude": 1.297473,
+  "longitude": 103.858162
+ },
+ {
+  "id": 1219,
+  "name": "Guoco Midtown II",
+  "road": "Tan Quee Lan Street",
+  "location": "s",
+  "latitude": 1.298805,
+  "longitude": 103.856827
+ },
+ {
+  "id": 891,
+  "name": "Guoco Tower",
+  "road": "Wallich Street",
+  "location": "s",
+  "latitude": 1.276754,
+  "longitude": 103.845467
+ },
+ {
+  "id": 101,
+  "name": "Guthrie House",
+  "road": "Fifth Avenue",
+  "location": "w",
+  "latitude": 1.32903,
+  "longitude": 103.795998
+ },
+ {
+  "id": 1088,
+  "name": "Hainanese Village Centre (Lorong Ah Soo Market)",
+  "road": "Hougang Avenue 1",
+  "location": "e",
+  "latitude": 1.354141,
+  "longitude": 103.890259
+ },
+ {
+  "id": 670,
+  "name": "Hangout @ Mount Emily",
+  "road": "Upper Wilkie Road",
+  "location": "s",
+  "latitude": 1.303292,
+  "longitude": 103.847794
+ },
+ {
+  "id": 102,
+  "name": "HarbourFront Centre / Singapore Cruise Center",
+  "road": "Maritime Square",
+  "location": "s",
+  "latitude": 1.264295,
+  "longitude": 103.820007
+ },
+ {
+  "id": 753,
+  "name": "HarbourFront Tower 1",
+  "road": "HarbourFront Place",
+  "location": "s",
+  "latitude": 1.264909,
+  "longitude": 103.81929
+ },
+ {
+  "id": 696,
+  "name": "Hard Rock Hotel",
+  "road": "Sentosa Gateway",
+  "location": "s",
+  "latitude": 1.257647,
+  "longitude": 103.818993
+ },
+ {
+  "id": 572,
+  "name": "Hausmann Marketing Aquarium (Fish Farm)",
+  "road": "Neo Tiew Crescent",
+  "location": "w",
+  "latitude": 1.444611,
+  "longitude": 103.729073
+ },
+ {
+  "id": 205,
+  "name": "Havelock 2",
+  "road": "Havelock Road",
+  "location": "s",
+  "latitude": 1.287068,
+  "longitude": 103.845085
+ },
+ {
+  "id": 1110,
+  "name": "Haw Par Centre",
+  "road": "Clemenceau Avenue",
+  "location": "s",
+  "latitude": 1.297454,
+  "longitude": 103.844116
+ },
+ {
+  "id": 437,
+  "name": "Haw Par Villa",
+  "road": "Pasir Panjang Road",
+  "location": "s",
+  "latitude": 1.285004,
+  "longitude": 103.782982
+ },
+ {
+  "id": 1155,
+  "name": "Hb Centre 1",
+  "road": "Tannery Road",
+  "location": "s",
+  "latitude": 1.329053,
+  "longitude": 103.876419
+ },
+ {
+  "id": 1082,
+  "name": "HDB Bedok Town Centre Blk 204",
+  "road": "Bedok North Street 1",
+  "location": "e",
+  "latitude": 1.326283,
+  "longitude": 103.930336
+ },
+ {
+  "id": 1083,
+  "name": "HDB Bedok Town Centre Blk 208A",
+  "road": "New Upper Changi Road",
+  "location": "e",
+  "latitude": 1.325209,
+  "longitude": 103.93084
+ },
+ {
+  "id": 1084,
+  "name": "HDB Bedok Town Centre Blk 211",
+  "road": "New Upper Changi Road",
+  "location": "e",
+  "latitude": 1.325076,
+  "longitude": 103.931931
+ },
+ {
+  "id": 583,
+  "name": "HDB Blk 1 / 2 / 5 / 2A / 28 (Jalan Bukit Merah)",
+  "road": "Jalan Bukit Merah",
+  "location": "s",
+  "latitude": 1.286771,
+  "longitude": 103.808243
+ },
+ {
+  "id": 674,
+  "name": "HDB Blk 12A (Dover Close East)",
+  "road": "Dover Close East",
+  "location": "s",
+  "latitude": 1.30447,
+  "longitude": 103.785286
+ },
+ {
+  "id": 343,
+  "name": "HDB Blk 131 / 134 / 132 (Jurong East St 13)",
+  "road": "Jurong East Street 13",
+  "location": "w",
+  "latitude": 1.33449,
+  "longitude": 103.739799
+ },
+ {
+  "id": 584,
+  "name": "HDB Blk 28 (Hoy Fatt Road)",
+  "road": "Hoy Fatt Road",
+  "location": "s",
+  "latitude": 1.286244,
+  "longitude": 103.809776
+ },
+ {
+  "id": 586,
+  "name": "HDB Blk 28A / 38 / 49A (Beo Crescent)",
+  "road": "Beo Crescent",
+  "location": "s",
+  "latitude": 1.288189,
+  "longitude": 103.827873
+ },
+ {
+  "id": 590,
+  "name": "HDB Blk 349 to 355 (Clementi Ave 2)",
+  "road": "Clementi Ave 2",
+  "location": "w",
+  "latitude": 1.315738,
+  "longitude": 103.770996
+ },
+ {
+  "id": 591,
+  "name": "HDB Blk 442 to 444 / 442A / 445 / 462A (Clementi Ave 3)",
+  "road": "Clementi Ave 3",
+  "location": "w",
+  "latitude": 1.314039,
+  "longitude": 103.764275
+ },
+ {
+  "id": 342,
+  "name": "HDB Blk 4A / 6A (Woodlands Centre Road)",
+  "road": "Woodlands Centre Road",
+  "location": "n",
+  "latitude": 1.440569,
+  "longitude": 103.76992
+ },
+ {
+  "id": 1074,
+  "name": "HDB Blk 700A (Pasir Ris Drive 10)",
+  "road": "Pasir Ris Drive 10",
+  "location": "e",
+  "latitude": 1.380752,
+  "longitude": 103.938637
+ },
+ {
+  "id": 1072,
+  "name": "HDB Blk 710A (Pasir Ris Street 72)",
+  "road": "Pasir Ris Street 72",
+  "location": "e",
+  "latitude": 1.382374,
+  "longitude": 103.937035
+ },
+ {
+  "id": 1073,
+  "name": "HDB Blk 718A (Pasir Ris Street 72)",
+  "road": "Pasir Ris Street 72",
+  "location": "e",
+  "latitude": 1.381943,
+  "longitude": 103.935989
+ },
+ {
+  "id": 340,
+  "name": "HDB Blk 8A (Empress Rd)",
+  "road": "Empress Road",
+  "location": "w",
+  "latitude": 1.316625,
+  "longitude": 103.806213
+ },
+ {
+  "id": 841,
+  "name": "HDB Bukit Merah Central BM28/30",
+  "road": "Bukit Merah Central",
+  "location": "s",
+  "latitude": 1.28369,
+  "longitude": 103.816978
+ },
+ {
+  "id": 103,
+  "name": "HDB Hub (Toa Payoh)",
+  "road": "Toa Payoh Lorong 6",
+  "location": "n",
+  "latitude": 1.33215,
+  "longitude": 103.848473
+ },
+ {
+  "id": 1054,
+  "name": "HDB McNair Road MSCP",
+  "road": "McNair Road",
+  "location": "s",
+  "latitude": 1.321336,
+  "longitude": 103.859772
+ },
+ {
+  "id": 89,
+  "name": "Health Promotion Board",
+  "road": "Second Hospital Avenue",
+  "location": "s",
+  "latitude": 1.279838,
+  "longitude": 103.838425
+ },
+ {
+  "id": 919,
+  "name": "Heartbeat @ Bedok",
+  "road": "Bedok North Street 1",
+  "location": "e",
+  "latitude": 1.32705,
+  "longitude": 103.93203
+ },
+ {
+  "id": 654,
+  "name": "Heartland Mall",
+  "road": "Hougang Street 21",
+  "location": "e",
+  "latitude": 1.359685,
+  "longitude": 103.885376
+ },
+ {
+  "id": 1162,
+  "name": "Henderson Building",
+  "road": "Henderson Road",
+  "location": "s",
+  "latitude": 1.28067,
+  "longitude": 103.821014
+ },
+ {
+  "id": 592,
+  "name": "Henderson Industrial Park Blk 201",
+  "road": "Henderson Road",
+  "location": "w",
+  "latitude": 1.28195,
+  "longitude": 103.821281
+ },
+ {
+  "id": 327,
+  "name": "Henderson Industrial Park Blk 203",
+  "road": "Henderson Road",
+  "location": "w",
+  "latitude": 1.28195,
+  "longitude": 103.820587
+ },
+ {
+  "id": 935,
+  "name": "Henderson Industrial Park Blk 213 to 219",
+  "road": "Henderson Road",
+  "location": "s",
+  "latitude": 1.281113,
+  "longitude": 103.818771
+ },
+ {
+  "id": 1062,
+  "name": "HexaCube",
+  "road": "Changi Road",
+  "location": "e",
+  "latitude": 1.316677,
+  "longitude": 103.902458
+ },
+ {
+  "id": 104,
+  "name": "High Street Centre",
+  "road": "North Bridge Road",
+  "location": "s",
+  "latitude": 1.289961,
+  "longitude": 103.849136
+ },
+ {
+  "id": 827,
+  "name": "Highland Centre",
+  "road": "Yio Chu Kang Road",
+  "location": "n",
+  "latitude": 1.35532,
+  "longitude": 103.877037
+ },
+ {
+  "id": 925,
+  "name": "Hillion Mall",
+  "road": "Petir Road",
+  "location": "w",
+  "latitude": 1.378316,
+  "longitude": 103.763397
+ },
+ {
+  "id": 853,
+  "name": "HillV2",
+  "road": "Hillview Rise",
+  "location": "n",
+  "latitude": 1.363359,
+  "longitude": 103.764374
+ },
+ {
+  "id": 908,
+  "name": "Hilton Garden Inn",
+  "road": "Belilios Road",
+  "location": "s",
+  "latitude": 1.308528,
+  "longitude": 103.851974
+ },
+ {
+  "id": 1159,
+  "name": "Hilton Singapore Orchard",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.301936,
+  "longitude": 103.835869
+ },
+ {
+  "id": 803,
+  "name": "Hindoo Road",
+  "road": "Hindoo Road",
+  "location": "s",
+  "latitude": 1.30661,
+  "longitude": 103.853958
+ },
+ {
+  "id": 802,
+  "name": "Hindoo Road / Kampong Kapor Road",
+  "road": "Kampong Kapor Road",
+  "location": "e",
+  "latitude": 1.30754,
+  "longitude": 103.854805
+ },
+ {
+  "id": 637,
+  "name": "Hock Seng Building",
+  "road": "Lavender Street",
+  "location": "s",
+  "latitude": 1.311462,
+  "longitude": 103.86264
+ },
+ {
+  "id": 954,
+  "name": "Hokkien KongHuay",
+  "road": "Upper Bukit Timah Road",
+  "location": "w",
+  "latitude": 1.372415,
+  "longitude": 103.763466
+ },
+ {
+  "id": 889,
+  "name": "Holiday Inn Express Singapore Katong",
+  "road": "East Coast Road",
+  "location": "e",
+  "latitude": 1.305086,
+  "longitude": 103.904335
+ },
+ {
+  "id": 316,
+  "name": "Holiday Inn Express Singapore Orchard Road",
+  "road": "Bideford Road",
+  "location": "s",
+  "latitude": 1.303198,
+  "longitude": 103.836647
+ },
+ {
+  "id": 469,
+  "name": "Holiday Inn Singapore Atrium",
+  "road": "Outram Road",
+  "location": "s",
+  "latitude": 1.289036,
+  "longitude": 103.83429
+ },
+ {
+  "id": 1030,
+  "name": "Holiday Inn Singapore Orchard City Centre",
+  "road": "Cavenagh Road",
+  "location": "s",
+  "latitude": 1.302249,
+  "longitude": 103.841064
+ },
+ {
+  "id": 109,
+  "name": "Holland Road Shopping Centre",
+  "road": "Holland Avenue",
+  "location": "w",
+  "latitude": 1.310431,
+  "longitude": 103.795486
+ },
+ {
+  "id": 952,
+  "name": "Home United Youth Football Academy (HYFA)",
+  "road": "Mattar Road",
+  "location": "e",
+  "latitude": 1.324383,
+  "longitude": 103.883209
+ },
+ {
+  "id": 1175,
+  "name": "HomeTeamNS Bedok Reservoir",
+  "road": "Bedok North Road",
+  "location": "n",
+  "latitude": 1.341498,
+  "longitude": 103.918953
+ },
+ {
+  "id": 433,
+  "name": "HomeTeamNS Bukit Batok",
+  "road": "Bukit Batok West Ave 7",
+  "location": "w",
+  "latitude": 1.365735,
+  "longitude": 103.749809
+ },
+ {
+  "id": 1100,
+  "name": "HomeTeamNS Khatib",
+  "road": "Yishun Walk",
+  "location": "n",
+  "latitude": 1.414428,
+  "longitude": 103.830498
+ },
+ {
+  "id": 1123,
+  "name": "Hong Heng Mansions",
+  "road": "Sembawang Road",
+  "location": "n",
+  "latitude": 1.403267,
+  "longitude": 103.818428
+ },
+ {
+  "id": 110,
+  "name": "Hong Leong Building",
+  "road": "Raffles Quay",
+  "location": "s",
+  "latitude": 1.281299,
+  "longitude": 103.850937
+ },
+ {
+  "id": 331,
+  "name": "Hong Leong Garden Shopping Centre",
+  "road": "West Coast Way",
+  "location": "w",
+  "latitude": 1.31611,
+  "longitude": 103.757538
+ },
+ {
+  "id": 738,
+  "name": "Hong Lim Complex",
+  "road": "Upper Cross Street",
+  "location": "s",
+  "latitude": 1.284424,
+  "longitude": 103.845879
+ },
+ {
+  "id": 933,
+  "name": "Hor Kew Business Centre",
+  "road": "Kallang Pudding Road",
+  "location": "e",
+  "latitude": 1.327252,
+  "longitude": 103.878937
+ },
+ {
+  "id": 647,
+  "name": "HortPark",
+  "road": "Hyderabad Road",
+  "location": "s",
+  "latitude": 1.28054,
+  "longitude": 103.801582
+ },
+ {
+  "id": 666,
+  "name": "Hotel 1929",
+  "road": "Keong Siak Road",
+  "location": "s",
+  "latitude": 1.280895,
+  "longitude": 103.842003
+ },
+ {
+  "id": 111,
+  "name": "Hotel Asia",
+  "road": "Scotts Road",
+  "location": "s",
+  "latitude": 1.311363,
+  "longitude": 103.835976
+ },
+ {
+  "id": 609,
+  "name": "Hotel Bencoolen",
+  "road": "Bencoolen Street",
+  "location": "s",
+  "latitude": 1.299138,
+  "longitude": 103.850098
+ },
+ {
+  "id": 940,
+  "name": "Hotel Boss",
+  "road": "Jalan Sultan",
+  "location": "s",
+  "latitude": 1.305817,
+  "longitude": 103.860306
+ },
+ {
+  "id": 1051,
+  "name": "Hotel Fort Canning (Entrance 1)",
+  "road": "Canning Walk",
+  "location": "s",
+  "latitude": 1.296291,
+  "longitude": 103.845985
+ },
+ {
+  "id": 1055,
+  "name": "Hotel Fort Canning (Entrance 2)",
+  "road": "Canning Walk",
+  "location": "s",
+  "latitude": 1.296494,
+  "longitude": 103.845497
+ },
+ {
+  "id": 470,
+  "name": "Hotel Grand Central",
+  "road": "Cavenagh Road",
+  "location": "s",
+  "latitude": 1.301308,
+  "longitude": 103.841873
+ },
+ {
+  "id": 212,
+  "name": "Hotel Grand Pacific",
+  "road": "Victoria Street",
+  "location": "s",
+  "latitude": 1.297321,
+  "longitude": 103.852715
+ },
+ {
+  "id": 888,
+  "name": "Hotel Indigo Singapore Katong",
+  "road": "East Coast Road",
+  "location": "e",
+  "latitude": 1.305086,
+  "longitude": 103.904335
+ },
+ {
+  "id": 305,
+  "name": "Hotel Jen at Tanglin",
+  "road": "Cuscaden Road",
+  "location": "s",
+  "latitude": 1.304265,
+  "longitude": 103.823891
+ },
+ {
+  "id": 694,
+  "name": "Hotel Michael",
+  "road": "Sentosa Gateway",
+  "location": "s",
+  "latitude": 1.254926,
+  "longitude": 103.820251
+ },
+ {
+  "id": 769,
+  "name": "Hotel Re!",
+  "road": "Chin Swee Road",
+  "location": "s",
+  "latitude": 1.2854,
+  "longitude": 103.838425
+ },
+ {
+  "id": 114,
+  "name": "Hotel Rendezvous",
+  "road": "Bras Basah Road",
+  "location": "s",
+  "latitude": 1.298487,
+  "longitude": 103.849258
+ },
+ {
+  "id": 115,
+  "name": "Hotel Royal Queens",
+  "road": "Queen Street",
+  "location": "s",
+  "latitude": 1.297547,
+  "longitude": 103.852203
+ },
+ {
+  "id": 116,
+  "name": "Hotel Windsor",
+  "road": "Macpherson Road",
+  "location": "e",
+  "latitude": 1.331743,
+  "longitude": 103.879341
+ },
+ {
+  "id": 118,
+  "name": "Hougang 1",
+  "road": "Hougang Street 91",
+  "location": "e",
+  "latitude": 1.375559,
+  "longitude": 103.879593
+ },
+ {
+  "id": 424,
+  "name": "Hougang Green Shopping Mall",
+  "road": "Hougang Street 51",
+  "location": "e",
+  "latitude": 1.379375,
+  "longitude": 103.887894
+ },
+ {
+  "id": 117,
+  "name": "Hougang Mall",
+  "road": "Hougang Avenue 10",
+  "location": "e",
+  "latitude": 1.372431,
+  "longitude": 103.893562
+ },
+ {
+  "id": 515,
+  "name": "Hougang Stadium / Sports Hall / ClubFITT Gym",
+  "road": "Hougang Avenue 2",
+  "location": "e",
+  "latitude": 1.369768,
+  "longitude": 103.886002
+ },
+ {
+  "id": 474,
+  "name": "Hua Song Museum",
+  "road": "Pasir Panjang Road",
+  "location": "s",
+  "latitude": 1.285004,
+  "longitude": 103.782883
+ },
+ {
+  "id": 206,
+  "name": "Hub Synergy",
+  "road": "Anson Road",
+  "location": "s",
+  "latitude": 1.273921,
+  "longitude": 103.844666
+ },
+ {
+  "id": 79,
+  "name": "I12 Katong (previously 112 Katong)",
+  "road": "East Coast Road",
+  "location": "e",
+  "latitude": 1.305133,
+  "longitude": 103.905052
+ },
+ {
+  "id": 877,
+  "name": "Ibis Singapore On Bencoolen Hotel",
+  "road": "Bencoolen Street",
+  "location": "s",
+  "latitude": 1.300939,
+  "longitude": 103.852333
+ },
+ {
+  "id": 442,
+  "name": "IBM Place 1",
+  "road": "Changi Business Park Central 1",
+  "location": "e",
+  "latitude": 1.336228,
+  "longitude": 103.964699
+ },
+ {
+  "id": 574,
+  "name": "IBM Place 2",
+  "road": "Changi Business Park Central 1",
+  "location": "e",
+  "latitude": 1.336428,
+  "longitude": 103.964996
+ },
+ {
+  "id": 818,
+  "name": "IBM Singapore Technology Park",
+  "road": "Tampines Industrial Avenue 5",
+  "location": "e",
+  "latitude": 1.37318,
+  "longitude": 103.929192
+ },
+ {
+  "id": 683,
+  "name": "Icon Village",
+  "road": "Gopeng Street",
+  "location": "s",
+  "latitude": 1.27488,
+  "longitude": 103.844444
+ },
+ {
+  "id": 120,
+  "name": "IKEA Alexandra",
+  "road": "Alexandra Road",
+  "location": "w",
+  "latitude": 1.287917,
+  "longitude": 103.805954
+ },
+ {
+  "id": 429,
+  "name": "IKEA Tampines",
+  "road": "Tampines North Drive 2",
+  "location": "e",
+  "latitude": 1.373947,
+  "longitude": 103.932335
+ },
+ {
+  "id": 121,
+  "name": "IMM Building",
+  "road": "Jurong East Street 21",
+  "location": "w",
+  "latitude": 1.335278,
+  "longitude": 103.746758
+ },
+ {
+  "id": 106,
+  "name": "Income@Raffles",
+  "road": "Collyer Quay",
+  "location": "s",
+  "latitude": 1.28412,
+  "longitude": 103.85247
+ },
+ {
+  "id": 759,
+  "name": "Inno Centre",
+  "road": "Bukit Merah Central",
+  "location": "w",
+  "latitude": 1.283362,
+  "longitude": 103.814606
+ },
+ {
+  "id": 122,
+  "name": "Institute Of Mental Health (IMH)",
+  "road": "Buangkok View",
+  "location": "e",
+  "latitude": 1.382657,
+  "longitude": 103.884521
+ },
+ {
+  "id": 297,
+  "name": "InterContinental Robertson Quay",
+  "road": "Nanson Road",
+  "location": "s",
+  "latitude": 1.290065,
+  "longitude": 103.838608
+ },
+ {
+  "id": 123,
+  "name": "InterContinental Singapore Hotel",
+  "road": "Middle Road",
+  "location": "s",
+  "latitude": 1.298279,
+  "longitude": 103.854912
+ },
+ {
+  "id": 124,
+  "name": "International Building",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.306019,
+  "longitude": 103.83107
+ },
+ {
+  "id": 71,
+  "name": "International Plaza",
+  "road": "Anson Road",
+  "location": "s",
+  "latitude": 1.275874,
+  "longitude": 103.845978
+ },
+ {
+  "id": 1228,
+  "name": "IOI Central Boulevard Towers",
+  "road": "Central Boulevard",
+  "location": "s",
+  "latitude": 1.279928,
+  "longitude": 103.851517
+ },
+ {
+  "id": 684,
+  "name": "Ion Orchard",
+  "road": "Orchard Turn",
+  "location": "s",
+  "latitude": 1.304498,
+  "longitude": 103.832298
+ },
+ {
+  "id": 1120,
+  "name": "ITE Headquarters & ITE College Central (Open carpark)",
+  "road": "Ang Mo Kio Drive",
+  "location": "n",
+  "latitude": 1.377998,
+  "longitude": 103.855568
+ },
+ {
+  "id": 1070,
+  "name": "ITE Headquarters & ITE College Central (Sheltered Carpark)",
+  "road": "Ang Mo Kio Drive",
+  "location": "n",
+  "latitude": 1.376915,
+  "longitude": 103.856171
+ },
+ {
+  "id": 659,
+  "name": "Jackson Square",
+  "road": "Lorong 3 Toa Payoh",
+  "location": "n",
+  "latitude": 1.337269,
+  "longitude": 103.848663
+ },
+ {
+  "id": 527,
+  "name": "Jalan Besar Sports Centre",
+  "road": "Tyrwhitt Road",
+  "location": "s",
+  "latitude": 1.309937,
+  "longitude": 103.860405
+ },
+ {
+  "id": 483,
+  "name": "Japanese Garden",
+  "road": "Chinese Garden Road",
+  "location": "w",
+  "latitude": 1.338795,
+  "longitude": 103.730003
+ },
+ {
+  "id": 76,
+  "name": "JCube",
+  "road": "Jurong East Central 1",
+  "location": "w",
+  "latitude": 1.3335,
+  "longitude": 103.740089
+ },
+ {
+  "id": 72,
+  "name": "Jelita Cold Storage",
+  "road": "Holland Road",
+  "location": "w",
+  "latitude": 1.317502,
+  "longitude": 103.785828
+ },
+ {
+  "id": 817,
+  "name": "JEM",
+  "road": "50 Jurong Gateway Road",
+  "location": "w",
+  "latitude": 1.33406,
+  "longitude": 103.742432
+ },
+ {
+  "id": 73,
+  "name": "Joo Chiat Complex",
+  "road": "Joo Chiat Road",
+  "location": "e",
+  "latitude": 1.315875,
+  "longitude": 103.898399
+ },
+ {
+  "id": 842,
+  "name": "Joo Chiat Neighbourhood Centre",
+  "road": "Joo Chiat Road",
+  "location": "s",
+  "latitude": 1.315237,
+  "longitude": 103.898933
+ },
+ {
+  "id": 588,
+  "name": "Joo Seng Warehouse",
+  "road": "Upper Aljunied Link",
+  "location": "e",
+  "latitude": 1.335206,
+  "longitude": 103.881523
+ },
+ {
+  "id": 1024,
+  "name": "JTC Aviation One @ Seletar Aerospace Park",
+  "road": "West Camp Road",
+  "location": "n",
+  "latitude": 1.420125,
+  "longitude": 103.863396
+ },
+ {
+  "id": 1025,
+  "name": "JTC Aviation Two @ Seletar Aerospace Park",
+  "road": "West Camp Road",
+  "location": "n",
+  "latitude": 1.420009,
+  "longitude": 103.862968
+ },
+ {
+  "id": 1026,
+  "name": "JTC BioMed One @ Tuas Biomedical Park",
+  "road": "Tuas South Avenue 3",
+  "location": "w",
+  "latitude": 1.288973,
+  "longitude": 103.626572
+ },
+ {
+  "id": 377,
+  "name": "JTC Blk 3014A / 3015A Ubi Road 1",
+  "road": "Ubi Road 1",
+  "location": "e",
+  "latitude": 1.329374,
+  "longitude": 103.893448
+ },
+ {
+  "id": 338,
+  "name": "JTC Blk 8 / 12 Lorong Bakar Batu",
+  "road": "Lorong Bakar Batu",
+  "location": "e",
+  "latitude": 1.327334,
+  "longitude": 103.8722
+ },
+ {
+  "id": 458,
+  "name": "JTC Blk 8 Chia Ping Road",
+  "road": "Chia Ping Road",
+  "location": "w",
+  "latitude": 1.330423,
+  "longitude": 103.720512
+ },
+ {
+  "id": 365,
+  "name": "JTC Blk 970 / 998 Toa Payoh North",
+  "road": "Toa Payoh North",
+  "location": "n",
+  "latitude": 1.342656,
+  "longitude": 103.850868
+ },
+ {
+  "id": 1023,
+  "name": "JTC CleanTech Two @ CleanTech Park",
+  "road": "CleanTech Loop",
+  "location": "w",
+  "latitude": 1.355208,
+  "longitude": 103.69278
+ },
+ {
+  "id": 1021,
+  "name": "JTC MedTech Hub @ MedTech Park",
+  "road": "Tukang Innovation Grove",
+  "location": "w",
+  "latitude": 1.325167,
+  "longitude": 103.711082
+ },
+ {
+  "id": 339,
+  "name": "JTC Tuas Amenity Centre",
+  "road": "Pioneer Road",
+  "location": "w",
+  "latitude": 1.317059,
+  "longitude": 103.652267
+ },
+ {
+  "id": 1194,
+  "name": "Jun Jie Industrial Building",
+  "road": "Kampong Ampat",
+  "location": "",
+  "latitude": 1.33395,
+  "longitude": 103.882782
+ },
+ {
+  "id": 386,
+  "name": "Junction 10",
+  "road": "Woodlands Road",
+  "location": "w",
+  "latitude": 1.380297,
+  "longitude": 103.760178
+ },
+ {
+  "id": 74,
+  "name": "Junction 8 (Basement Car Park)",
+  "road": "Bishan Place",
+  "location": "n",
+  "latitude": 1.350613,
+  "longitude": 103.848801
+ },
+ {
+  "id": 75,
+  "name": "Junction 8 (Multi-Storey Car Park)",
+  "road": "Bishan Street 13",
+  "location": "n",
+  "latitude": 1.350441,
+  "longitude": 103.84977
+ },
+ {
+  "id": 913,
+  "name": "Junction Nine",
+  "road": "Yishun Avenue 9",
+  "location": "n",
+  "latitude": 1.433012,
+  "longitude": 103.841301
+ },
+ {
+  "id": 451,
+  "name": "Jurong Bird Park",
+  "road": "Jurong Hill",
+  "location": "w",
+  "latitude": 1.3182,
+  "longitude": 103.706696
+ },
+ {
+  "id": 619,
+  "name": "Jurong Crocodile & Reptile Paradise",
+  "road": "Jalan Ahmad Ibrahim",
+  "location": "w",
+  "latitude": 1.321471,
+  "longitude": 103.701019
+ },
+ {
+  "id": 516,
+  "name": "Jurong East Sports and Cultural Centre / ClubFITT Gym",
+  "road": "Jurong East Street 31",
+  "location": "w",
+  "latitude": 1.348298,
+  "longitude": 103.730034
+ },
+ {
+  "id": 524,
+  "name": "Jurong East Stadium",
+  "road": "Jurong East Street 31",
+  "location": "w",
+  "latitude": 1.346598,
+  "longitude": 103.729324
+ },
+ {
+  "id": 1016,
+  "name": "Jurong Industrial Estate (Jurong Port Workshops)",
+  "road": "Jurong Port Road",
+  "location": "n",
+  "latitude": 1.315905,
+  "longitude": 103.720154
+ },
+ {
+  "id": 1017,
+  "name": "Jurong Industrial Estate (Penjuru Workshops)",
+  "road": "Penjuru Close",
+  "location": "n",
+  "latitude": 1.313442,
+  "longitude": 103.731071
+ },
+ {
+  "id": 1040,
+  "name": "Jurong Lake Gardens",
+  "road": "Yuan Ching Road",
+  "location": "w",
+  "latitude": 1.339848,
+  "longitude": 103.7239
+ },
+ {
+  "id": 660,
+  "name": "Jurong Medical Centre",
+  "road": "Jurong West Central 3",
+  "location": "w",
+  "latitude": 1.34085,
+  "longitude": 103.704277
+ },
+ {
+  "id": 77,
+  "name": "Jurong Point Shopping Centre",
+  "road": "Jurong West Central 2",
+  "location": "w",
+  "latitude": 1.340269,
+  "longitude": 103.706261
+ },
+ {
+  "id": 523,
+  "name": "Jurong Stadium",
+  "road": "Chin Bee Road",
+  "location": "w",
+  "latitude": 1.332568,
+  "longitude": 103.719025
+ },
+ {
+  "id": 329,
+  "name": "Jurong Theatre",
+  "road": "Yung Sheng Road",
+  "location": "w",
+  "latitude": 1.3346,
+  "longitude": 103.721474
+ },
+ {
+  "id": 517,
+  "name": "Jurong West Stadium / Sports Hall / ClubFITT Gym",
+  "road": "Jurong West Street 93",
+  "location": "w",
+  "latitude": 1.338307,
+  "longitude": 103.69442
+ },
+ {
+  "id": 885,
+  "name": "Kaki Bukit Autohub",
+  "road": "Kaki Bukit Avenue ",
+  "location": "e",
+  "latitude": 1.337569,
+  "longitude": 103.900749
+ },
+ {
+  "id": 973,
+  "name": "Kallang Car Park 1 (Kallang H)",
+  "road": "Stadium Boulevard",
+  "location": "s",
+  "latitude": 1.305281,
+  "longitude": 103.881851
+ },
+ {
+  "id": 971,
+  "name": "Kallang Car Park 2 (Netball Centre)",
+  "road": "Stadium Boulevard",
+  "location": "s",
+  "latitude": 1.305962,
+  "longitude": 103.87973
+ },
+ {
+  "id": 972,
+  "name": "Kallang Car Park 3 (Tennis Centre)",
+  "road": "Stadium Boulevard",
+  "location": "s",
+  "latitude": 1.30517,
+  "longitude": 103.880035
+ },
+ {
+  "id": 528,
+  "name": "Kallang Leisure Park",
+  "road": "Stadium Walk",
+  "location": "e",
+  "latitude": 1.302375,
+  "longitude": 103.876457
+ },
+ {
+  "id": 999,
+  "name": "Kallang Theatre",
+  "road": "Stadium Walk",
+  "location": "s",
+  "latitude": 1.301846,
+  "longitude": 103.875526
+ },
+ {
+  "id": 868,
+  "name": "Kallang Wave Mall",
+  "road": "1 Stadium Place",
+  "location": "e",
+  "latitude": 1.303331,
+  "longitude": 103.873146
+ },
+ {
+  "id": 805,
+  "name": "Kampong Bugis Road",
+  "road": "Kampong Bugis Road",
+  "location": "e",
+  "latitude": 1.30601,
+  "longitude": 103.867348
+ },
+ {
+  "id": 1192,
+  "name": "KAP Mall",
+  "road": null,
+  "location": "w",
+  "latitude": 1.33702,
+  "longitude": 103.779404
+ },
+ {
+  "id": 1153,
+  "name": "Kapo Factory Building",
+  "road": "Playfair Road",
+  "location": "e",
+  "latitude": 1.336856,
+  "longitude": 103.88578
+ },
+ {
+  "id": 80,
+  "name": "Katong Plaza",
+  "road": "Brooke Road",
+  "location": "e",
+  "latitude": 1.304035,
+  "longitude": 103.904099
+ },
+ {
+  "id": 921,
+  "name": "Katong Point",
+  "road": "Joo Chiat Road",
+  "location": "e",
+  "latitude": 1.306889,
+  "longitude": 103.90464
+ },
+ {
+  "id": 81,
+  "name": "Katong Shopping Centre",
+  "road": "Mountbatten Road",
+  "location": "e",
+  "latitude": 1.303949,
+  "longitude": 103.901016
+ },
+ {
+  "id": 887,
+  "name": "Katong Square",
+  "road": "East Coast Road",
+  "location": "e",
+  "latitude": 1.305086,
+  "longitude": 103.904335
+ },
+ {
+  "id": 974,
+  "name": "Katong Swimming Complex",
+  "road": "Wilkinson Road",
+  "location": "s",
+  "latitude": 1.30208,
+  "longitude": 103.886276
+ },
+ {
+  "id": 994,
+  "name": "Katong V (Village Hotel Katong)",
+  "road": "East Coast Road",
+  "location": "e",
+  "latitude": 1.303572,
+  "longitude": 103.903015
+ },
+ {
+  "id": 367,
+  "name": "Katong Village",
+  "road": "East Coast Road",
+  "location": "e",
+  "latitude": 1.304826,
+  "longitude": 103.904549
+ },
+ {
+  "id": 1178,
+  "name": "KB Industrial Building",
+  "road": "Kaki Bukit Road 1",
+  "location": "e",
+  "latitude": 1.335254,
+  "longitude": 103.902618
+ },
+ {
+  "id": 1225,
+  "name": "Keat Hong Community Club (CC)",
+  "road": "Choa Chu Kang Loop",
+  "location": "",
+  "latitude": 1.384139,
+  "longitude": 103.744957
+ },
+ {
+  "id": 744,
+  "name": "Keck Seng Tower",
+  "road": "Cecil Street",
+  "location": "s",
+  "latitude": 1.28012,
+  "longitude": 103.848793
+ },
+ {
+  "id": 448,
+  "name": "Kembangan Plaza",
+  "road": "Jalan Masjid",
+  "location": "e",
+  "latitude": 1.320341,
+  "longitude": 103.912926
+ },
+ {
+  "id": 1035,
+  "name": "Kensington Square",
+  "road": "Jalan Lokam",
+  "location": "e",
+  "latitude": 1.345826,
+  "longitude": 103.882935
+ },
+ {
+  "id": 618,
+  "name": "Keppel Bay Tower",
+  "road": "Harbourfront Avenue",
+  "location": "s",
+  "latitude": 1.264988,
+  "longitude": 103.818344
+ },
+ {
+  "id": 83,
+  "name": "Keppel Towers",
+  "road": "Hoe Chiang Road",
+  "location": "s",
+  "latitude": 1.274373,
+  "longitude": 103.841949
+ },
+ {
+  "id": 729,
+  "name": "Khoo Teck Puat Hospital",
+  "road": "Yishun Central",
+  "location": "n",
+  "latitude": 1.424154,
+  "longitude": 103.839302
+ },
+ {
+  "id": 852,
+  "name": "Kinex",
+  "road": "Tanjong Katong Road",
+  "location": "e",
+  "latitude": 1.31382,
+  "longitude": 103.894096
+ },
+ {
+  "id": 78,
+  "name": "KK Women's and Children's Hospital",
+  "road": "Bukit Timah Road",
+  "location": "w",
+  "latitude": 1.310422,
+  "longitude": 103.84684
+ },
+ {
+  "id": 699,
+  "name": "Kopitiam Square",
+  "road": "Sengkang Road",
+  "location": "e",
+  "latitude": 1.392035,
+  "longitude": 103.893364
+ },
+ {
+  "id": 431,
+  "name": "Kovan Neighbourhood Centre",
+  "road": "Hougang Street 21",
+  "location": "e",
+  "latitude": 1.359227,
+  "longitude": 103.885986
+ },
+ {
+  "id": 1201,
+  "name": "Kranji Green",
+  "road": "Kranji Loop",
+  "location": "",
+  "latitude": 1.436449,
+  "longitude": 103.759293
+ },
+ {
+  "id": 567,
+  "name": "Kranji War Memorial",
+  "road": "Woodlands Road",
+  "location": "n",
+  "latitude": 1.396409,
+  "longitude": 103.75354
+ },
+ {
+  "id": 1013,
+  "name": "Kranji Workshop",
+  "road": "Kranji Loop",
+  "location": "n",
+  "latitude": 1.43262,
+  "longitude": 103.756256
+ },
+ {
+  "id": 714,
+  "name": "Kreta Ayer People's Theatre",
+  "road": "Kreta Ayer Road",
+  "location": "s",
+  "latitude": 1.28121,
+  "longitude": 103.842392
+ },
+ {
+  "id": 85,
+  "name": "Kwong Wai Shui Hospital",
+  "road": "Serangoon Road",
+  "location": "s",
+  "latitude": 1.317583,
+  "longitude": 103.858871
+ },
+ {
+  "id": 484,
+  "name": "Labrador Nature Reserve (Car Park A and B)",
+  "road": "Labrador Villa Road",
+  "location": "s",
+  "latitude": 1.264888,
+  "longitude": 103.802635
+ },
+ {
+  "id": 1213,
+  "name": "Labrador Tower",
+  "road": "Pasir Panjang Road",
+  "location": "s",
+  "latitude": 1.272454,
+  "longitude": 103.801178
+ },
+ {
+  "id": 599,
+  "name": "Laguna National Golf and Country Club",
+  "road": "Laguna Golf Green",
+  "location": "e",
+  "latitude": 1.32356,
+  "longitude": 103.962936
+ },
+ {
+  "id": 374,
+  "name": "Lam Seng Building",
+  "road": "Playfair Road",
+  "location": "e",
+  "latitude": 1.333743,
+  "longitude": 103.887344
+ },
+ {
+  "id": 171,
+  "name": "Landmark Village Hotel",
+  "road": "Victoria Street",
+  "location": "s",
+  "latitude": 1.302232,
+  "longitude": 103.857712
+ },
+ {
+  "id": 646,
+  "name": "Lasalle College of the Arts",
+  "road": "McNally Street",
+  "location": "s",
+  "latitude": 1.303102,
+  "longitude": 103.851601
+ },
+ {
+  "id": 1071,
+  "name": "Lavender Gardens",
+  "road": "Jellicoe Road",
+  "location": "s",
+  "latitude": 1.307202,
+  "longitude": 103.861732
+ },
+ {
+  "id": 13,
+  "name": "Lazada One",
+  "road": "Bras Basah Road",
+  "location": "s",
+  "latitude": 1.297836,
+  "longitude": 103.850159
+ },
+ {
+  "id": 1134,
+  "name": "Le Quest, ",
+  "road": "Bukit Batok Street 41",
+  "location": "W",
+  "latitude": 1.355737,
+  "longitude": 103.74128
+ },
+ {
+  "id": 258,
+  "name": "Lee Kong Chian School of Business (SMU)",
+  "road": "Stamford Road",
+  "location": "s",
+  "latitude": 1.295097,
+  "longitude": 103.850777
+ },
+ {
+  "id": 1046,
+  "name": "Lee Kong Chian School of Medicine (LKCMedicine)",
+  "road": "Mandalay Road",
+  "location": "s",
+  "latitude": 1.320918,
+  "longitude": 103.848648
+ },
+ {
+  "id": 657,
+  "name": "LHK 2 Building",
+  "road": "Playfair Road",
+  "location": "e",
+  "latitude": 1.336597,
+  "longitude": 103.886528
+ },
+ {
+  "id": 88,
+  "name": "Liat Towers",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.30507,
+  "longitude": 103.830688
+ },
+ {
+  "id": 844,
+  "name": "Lifelong Learning Institute (LLI)",
+  "road": "Eunos Road 8",
+  "location": "e",
+  "latitude": 1.3198,
+  "longitude": 103.89241
+ },
+ {
+  "id": 604,
+  "name": "Limbang Shopping Centre",
+  "road": "Choa Chu Kang Street 51",
+  "location": "w",
+  "latitude": 1.392115,
+  "longitude": 103.74292
+ },
+ {
+  "id": 1204,
+  "name": "Liner @ Tuas",
+  "road": "Tuas Bay Close",
+  "location": "",
+  "latitude": 1.313825,
+  "longitude": 103.631737
+ },
+ {
+  "id": 541,
+  "name": "Link Hotel Singapore",
+  "road": "Tiong Bahru Road",
+  "location": "w",
+  "latitude": 1.284651,
+  "longitude": 103.83445
+ },
+ {
+  "id": 857,
+  "name": "Link@AMK",
+  "road": "Ang Mo Kio Street 62",
+  "location": "n",
+  "latitude": 1.38666,
+  "longitude": 103.844673
+ },
+ {
+  "id": 610,
+  "name": "Lion City Hotel",
+  "road": "Tanjong Katong Road",
+  "location": "e",
+  "latitude": 1.315124,
+  "longitude": 103.894592
+ },
+ {
+  "id": 90,
+  "name": "Lippo Centre",
+  "road": "Shenton Way",
+  "location": "s",
+  "latitude": 1.272971,
+  "longitude": 103.845062
+ },
+ {
+  "id": 91,
+  "name": "Lot One",
+  "road": "Choa Chu Kang Avenue 4",
+  "location": "w",
+  "latitude": 1.384656,
+  "longitude": 103.744789
+ },
+ {
+  "id": 92,
+  "name": "Loyang Point",
+  "road": "Pasir Ris Street 21",
+  "location": "e",
+  "latitude": 1.366835,
+  "longitude": 103.964577
+ },
+ {
+  "id": 1004,
+  "name": "LTC Building (Lion Industrial Building)",
+  "road": "Arumugam Road",
+  "location": "e",
+  "latitude": 1.324427,
+  "longitude": 103.891296
+ },
+ {
+  "id": 93,
+  "name": "Lucky Plaza",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.304328,
+  "longitude": 103.833855
+ },
+ {
+  "id": 107,
+  "name": "Lumiere",
+  "road": "Mistri Road",
+  "location": "s",
+  "latitude": 1.27421,
+  "longitude": 103.846039
+ },
+ {
+  "id": 371,
+  "name": "Luxton Building",
+  "road": "Sims Drive",
+  "location": "e",
+  "latitude": 1.317439,
+  "longitude": 103.877464
+ },
+ {
+  "id": 1032,
+  "name": "Luzerne",
+  "road": "Bendemeer Road",
+  "location": "s",
+  "latitude": 1.316273,
+  "longitude": 103.862724
+ },
+ {
+  "id": 1037,
+  "name": "lyf Bugis Singapore",
+  "road": "Middle Road",
+  "location": "s",
+  "latitude": 1.300771,
+  "longitude": 103.851509
+ },
+ {
+  "id": 10,
+  "name": "M Hotel",
+  "road": "Anson Road",
+  "location": "s",
+  "latitude": 1.273668,
+  "longitude": 103.84507
+ },
+ {
+  "id": 771,
+  "name": "M-Park @ Club Street",
+  "road": "Club Street",
+  "location": "s",
+  "latitude": 1.283033,
+  "longitude": 103.846558
+ },
+ {
+  "id": 1221,
+  "name": "MacPherson Mall",
+  "road": "MacPherson Road",
+  "location": "s",
+  "latitude": 1.331834,
+  "longitude": 103.879364
+ },
+ {
+  "id": 709,
+  "name": "MacRitchie Reservoir Park",
+  "road": "Reservoir Road",
+  "location": "n",
+  "latitude": 1.341725,
+  "longitude": 103.832031
+ },
+ {
+  "id": 476,
+  "name": "Malay Heritage Centre",
+  "road": "Sultan Gate",
+  "location": "s",
+  "latitude": 1.302406,
+  "longitude": 103.860352
+ },
+ {
+  "id": 465,
+  "name": "Mandai Orchid Garden",
+  "road": "Mandai Lake Road",
+  "location": "n",
+  "latitude": 1.406554,
+  "longitude": 103.783226
+ },
+ {
+  "id": 62,
+  "name": "Mandarin Gallery",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.301952,
+  "longitude": 103.836464
+ },
+ {
+  "id": 420,
+  "name": "Mandarin Orchard Singapore",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.302211,
+  "longitude": 103.836082
+ },
+ {
+  "id": 27,
+  "name": "Mandarin Oriental Singapore",
+  "road": "Raffles Avenue",
+  "location": "s",
+  "latitude": 1.290482,
+  "longitude": 103.858391
+ },
+ {
+  "id": 419,
+  "name": "Manulife Tower",
+  "road": "Cross Street",
+  "location": "s",
+  "latitude": 1.28226,
+  "longitude": 103.848892
+ },
+ {
+  "id": 991,
+  "name": "Mapex",
+  "road": "Jalan Pemimpin",
+  "location": "e",
+  "latitude": 1.348644,
+  "longitude": 103.840858
+ },
+ {
+  "id": 778,
+  "name": "Mapletree",
+  "road": "Kallang Sector",
+  "location": "e",
+  "latitude": 1.32666,
+  "longitude": 103.873444
+ },
+ {
+  "id": 1075,
+  "name": "Mapletree Business City",
+  "road": "Pasir Panjang Road",
+  "location": "s",
+  "latitude": 1.274327,
+  "longitude": 103.798912
+ },
+ {
+  "id": 767,
+  "name": "Marang Road",
+  "road": "Marang Road",
+  "location": "s",
+  "latitude": 1.26655,
+  "longitude": 103.821182
+ },
+ {
+  "id": 578,
+  "name": "Marina at Keppel Bay",
+  "road": "Keppel Bay Vista",
+  "location": "s",
+  "latitude": 1.263548,
+  "longitude": 103.812233
+ },
+ {
+  "id": 648,
+  "name": "Marina Barrage",
+  "road": "Marina Gardens Drive",
+  "location": "s",
+  "latitude": 1.280452,
+  "longitude": 103.871048
+ },
+ {
+  "id": 788,
+  "name": "Marina Bay Cruise Centre Singapore (MBCCS)",
+  "road": null,
+  "location": "s",
+  "latitude": 1.26719,
+  "longitude": 103.859924
+ },
+ {
+  "id": 789,
+  "name": "Marina Bay Financial Centre Tower 1",
+  "road": "Marina Boulevard",
+  "location": "s",
+  "latitude": 1.280127,
+  "longitude": 103.854218
+ },
+ {
+  "id": 743,
+  "name": "Marina Bay Financial Centre Tower 2",
+  "road": "Marina Boulevard",
+  "location": "s",
+  "latitude": 1.28,
+  "longitude": 103.853943
+ },
+ {
+  "id": 791,
+  "name": "Marina Bay Financial Centre Tower 3",
+  "road": "Marina Boulevard",
+  "location": "s",
+  "latitude": 1.28,
+  "longitude": 103.853996
+ },
+ {
+  "id": 596,
+  "name": "Marina Bay Golf Course (MBGC)",
+  "road": "Rhu Cross",
+  "location": "s",
+  "latitude": 1.293633,
+  "longitude": 103.871323
+ },
+ {
+  "id": 790,
+  "name": "Marina Bay Link Mall",
+  "road": "Marina Boulevard",
+  "location": "s",
+  "latitude": 1.279954,
+  "longitude": 103.85453
+ },
+ {
+  "id": 715,
+  "name": "Marina Bay Open Carpark",
+  "road": "Marina Boulevard",
+  "location": "s",
+  "latitude": 1.279747,
+  "longitude": 103.856934
+ },
+ {
+  "id": 704,
+  "name": "Marina Bay Sands (MBS)",
+  "road": "Bayfront Ave",
+  "location": "s",
+  "latitude": 1.284145,
+  "longitude": 103.858871
+ },
+ {
+  "id": 914,
+  "name": "Marina Country Club",
+  "road": "Northshore Drive",
+  "location": "n",
+  "latitude": 1.415204,
+  "longitude": 103.898743
+ },
+ {
+  "id": 1033,
+  "name": "Marina One",
+  "road": "Straits View",
+  "location": "s",
+  "latitude": 1.277189,
+  "longitude": 103.853149
+ },
+ {
+  "id": 403,
+  "name": "Marina South Pier (MSP)",
+  "road": "Marina Coastal Drive",
+  "location": "s",
+  "latitude": 1.271166,
+  "longitude": 103.863121
+ },
+ {
+  "id": 12,
+  "name": "Marina Square",
+  "road": "Raffles Boulevard",
+  "location": "s",
+  "latitude": 1.291172,
+  "longitude": 103.857811
+ },
+ {
+  "id": 1091,
+  "name": "Marine Parade Central Market and Food Centre",
+  "road": "Marine Parade Central",
+  "location": "e",
+  "latitude": 1.302124,
+  "longitude": 103.906342
+ },
+ {
+  "id": 826,
+  "name": "Maritime House",
+  "road": "Cantonment Road",
+  "location": "s",
+  "latitude": 1.27661,
+  "longitude": 103.840363
+ },
+ {
+  "id": 845,
+  "name": "Maritime Square D Off Street",
+  "road": "1 Maritime Square",
+  "location": "s",
+  "latitude": 1.26447,
+  "longitude": 103.820328
+ },
+ {
+  "id": 57,
+  "name": "Market Street Car Park",
+  "road": "Market Street",
+  "location": "s",
+  "latitude": 1.281814,
+  "longitude": 103.850037
+ },
+ {
+  "id": 405,
+  "name": "Marsh and McLennan Centre",
+  "road": "Cross Street",
+  "location": "s",
+  "latitude": 1.28361,
+  "longitude": 103.846893
+ },
+ {
+  "id": 942,
+  "name": "Marsiling Mall",
+  "road": "Woodlands Street",
+  "location": "n",
+  "latitude": 1.433431,
+  "longitude": 103.779877
+ },
+ {
+  "id": 59,
+  "name": "MAS Building",
+  "road": "Shenton Way",
+  "location": "s",
+  "latitude": 1.274635,
+  "longitude": 103.846596
+ },
+ {
+  "id": 497,
+  "name": "Masjid Hajjah Fatimah Mosque",
+  "road": "Beach Road",
+  "location": "s",
+  "latitude": 1.3028,
+  "longitude": 103.862976
+ },
+ {
+  "id": 498,
+  "name": "Masjid Jamae Chulia Mosque",
+  "road": "South Bridge Road",
+  "location": "s",
+  "latitude": 1.283152,
+  "longitude": 103.845322
+ },
+ {
+  "id": 503,
+  "name": "Maxwell Food Centre",
+  "road": "Murray Street",
+  "location": "s",
+  "latitude": 1.28025,
+  "longitude": 103.844704
+ },
+ {
+  "id": 747,
+  "name": "Maxwell House",
+  "road": "Maxwell Road",
+  "location": "s",
+  "latitude": 1.27915,
+  "longitude": 103.844757
+ },
+ {
+  "id": 1181,
+  "name": "Mcdonald's @ Jurong Central Park",
+  "road": "Boon Lay Way",
+  "location": "w",
+  "latitude": 1.339151,
+  "longitude": 103.708694
+ },
+ {
+  "id": 428,
+  "name": "MCYS Building",
+  "road": "Thomson Road",
+  "location": "n",
+  "latitude": 1.333542,
+  "longitude": 103.839073
+ },
+ {
+  "id": 60,
+  "name": "Mediacorp",
+  "road": "One-North Ave",
+  "location": "n",
+  "latitude": 1.337909,
+  "longitude": 103.833008
+ },
+ {
+  "id": 947,
+  "name": "Mediapolis @ One-North",
+  "road": "Media Circle",
+  "location": "s",
+  "latitude": 1.295946,
+  "longitude": 103.792107
+ },
+ {
+  "id": 563,
+  "name": "Memories at Old Ford Factory (MOFF)",
+  "road": "Upper Bukit Timah Road",
+  "location": "w",
+  "latitude": 1.352367,
+  "longitude": 103.767754
+ },
+ {
+  "id": 61,
+  "name": "Merchant Square",
+  "road": "Angus Street",
+  "location": "s",
+  "latitude": 1.288804,
+  "longitude": 103.84346
+ },
+ {
+  "id": 890,
+  "name": "Mercure Singapore Bugis",
+  "road": "Middle Road",
+  "location": "s",
+  "latitude": 1.299015,
+  "longitude": 103.853851
+ },
+ {
+  "id": 1183,
+  "name": "Mess Hall - Sentosa",
+  "road": "Gunner Lane",
+  "location": "s",
+  "latitude": 1.252907,
+  "longitude": 103.820686
+ },
+ {
+  "id": 643,
+  "name": "MICA Building",
+  "road": "Hill Street",
+  "location": "s",
+  "latitude": 1.290695,
+  "longitude": 103.848282
+ },
+ {
+  "id": 63,
+  "name": "Midlink Plaza",
+  "road": "Middle Road",
+  "location": "s",
+  "latitude": 1.299581,
+  "longitude": 103.853088
+ },
+ {
+  "id": 64,
+  "name": "Midpoint Orchard",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.301769,
+  "longitude": 103.838699
+ },
+ {
+  "id": 772,
+  "name": "Midview City",
+  "road": "Sin Ming Lane",
+  "location": "n",
+  "latitude": 1.35877,
+  "longitude": 103.834251
+ },
+ {
+  "id": 348,
+  "name": "Millage",
+  "road": "Changi Road",
+  "location": "e",
+  "latitude": 1.317204,
+  "longitude": 103.898773
+ },
+ {
+  "id": 580,
+  "name": "Millenia Tower",
+  "road": "Temasek Avenue",
+  "location": "s",
+  "latitude": 1.292601,
+  "longitude": 103.860298
+ },
+ {
+  "id": 706,
+  "name": "Millenia Walk (Basement Car Park)",
+  "road": "Raffles Boulevard",
+  "location": "s",
+  "latitude": 1.293016,
+  "longitude": 103.859459
+ },
+ {
+  "id": 65,
+  "name": "Millenia Walk (Surface Car Park)",
+  "road": "Raffles Boulevard",
+  "location": "s",
+  "latitude": 1.293216,
+  "longitude": 103.859558
+ },
+ {
+  "id": 415,
+  "name": "Ministry of Education Building (MOE)",
+  "road": "North Buona Vista Drive",
+  "location": "w",
+  "latitude": 1.305223,
+  "longitude": 103.790756
+ },
+ {
+  "id": 430,
+  "name": "Ministry of Manpower (MOM)",
+  "road": "Havelock Road",
+  "location": "s",
+  "latitude": 1.28742,
+  "longitude": 103.844299
+ },
+ {
+  "id": 66,
+  "name": "Miramar Hotel",
+  "road": "Havelock Road",
+  "location": "s",
+  "latitude": 1.288306,
+  "longitude": 103.837288
+ },
+ {
+  "id": 837,
+  "name": "MOH College of Medicine",
+  "road": "College Road",
+  "location": "s",
+  "latitude": 1.28166,
+  "longitude": 103.833847
+ },
+ {
+  "id": 67,
+  "name": "Mount Alvernia Hospital",
+  "road": "Thomson Road",
+  "location": "n",
+  "latitude": 1.341725,
+  "longitude": 103.837524
+ },
+ {
+  "id": 68,
+  "name": "Mount Elizabeth Hospital",
+  "road": "Mount Elizabeth",
+  "location": "s",
+  "latitude": 1.305404,
+  "longitude": 103.83548
+ },
+ {
+  "id": 793,
+  "name": "Mount Elizabeth Novena Hospital",
+  "road": "Irrawaddy Road",
+  "location": "s",
+  "latitude": 1.32215,
+  "longitude": 103.844452
+ },
+ {
+  "id": 487,
+  "name": "Mount Faber Park",
+  "road": "Mount Faber Road",
+  "location": "s",
+  "latitude": 1.271272,
+  "longitude": 103.819298
+ },
+ {
+  "id": 750,
+  "name": "Mount Sophia",
+  "road": "Mount Sophia",
+  "location": "s",
+  "latitude": 1.301403,
+  "longitude": 103.846703
+ },
+ {
+  "id": 918,
+  "name": "Mountbatten Square",
+  "road": "Mountbatten Road",
+  "location": "s",
+  "latitude": 1.307387,
+  "longitude": 103.881104
+ },
+ {
+  "id": 69,
+  "name": "Mustafa Centre",
+  "road": "Syed Alwi Road",
+  "location": "s",
+  "latitude": 1.310196,
+  "longitude": 103.855148
+ },
+ {
+  "id": 824,
+  "name": "myVillage@Serangoon Garden",
+  "road": "1 Maju Avenue",
+  "location": "",
+  "latitude": 1.36475,
+  "longitude": 103.865471
+ },
+ {
+  "id": 408,
+  "name": "Nankin Row",
+  "road": "Pickering Street",
+  "location": "s",
+  "latitude": 1.2845,
+  "longitude": 103.847382
+ },
+ {
+  "id": 70,
+  "name": "Nanyang Academy Of Fine Arts (NAFA)",
+  "road": "Bencoolen Street",
+  "location": "s",
+  "latitude": 1.299991,
+  "longitude": 103.85173
+ },
+ {
+  "id": 1063,
+  "name": "Nanyang Polytechnic",
+  "road": "Ang Mo Kio Ave 8",
+  "location": "n",
+  "latitude": 1.379405,
+  "longitude": 103.847855
+ },
+ {
+  "id": 564,
+  "name": "National Archives of Singapore (NAS)",
+  "road": "Canning Rise",
+  "location": "s",
+  "latitude": 1.293044,
+  "longitude": 103.848396
+ },
+ {
+  "id": 9,
+  "name": "National Cancer Centre, Singapore (NCCS)",
+  "road": "Hospital Drive",
+  "location": "s",
+  "latitude": 1.279237,
+  "longitude": 103.836517
+ },
+ {
+  "id": 645,
+  "name": "National Dental Centre",
+  "road": "Second Hospital Avenue",
+  "location": "s",
+  "latitude": 1.279321,
+  "longitude": 103.838058
+ },
+ {
+  "id": 873,
+  "name": "National Gallery Singapore",
+  "road": "Saint Andrew's Road",
+  "location": "s",
+  "latitude": 1.289807,
+  "longitude": 103.851089
+ },
+ {
+  "id": 893,
+  "name": "National Heart Centre Singapore",
+  "road": "Hospital Drive",
+  "location": "s",
+  "latitude": 1.278786,
+  "longitude": 103.835655
+ },
+ {
+  "id": 456,
+  "name": "National Institute of Education (NIE)",
+  "road": "Nanyang Walk",
+  "location": "w",
+  "latitude": 1.350723,
+  "longitude": 103.681046
+ },
+ {
+  "id": 1,
+  "name": "National Library Building",
+  "road": "Victoria Street",
+  "location": "s",
+  "latitude": 1.297574,
+  "longitude": 103.854034
+ },
+ {
+  "id": 1092,
+  "name": "National Sailing Centre",
+  "road": "East Coast Parkway",
+  "location": "e",
+  "latitude": 1.315147,
+  "longitude": 103.961769
+ },
+ {
+  "id": 353,
+  "name": "National Service Resort Country Club (NSRCC)",
+  "road": "Changi Coast Walk",
+  "location": "e",
+  "latitude": 1.318214,
+  "longitude": 103.974693
+ },
+ {
+  "id": 2,
+  "name": "National Skin Centre",
+  "road": "Mandalay Road",
+  "location": "s",
+  "latitude": 1.319699,
+  "longitude": 103.849083
+ },
+ {
+  "id": 3,
+  "name": "National University Hospital (NUH)",
+  "road": "Lower Kent Ridge Road",
+  "location": "w",
+  "latitude": 1.293189,
+  "longitude": 103.783386
+ },
+ {
+  "id": 731,
+  "name": "NCS Hub",
+  "road": "Ang Mo Kio Street 62",
+  "location": "n",
+  "latitude": 1.38865,
+  "longitude": 103.843201
+ },
+ {
+  "id": 4,
+  "name": "Negara Hotel",
+  "road": "Claymore Road",
+  "location": "s",
+  "latitude": 1.307312,
+  "longitude": 103.829918
+ },
+ {
+  "id": 799,
+  "name": "Neil Road",
+  "road": "Neil Road",
+  "location": "s",
+  "latitude": 1.28005,
+  "longitude": 103.842918
+ },
+ {
+  "id": 1193,
+  "name": "New Bahru",
+  "road": null,
+  "location": "s",
+  "latitude": 1.292819,
+  "longitude": 103.838699
+ },
+ {
+  "id": 667,
+  "name": "New Majestic Hotel",
+  "road": "Bukit Pasoh Road",
+  "location": "s",
+  "latitude": 1.279156,
+  "longitude": 103.840195
+ },
+ {
+  "id": 460,
+  "name": "New Tech Park",
+  "road": "Lorong Chuan",
+  "location": "n",
+  "latitude": 1.352105,
+  "longitude": 103.860573
+ },
+ {
+  "id": 496,
+  "name": "NEWater Visitor Centre",
+  "road": "Koh Sek Lim Road",
+  "location": "e",
+  "latitude": 1.324193,
+  "longitude": 103.958527
+ },
+ {
+  "id": 500,
+  "name": "Newton Circus Food Centre",
+  "road": "Clemenceau Ave North",
+  "location": "s",
+  "latitude": 1.312036,
+  "longitude": 103.839539
+ },
+ {
+  "id": 712,
+  "name": "Nex Mall",
+  "road": "Serangoon Central",
+  "location": "n",
+  "latitude": 1.349854,
+  "longitude": 103.872932
+ },
+ {
+  "id": 836,
+  "name": "Ngee Ann Polytechnic",
+  "road": "Clementi Road",
+  "location": "w",
+  "latitude": 1.33295,
+  "longitude": 103.777519
+ },
+ {
+  "id": 423,
+  "name": "Noel Corporate Building",
+  "road": "Kallang Avenue",
+  "location": "e",
+  "latitude": 1.312641,
+  "longitude": 103.866615
+ },
+ {
+  "id": 352,
+  "name": "North Bridge Centre",
+  "road": "North Bridge Road",
+  "location": "s",
+  "latitude": 1.297095,
+  "longitude": 103.854935
+ },
+ {
+  "id": 5,
+  "name": "Northpoint City",
+  "road": "Yishun Avenue 2",
+  "location": "n",
+  "latitude": 1.429909,
+  "longitude": 103.835777
+ },
+ {
+  "id": 1138,
+  "name": "Northshore Plaza 1",
+  "road": "Northshore Drive",
+  "location": "n",
+  "latitude": 1.416971,
+  "longitude": 103.901779
+ },
+ {
+  "id": 6,
+  "name": "Novena Gardens",
+  "road": "Thomson Road",
+  "location": "s",
+  "latitude": 1.320495,
+  "longitude": 103.841904
+ },
+ {
+  "id": 8,
+  "name": "Novena Regency",
+  "road": "Thomson Road",
+  "location": "s",
+  "latitude": 1.320745,
+  "longitude": 103.841652
+ },
+ {
+  "id": 28,
+  "name": "Novotel Singapore Clarke Quay",
+  "road": "River Valley Road",
+  "location": "s",
+  "latitude": 1.291399,
+  "longitude": 103.844589
+ },
+ {
+  "id": 1008,
+  "name": "Novotel Singapore On Stevens",
+  "road": "Stevens Road",
+  "location": "s",
+  "latitude": 1.313275,
+  "longitude": 103.828949
+ },
+ {
+  "id": 926,
+  "name": "NTFGH - Ng Teng Fong General Hospital",
+  "road": "Jurong East Street",
+  "location": "w",
+  "latitude": 1.333852,
+  "longitude": 103.745567
+ },
+ {
+  "id": 1232,
+  "name": "NTU @ One-north",
+  "road": "Slim Barracks Rise",
+  "location": "s",
+  "latitude": 1.303594,
+  "longitude": 103.789787
+ },
+ {
+  "id": 723,
+  "name": "NTU Car Park (ADM)",
+  "road": "Nanyang Avenue",
+  "location": "w",
+  "latitude": 1.345524,
+  "longitude": 103.685318
+ },
+ {
+  "id": 722,
+  "name": "NTU Car Park (C, D, E, F, G, I, J, P, Q, R, S, Hall 7)",
+  "road": "Nanyang Avenue",
+  "location": "w",
+  "latitude": 1.345524,
+  "longitude": 103.685318
+ },
+ {
+  "id": 725,
+  "name": "NTU Car Park (Canteen 2)",
+  "road": "Nanyang Avenue",
+  "location": "w",
+  "latitude": 1.345524,
+  "longitude": 103.685318
+ },
+ {
+  "id": 726,
+  "name": "NTU Car Park (H3, H4, H6, H8, H16, GH, NEC, SRC)",
+  "road": "Nanyang Avenue",
+  "location": "w",
+  "latitude": 1.345524,
+  "longitude": 103.685318
+ },
+ {
+  "id": 727,
+  "name": "NTU Car Park (Nanyang Heights, Nanyang Meadow, Nanyang View)",
+  "road": "Nanyang Avenue",
+  "location": "w",
+  "latitude": 1.345524,
+  "longitude": 103.685318
+ },
+ {
+  "id": 724,
+  "name": "NTU Car Park (SPMS)",
+  "road": "Nanyang Avenue",
+  "location": "w",
+  "latitude": 1.345524,
+  "longitude": 103.685318
+ },
+ {
+  "id": 390,
+  "name": "NTU Car Park A (North Academic Complex)",
+  "road": "Nanyang Avenue",
+  "location": "w",
+  "latitude": 1.345524,
+  "longitude": 103.685318
+ },
+ {
+  "id": 391,
+  "name": "NTU Car Park B (South Academic Complex)",
+  "road": "Nanyang Avenue",
+  "location": "w",
+  "latitude": 1.345524,
+  "longitude": 103.685318
+ },
+ {
+  "id": 232,
+  "name": "NTU RTP Car Park (Research Techno Plaza)",
+  "road": "Nanyang Avenue",
+  "location": "w",
+  "latitude": 1.345524,
+  "longitude": 103.685318
+ },
+ {
+  "id": 435,
+  "name": "NTU SBS Car Park (School of Biological Sciences)",
+  "road": "Nanyang Avenue",
+  "location": "w",
+  "latitude": 1.345524,
+  "longitude": 103.685318
+ },
+ {
+  "id": 29,
+  "name": "NTUC Income Centre",
+  "road": "Bras Basah Road",
+  "location": "s",
+  "latitude": 1.296507,
+  "longitude": 103.851791
+ },
+ {
+  "id": 1031,
+  "name": "NTUC Income Tampines Junction",
+  "road": "Tampines Avenue 5",
+  "location": "e",
+  "latitude": 1.35222,
+  "longitude": 103.941895
+ },
+ {
+  "id": 30,
+  "name": "NTUC Income Tampines Point",
+  "road": "Tampines Central 6",
+  "location": "e",
+  "latitude": 1.352638,
+  "longitude": 103.942528
+ },
+ {
+  "id": 31,
+  "name": "NTUC Prinsep House",
+  "road": "Prinsep Street",
+  "location": "s",
+  "latitude": 1.299039,
+  "longitude": 103.849518
+ },
+ {
+  "id": 450,
+  "name": "NUS Bukit Timah Campus",
+  "road": "Bukit Timah Road",
+  "location": "w",
+  "latitude": 1.318397,
+  "longitude": 103.816772
+ },
+ {
+  "id": 625,
+  "name": "NUS Car Park 10 - Faculty of Science",
+  "road": "Lower Kent Ridge Road",
+  "location": "w",
+  "latitude": 1.297974,
+  "longitude": 103.780411
+ },
+ {
+  "id": 621,
+  "name": "NUS Car Park 10A - CRISPS",
+  "road": "Kent Ridge Road",
+  "location": "w",
+  "latitude": 1.292189,
+  "longitude": 103.783302
+ },
+ {
+  "id": 629,
+  "name": "NUS Car Park 10B - Prince George's Park Residences",
+  "road": "Prince George's Park",
+  "location": "w",
+  "latitude": 1.292889,
+  "longitude": 103.778496
+ },
+ {
+  "id": 630,
+  "name": "NUS Car Park 11 - In front of IMRE",
+  "road": "Research Link",
+  "location": "w",
+  "latitude": 1.293974,
+  "longitude": 103.775299
+ },
+ {
+  "id": 626,
+  "name": "NUS Car Park 12 - Hon Sui Sen Memorial Library",
+  "road": "Hon Sui Sen Drive",
+  "location": "w",
+  "latitude": 1.292574,
+  "longitude": 103.774605
+ },
+ {
+  "id": 631,
+  "name": "NUS Car Park 12A - Institute of Systems Science",
+  "road": "Heng Mui Keng Terrace",
+  "location": "w",
+  "latitude": 1.292174,
+  "longitude": 103.776604
+ },
+ {
+  "id": 1066,
+  "name": "NUS Car Park 12B - ICube",
+  "road": "Heng Mui Keng",
+  "location": "w",
+  "latitude": 1.292042,
+  "longitude": 103.775696
+ },
+ {
+  "id": 627,
+  "name": "NUS Car Park 15 - In front of Temask and Eusoff Halls",
+  "road": "Kent Ridge Drive",
+  "location": "w",
+  "latitude": 1.292974,
+  "longitude": 103.771606
+ },
+ {
+  "id": 628,
+  "name": "NUS Car Park 16 - Lecture Theatre 11",
+  "road": "Kent Ridge Drive",
+  "location": "w",
+  "latitude": 1.295274,
+  "longitude": 103.770607
+ },
+ {
+  "id": 1069,
+  "name": "NUS Car Park 2",
+  "road": "Engineering Drive",
+  "location": "w",
+  "latitude": 1.299916,
+  "longitude": 103.772469
+ },
+ {
+  "id": 33,
+  "name": "NUS Car Park 2A - In front of Block E3A",
+  "road": "Engineering Drive",
+  "location": "w",
+  "latitude": 1.30061,
+  "longitude": 103.771599
+ },
+ {
+  "id": 1068,
+  "name": "NUS Car Park 2B",
+  "road": "Engineering Drive",
+  "location": "w",
+  "latitude": 1.29975,
+  "longitude": 103.770111
+ },
+ {
+  "id": 449,
+  "name": "NUS Car Park 3 - Yong Siew Toh Conservatory of Music",
+  "road": "Estate Office Drive",
+  "location": "w",
+  "latitude": 1.3024,
+  "longitude": 103.7733
+ },
+ {
+  "id": 622,
+  "name": "NUS Car Park 4 - Raffles Hall / CFA Studios",
+  "road": "Kent Ridge Crescent",
+  "location": "w",
+  "latitude": 1.3002,
+  "longitude": 103.774109
+ },
+ {
+  "id": 623,
+  "name": "NUS Car Park 5 - Sports and Recreation Centre",
+  "road": "Sports Drive 2",
+  "location": "w",
+  "latitude": 1.300282,
+  "longitude": 103.774887
+ },
+ {
+  "id": 624,
+  "name": "NUS Car Park 6B - University Hall",
+  "road": "Lower Kent Ridge Road",
+  "location": "w",
+  "latitude": 1.297274,
+  "longitude": 103.777405
+ },
+ {
+  "id": 1067,
+  "name": "NUS Car Park Car Park 1 - In front of SDE",
+  "road": "Architecture Drive",
+  "location": "w",
+  "latitude": 1.297541,
+  "longitude": 103.770134
+ },
+ {
+  "id": 475,
+  "name": "NUS Museum (University Cultural Centre)",
+  "road": "Kent Ridge Crescent",
+  "location": "w",
+  "latitude": 1.297574,
+  "longitude": 103.773407
+ },
+ {
+  "id": 880,
+  "name": "Oasia Hotel Downtown, Singapore",
+  "road": "Peck Seah Street",
+  "location": "s",
+  "latitude": 1.275992,
+  "longitude": 103.84436
+ },
+ {
+  "id": 780,
+  "name": "Oasia Hotel Singapore",
+  "road": "Sinaran Drive",
+  "location": "s",
+  "latitude": 1.320137,
+  "longitude": 103.844742
+ },
+ {
+  "id": 1036,
+  "name": "Oasis Terraces",
+  "road": "Punggol Drive",
+  "location": "e",
+  "latitude": 1.402498,
+  "longitude": 103.913017
+ },
+ {
+  "id": 16,
+  "name": "OCBC Centre",
+  "road": "Chulia Street",
+  "location": "s",
+  "latitude": 1.285024,
+  "longitude": 103.849068
+ },
+ {
+  "id": 17,
+  "name": "OCBC Tampines Centre 2",
+  "road": "Tampines Avenue 4",
+  "location": "e",
+  "latitude": 1.352014,
+  "longitude": 103.942368
+ },
+ {
+  "id": 1099,
+  "name": "Ocean Financial Centre",
+  "road": "Collyer Quay",
+  "location": "s",
+  "latitude": 1.283305,
+  "longitude": 103.852013
+ },
+ {
+  "id": 18,
+  "name": "Odeon Katong Shopping Centre",
+  "road": "East Coast Road",
+  "location": "e",
+  "latitude": 1.304699,
+  "longitude": 103.901855
+ },
+ {
+  "id": 389,
+  "name": "Odeon Towers",
+  "road": "North Bridge Road",
+  "location": "s",
+  "latitude": 1.296037,
+  "longitude": 103.853119
+ },
+ {
+  "id": 608,
+  "name": "OG Albert",
+  "road": "Albert Street",
+  "location": "s",
+  "latitude": 1.302221,
+  "longitude": 103.853851
+ },
+ {
+  "id": 822,
+  "name": "OG People's Park",
+  "road": "Upper Cross Street",
+  "location": "s",
+  "latitude": 1.28411,
+  "longitude": 103.842842
+ },
+ {
+  "id": 1190,
+  "name": "One Dusun Residences",
+  "road": "Jalan Dusun",
+  "location": "s",
+  "latitude": 1.32705,
+  "longitude": 103.843697
+ },
+ {
+  "id": 849,
+  "name": "One Farrer Hotel & Spa",
+  "road": null,
+  "location": "n",
+  "latitude": 1.312805,
+  "longitude": 103.854301
+ },
+ {
+  "id": 382,
+  "name": "One Fullerton - The Fullerton Heritage",
+  "road": "Fullerton Road",
+  "location": "s",
+  "latitude": 1.285811,
+  "longitude": 103.854019
+ },
+ {
+  "id": 632,
+  "name": "One George Street",
+  "road": "George Street",
+  "location": "s",
+  "latitude": 1.285888,
+  "longitude": 103.847519
+ },
+ {
+  "id": 1189,
+  "name": "One Holland Village",
+  "road": "Holland Village Way",
+  "location": "w",
+  "latitude": 1.311103,
+  "longitude": 103.794907
+ },
+ {
+  "id": 685,
+  "name": "One Marina Boulevard",
+  "road": "Marina Boulevard",
+  "location": "s",
+  "latitude": 1.2826,
+  "longitude": 103.852592
+ },
+ {
+  "id": 1107,
+  "name": "One Pemimpin",
+  "road": "Pemimpin Drive",
+  "location": "e",
+  "latitude": 1.351896,
+  "longitude": 103.842979
+ },
+ {
+  "id": 1170,
+  "name": "One Punggol",
+  "road": "Punggol Drive",
+  "location": "n",
+  "latitude": 1.408628,
+  "longitude": 103.905327
+ },
+ {
+  "id": 37,
+  "name": "One Raffles Place",
+  "road": "Raffles Place",
+  "location": "s",
+  "latitude": 1.284328,
+  "longitude": 103.851028
+ },
+ {
+  "id": 741,
+  "name": "One Raffles Quay",
+  "road": "Raffles Quay",
+  "location": "s",
+  "latitude": 1.28175,
+  "longitude": 103.851936
+ },
+ {
+  "id": 990,
+  "name": "One Shenton",
+  "road": "Shenton Way",
+  "location": "s",
+  "latitude": 1.27932,
+  "longitude": 103.850456
+ },
+ {
+  "id": 906,
+  "name": "One15 Marina Club",
+  "road": "Cove Drive",
+  "location": "s",
+  "latitude": 1.245908,
+  "longitude": 103.839714
+ },
+ {
+  "id": 1229,
+  "name": "Onze @ Tanjong Pagar",
+  "road": "Kee Seng Street",
+  "location": "s",
+  "latitude": 1.274898,
+  "longitude": 103.842125
+ },
+ {
+  "id": 786,
+  "name": "OrangeTee Building",
+  "road": "Lorong 6 Toa Payoh",
+  "location": "n",
+  "latitude": 1.33142,
+  "longitude": 103.849365
+ },
+ {
+  "id": 191,
+  "name": "Orchard Building",
+  "road": "Grange Road",
+  "location": "s",
+  "latitude": 1.301399,
+  "longitude": 103.83744
+ },
+ {
+  "id": 686,
+  "name": "Orchard Central",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.300916,
+  "longitude": 103.839928
+ },
+ {
+  "id": 917,
+  "name": "Orchard Credit Building",
+  "road": "Chang Charn Road",
+  "location": "s",
+  "latitude": 1.288664,
+  "longitude": 103.812164
+ },
+ {
+  "id": 831,
+  "name": "Orchard Gateway",
+  "road": "Orchard Raod",
+  "location": "s",
+  "latitude": 1.30054,
+  "longitude": 103.839188
+ },
+ {
+  "id": 641,
+  "name": "Orchard Grand Court",
+  "road": "Killiney Road",
+  "location": "s",
+  "latitude": 1.297152,
+  "longitude": 103.838371
+ },
+ {
+  "id": 924,
+  "name": "Orchard Hotel Singapore",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.307561,
+  "longitude": 103.828339
+ },
+ {
+  "id": 24,
+  "name": "Orchard Plaza",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.301191,
+  "longitude": 103.841133
+ },
+ {
+  "id": 820,
+  "name": "Orchard Point",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.301245,
+  "longitude": 103.840431
+ },
+ {
+  "id": 23,
+  "name": "Orchard Rendezvous Hotel",
+  "road": "Tanglin Road",
+  "location": "s",
+  "latitude": 1.306599,
+  "longitude": 103.827461
+ },
+ {
+  "id": 25,
+  "name": "Orchard Towers",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.306932,
+  "longitude": 103.829208
+ },
+ {
+  "id": 598,
+  "name": "Orchid Country Club (OCC)",
+  "road": "Orchid Club Road",
+  "location": "n",
+  "latitude": 1.41153,
+  "longitude": 103.844032
+ },
+ {
+  "id": 915,
+  "name": "Orchid Hotel",
+  "road": "Tras Link",
+  "location": "s",
+  "latitude": 1.276881,
+  "longitude": 103.843803
+ },
+ {
+  "id": 26,
+  "name": "Oriental Plaza",
+  "road": "New Bridge Road",
+  "location": "s",
+  "latitude": 1.281841,
+  "longitude": 103.84201
+ },
+ {
+  "id": 1157,
+  "name": "Orion @ Paya Lebar",
+  "road": "Paya Lebar Road",
+  "location": "e",
+  "latitude": 1.329261,
+  "longitude": 103.890137
+ },
+ {
+  "id": 1198,
+  "name": "ORTO @ West Coast",
+  "road": "West Coast Highway",
+  "location": "",
+  "latitude": 1.283289,
+  "longitude": 103.78051
+ },
+ {
+  "id": 867,
+  "name": "OUE Bayfront",
+  "road": null,
+  "location": "s",
+  "latitude": 1.283082,
+  "longitude": 103.85302
+ },
+ {
+  "id": 140,
+  "name": "OUE Downtown 1",
+  "road": "Shenton Way",
+  "location": "s",
+  "latitude": 1.277238,
+  "longitude": 103.848289
+ },
+ {
+  "id": 141,
+  "name": "OUE Downtown 2",
+  "road": "Shenton Way",
+  "location": "s",
+  "latitude": 1.277865,
+  "longitude": 103.848961
+ },
+ {
+  "id": 899,
+  "name": "Our Tampines Hub",
+  "road": null,
+  "location": "e",
+  "latitude": 1.353,
+  "longitude": 103.940399
+ },
+ {
+  "id": 1089,
+  "name": "Outram Community Hospital (SingHealth Tower)",
+  "road": "Hospital Boulevard",
+  "location": "s",
+  "latitude": 1.2777,
+  "longitude": 103.835426
+ },
+ {
+  "id": 969,
+  "name": "Outram Road Off-Street",
+  "road": "Outram Road",
+  "location": "s",
+  "latitude": 1.284451,
+  "longitude": 103.835297
+ },
+ {
+  "id": 1188,
+  "name": "Oxley BizHub",
+  "road": "Ubi Road 1",
+  "location": "e",
+  "latitude": 1.33224,
+  "longitude": 103.890114
+ },
+ {
+  "id": 1187,
+  "name": "Oxley BizHub 2",
+  "road": "Ubi Road 1",
+  "location": "e",
+  "latitude": 1.332007,
+  "longitude": 103.891647
+ },
+ {
+  "id": 39,
+  "name": "Pacific Plaza",
+  "road": "Scotts Road",
+  "location": "s",
+  "latitude": 1.30648,
+  "longitude": 103.832153
+ },
+ {
+  "id": 40,
+  "name": "Palais Renaissance",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.306543,
+  "longitude": 103.829597
+ },
+ {
+  "id": 41,
+  "name": "Pan Pacific Hotel",
+  "road": "Raffles Boulevard",
+  "location": "s",
+  "latitude": 1.292357,
+  "longitude": 103.858398
+ },
+ {
+  "id": 959,
+  "name": "Pan Pacific Orchard",
+  "road": "Claymore Road",
+  "location": "s",
+  "latitude": 1.307355,
+  "longitude": 103.830025
+ },
+ {
+  "id": 879,
+  "name": "Pan Pacific Serviced Suites Orchard",
+  "road": "Somerset Rd",
+  "location": "s",
+  "latitude": 1.300981,
+  "longitude": 103.837975
+ },
+ {
+  "id": 461,
+  "name": "Pantech 21",
+  "road": "Pandan Loop",
+  "location": "w",
+  "latitude": 1.311381,
+  "longitude": 103.751793
+ },
+ {
+  "id": 43,
+  "name": "Paragon",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.303831,
+  "longitude": 103.835861
+ },
+ {
+  "id": 986,
+  "name": "Park Hotel Farrer Park",
+  "road": "Farrer Park Station Road",
+  "location": "s",
+  "latitude": 1.312683,
+  "longitude": 103.836861
+ },
+ {
+  "id": 716,
+  "name": "Park Regis Singapore",
+  "road": "Merchant Road",
+  "location": "s",
+  "latitude": 1.28815,
+  "longitude": 103.844559
+ },
+ {
+  "id": 48,
+  "name": "Parklane Shopping Mall",
+  "road": "Selegie Road",
+  "location": "s",
+  "latitude": 1.300594,
+  "longitude": 103.849411
+ },
+ {
+  "id": 384,
+  "name": "Parkroyal @ Kitchener Road (4th Floor)",
+  "road": "Kitchener Road",
+  "location": "s",
+  "latitude": 1.310495,
+  "longitude": 103.855614
+ },
+ {
+  "id": 11,
+  "name": "Parkroyal Collection Marina Bay",
+  "road": "Raffles Boulevard",
+  "location": "s",
+  "latitude": 1.291633,
+  "longitude": 103.857147
+ },
+ {
+  "id": 872,
+  "name": "PARKROYAL COLLECTION Pickering",
+  "road": "Upper Pickering Street",
+  "location": "s",
+  "latitude": 1.28553,
+  "longitude": 103.846466
+ },
+ {
+  "id": 1151,
+  "name": "PARKROYAL on Beach Road (Hotel Driveway)",
+  "road": "Beach Road",
+  "location": "s",
+  "latitude": 1.300047,
+  "longitude": 103.86039
+ },
+ {
+  "id": 36,
+  "name": "PARKROYAL on Beach Road (MSCP)",
+  "road": "Beach Road",
+  "location": "s",
+  "latitude": 1.299853,
+  "longitude": 103.860825
+ },
+ {
+  "id": 49,
+  "name": "Parkview Square",
+  "road": "North Bridge Road",
+  "location": "s",
+  "latitude": 1.30007,
+  "longitude": 103.857674
+ },
+ {
+  "id": 144,
+  "name": "Parkway East Hospital",
+  "road": "Joo Chiat Place",
+  "location": "e",
+  "latitude": 1.315088,
+  "longitude": 103.909103
+ },
+ {
+  "id": 50,
+  "name": "Parkway Parade",
+  "road": "Marine Parade Road",
+  "location": "e",
+  "latitude": 1.300947,
+  "longitude": 103.904968
+ },
+ {
+  "id": 615,
+  "name": "ParkwayHealth Day Surgery and Medical Centre",
+  "road": "Balestier Road",
+  "location": "s",
+  "latitude": 1.324627,
+  "longitude": 103.850677
+ },
+ {
+  "id": 51,
+  "name": "Parliament House",
+  "road": "Parliament Place",
+  "location": "s",
+  "latitude": 1.288757,
+  "longitude": 103.850479
+ },
+ {
+  "id": 658,
+  "name": "Pasir Panjang Ferry Terminal",
+  "road": "55 Pasir Panjang Road",
+  "location": "s",
+  "latitude": 1.270107,
+  "longitude": 103.795937
+ },
+ {
+  "id": 1029,
+  "name": "Pasir Ris Central Hawker Center (Hipster Hawker Center)",
+  "road": "Pasir Ris Central",
+  "location": "e",
+  "latitude": 1.373425,
+  "longitude": 103.951401
+ },
+ {
+  "id": 1196,
+  "name": "Pasir Ris Mall",
+  "road": "Pasir Ris Central",
+  "location": "e",
+  "latitude": 1.372089,
+  "longitude": 103.949532
+ },
+ {
+  "id": 488,
+  "name": "Pasir Ris Park (Car Park A, C, D and F)",
+  "road": "Jalan Loyang Besar",
+  "location": "e",
+  "latitude": 1.37951,
+  "longitude": 103.959824
+ },
+ {
+  "id": 489,
+  "name": "Pasir Ris Park (Car Park B and E)",
+  "road": "Pasir Ris Close",
+  "location": "e",
+  "latitude": 1.376787,
+  "longitude": 103.956512
+ },
+ {
+  "id": 1058,
+  "name": "PAssion WaVe @ Marina Bay",
+  "road": "Rhu Cross",
+  "location": "s",
+  "latitude": 1.295187,
+  "longitude": 103.867668
+ },
+ {
+  "id": 1048,
+  "name": "Paya Lebar Quarter (PLQ 1)",
+  "road": "Paya Lebar Link",
+  "location": "e",
+  "latitude": 1.317866,
+  "longitude": 103.893883
+ },
+ {
+  "id": 1050,
+  "name": "Paya Lebar Quarter (PLQ 2)",
+  "road": "Paya Lebar Link",
+  "location": "e",
+  "latitude": 1.317486,
+  "longitude": 103.894081
+ },
+ {
+  "id": 1049,
+  "name": "Paya Lebar Quarter (PLQ 3)",
+  "road": "Tanjong Katong Road",
+  "location": "e",
+  "latitude": 1.315946,
+  "longitude": 103.893593
+ },
+ {
+  "id": 1047,
+  "name": "Paya Lebar Quarter (PLQ Mall)",
+  "road": "Paya Lebar Road",
+  "location": "e",
+  "latitude": 1.316277,
+  "longitude": 103.892746
+ },
+ {
+  "id": 861,
+  "name": "Paya Lebar Square",
+  "road": null,
+  "location": "e",
+  "latitude": 1.318894,
+  "longitude": 103.892448
+ },
+ {
+  "id": 53,
+  "name": "Peace Centre",
+  "road": "Sophia Road",
+  "location": "s",
+  "latitude": 1.301155,
+  "longitude": 103.849579
+ },
+ {
+  "id": 966,
+  "name": "Pearl Bank Off Street",
+  "road": null,
+  "location": "s",
+  "latitude": 1.282589,
+  "longitude": 103.84005
+ },
+ {
+  "id": 54,
+  "name": "Pearl's Centre",
+  "road": "Eu Tong Sen Street",
+  "location": "s",
+  "latitude": 1.281272,
+  "longitude": 103.840431
+ },
+ {
+  "id": 965,
+  "name": "Peck Seah Street Off Street",
+  "road": "Peck Seah Street",
+  "location": "s",
+  "latitude": 1.277676,
+  "longitude": 103.84507
+ },
+ {
+  "id": 797,
+  "name": "Penang Road",
+  "road": "Penang Road",
+  "location": "s",
+  "latitude": 1.29977,
+  "longitude": 103.842033
+ },
+ {
+  "id": 55,
+  "name": "Peninsula Excelsior Hotel",
+  "road": "Coleman Street",
+  "location": "s",
+  "latitude": 1.292106,
+  "longitude": 103.850067
+ },
+ {
+  "id": 14,
+  "name": "Peninsula Plaza",
+  "road": "North Bridge Road",
+  "location": "s",
+  "latitude": 1.292312,
+  "longitude": 103.850845
+ },
+ {
+  "id": 15,
+  "name": "People's Park Centre",
+  "road": "Upper Cross Street",
+  "location": "s",
+  "latitude": 1.285919,
+  "longitude": 103.844078
+ },
+ {
+  "id": 821,
+  "name": "People's Park Complex",
+  "road": "Park Road",
+  "location": "s",
+  "latitude": 1.28411,
+  "longitude": 103.842842
+ },
+ {
+  "id": 866,
+  "name": "Perennial Business City",
+  "road": "Venture Avenue",
+  "location": "w",
+  "latitude": 1.331998,
+  "longitude": 103.744667
+ },
+ {
+  "id": 426,
+  "name": "PIL Building",
+  "road": "Cecil Street",
+  "location": "s",
+  "latitude": 1.280449,
+  "longitude": 103.848495
+ },
+ {
+  "id": 1015,
+  "name": "Pioneer Road North Industrial Estate",
+  "road": "Pioneer Road North",
+  "location": "n",
+  "latitude": 1.325686,
+  "longitude": 103.695984
+ },
+ {
+  "id": 1011,
+  "name": "Pixel Building",
+  "road": "Central Exchange Green",
+  "location": "",
+  "latitude": 1.300959,
+  "longitude": 103.789658
+ },
+ {
+  "id": 35,
+  "name": "Plaza Singapura",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.300764,
+  "longitude": 103.845184
+ },
+ {
+  "id": 1144,
+  "name": "PLUS",
+  "road": "Cecil Street",
+  "location": "s",
+  "latitude": 1.28294,
+  "longitude": 103.850433
+ },
+ {
+  "id": 1141,
+  "name": "Precise Tree",
+  "road": "Kim Chuan Drive",
+  "location": "e",
+  "latitude": 1.340042,
+  "longitude": 103.891754
+ },
+ {
+  "id": 1114,
+  "name": "Premier @ Kaki Bukit",
+  "road": "Kaki Bukit Avenue 4",
+  "location": "e",
+  "latitude": 1.338242,
+  "longitude": 103.906082
+ },
+ {
+  "id": 989,
+  "name": "Primz Bizhub",
+  "road": "Woodlands Close",
+  "location": "n",
+  "latitude": 1.435145,
+  "longitude": 103.80484
+ },
+ {
+  "id": 762,
+  "name": "Prosper House",
+  "road": "Lorong 23 Geylang",
+  "location": "e",
+  "latitude": 1.31761,
+  "longitude": 103.880875
+ },
+ {
+  "id": 1214,
+  "name": "Prosper Industrial Building",
+  "road": "Lorong 21A Geylang",
+  "location": "e",
+  "latitude": 1.315855,
+  "longitude": 103.880623
+ },
+ {
+  "id": 979,
+  "name": "Proxima @ Gambas",
+  "road": "Gambas Crescent",
+  "location": "n",
+  "latitude": 1.441854,
+  "longitude": 103.818047
+ },
+ {
+  "id": 652,
+  "name": "Prudential Tower",
+  "road": "Cecil Street",
+  "location": "s",
+  "latitude": 1.282824,
+  "longitude": 103.849823
+ },
+ {
+  "id": 585,
+  "name": "PSB Academy Campus @ Delta",
+  "road": "Jalan Bukit Ho Swee",
+  "location": "s",
+  "latitude": 1.287536,
+  "longitude": 103.82666
+ },
+ {
+  "id": 1145,
+  "name": "Public carpark (Peranakan Museum)",
+  "road": "Armenian Street",
+  "location": "s",
+  "latitude": 1.293935,
+  "longitude": 103.848976
+ },
+ {
+  "id": 139,
+  "name": "Pullman Singapore Orchard",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.303044,
+  "longitude": 103.836136
+ },
+ {
+  "id": 702,
+  "name": "Punggol Plaza",
+  "road": "Punggol Field",
+  "location": "e",
+  "latitude": 1.394533,
+  "longitude": 103.913048
+ },
+ {
+  "id": 432,
+  "name": "Quality Hotel Singapore",
+  "road": "Balestier Road",
+  "location": "s",
+  "latitude": 1.320115,
+  "longitude": 103.852463
+ },
+ {
+  "id": 874,
+  "name": "Quayside Isle @ Sentosa Cove",
+  "road": "Ocean Way",
+  "location": "s",
+  "latitude": 1.247524,
+  "longitude": 103.842072
+ },
+ {
+  "id": 525,
+  "name": "Queenstown Stadium",
+  "road": "Stirling Road",
+  "location": "w",
+  "latitude": 1.295289,
+  "longitude": 103.802711
+ },
+ {
+  "id": 221,
+  "name": "Queensway Shopping Centre",
+  "road": "Queensway",
+  "location": "s",
+  "latitude": 1.287664,
+  "longitude": 103.803589
+ },
+ {
+  "id": 222,
+  "name": "Raffles City",
+  "road": "North Bridge Road",
+  "location": "s",
+  "latitude": 1.293894,
+  "longitude": 103.853226
+ },
+ {
+  "id": 600,
+  "name": "Raffles Country Club (RCC)",
+  "road": "Jalan Ahmad Ibrahim",
+  "location": "w",
+  "latitude": 1.334853,
+  "longitude": 103.652359
+ },
+ {
+  "id": 1209,
+  "name": "Raffles Holland V Mall",
+  "road": "Holland Avenue",
+  "location": "",
+  "latitude": 1.310609,
+  "longitude": 103.796188
+ },
+ {
+  "id": 223,
+  "name": "Raffles Hospital",
+  "road": "North Bridge Road",
+  "location": "s",
+  "latitude": 1.301064,
+  "longitude": 103.857201
+ },
+ {
+  "id": 224,
+  "name": "Raffles Hotel",
+  "road": "Beach Road",
+  "location": "s",
+  "latitude": 1.29554,
+  "longitude": 103.854103
+ },
+ {
+  "id": 225,
+  "name": "Raffles Quay",
+  "road": "Raffles Quay",
+  "location": "s",
+  "latitude": 1.28146,
+  "longitude": 103.851913
+ },
+ {
+  "id": 640,
+  "name": "Raffles Town Club",
+  "road": "Plymouth Avenue",
+  "location": "s",
+  "latitude": 1.321997,
+  "longitude": 103.824928
+ },
+ {
+  "id": 785,
+  "name": "Realty Centre",
+  "road": "Enggor Street",
+  "location": "s",
+  "latitude": 1.2739,
+  "longitude": 103.844162
+ },
+ {
+  "id": 441,
+  "name": "Red Dot Design Museum",
+  "road": "Marina Boulevard",
+  "location": "s",
+  "latitude": 1.280233,
+  "longitude": 103.856308
+ },
+ {
+  "id": 562,
+  "name": "Reflections at Bukit Chandu (RBC)",
+  "road": "Pepys Road",
+  "location": "w",
+  "latitude": 1.279671,
+  "longitude": 103.794128
+ },
+ {
+  "id": 227,
+  "name": "Regency House",
+  "road": "Penang Road",
+  "location": "s",
+  "latitude": 1.29922,
+  "longitude": 103.84243
+ },
+ {
+  "id": 228,
+  "name": "Regent Hotel (Basement Parking)",
+  "road": "Cuscaden Road",
+  "location": "s",
+  "latitude": 1.304581,
+  "longitude": 103.824867
+ },
+ {
+  "id": 894,
+  "name": "Regent Hotel (Cuscaden Parking)",
+  "road": "Cuscaden Road",
+  "location": "s",
+  "latitude": 1.304581,
+  "longitude": 103.824066
+ },
+ {
+  "id": 486,
+  "name": "Registry of Marriages (ROM)",
+  "road": "Canning Rise",
+  "location": "s",
+  "latitude": 1.294283,
+  "longitude": 103.847809
+ },
+ {
+  "id": 229,
+  "name": "RELC International Hotel",
+  "road": "Orange Grove Road",
+  "location": "s",
+  "latitude": 1.312864,
+  "longitude": 103.826073
+ },
+ {
+  "id": 768,
+  "name": "Ren Ci Community Hospital",
+  "road": "Irrawaddy Road",
+  "location": "s",
+  "latitude": 1.32277,
+  "longitude": 103.846252
+ },
+ {
+  "id": 230,
+  "name": "Ren Ci Long Term Care",
+  "road": "Buangkok View",
+  "location": "e",
+  "latitude": 1.381557,
+  "longitude": 103.886223
+ },
+ {
+  "id": 477,
+  "name": "Republic of Singapore Air Force Museum (RSAF Museum)",
+  "road": "Airport Road",
+  "location": "e",
+  "latitude": 1.346877,
+  "longitude": 103.898964
+ },
+ {
+  "id": 478,
+  "name": "Republic of Singapore Navy Museum",
+  "road": "Admiralty Road West",
+  "location": "n",
+  "latitude": 1.464331,
+  "longitude": 103.815041
+ },
+ {
+  "id": 231,
+  "name": "Republic Plaza",
+  "road": "Raffles Place",
+  "location": "s",
+  "latitude": 1.283324,
+  "longitude": 103.850662
+ },
+ {
+  "id": 642,
+  "name": "Republic Polytechnic",
+  "road": "Woodlands Ave 9",
+  "location": "n",
+  "latitude": 1.443046,
+  "longitude": 103.785423
+ },
+ {
+  "id": 1095,
+  "name": "Resorts World Sentosa (RWS)",
+  "road": "Sentosa Gateway",
+  "location": "s",
+  "latitude": 1.256021,
+  "longitude": 103.821037
+ },
+ {
+  "id": 396,
+  "name": "Revenue House (IRAS)",
+  "road": "Newton Road",
+  "location": "s",
+  "latitude": 1.319555,
+  "longitude": 103.842285
+ },
+ {
+  "id": 410,
+  "name": "Riverside Point",
+  "road": "Merchant Road",
+  "location": "s",
+  "latitude": 1.289249,
+  "longitude": 103.844238
+ },
+ {
+  "id": 401,
+  "name": "Rivervale Mall",
+  "road": "Rivervale Crescent",
+  "location": "e",
+  "latitude": 1.392133,
+  "longitude": 103.904442
+ },
+ {
+  "id": 672,
+  "name": "Robertson Quay Hotel",
+  "road": "Merbau Road",
+  "location": "s",
+  "latitude": 1.291196,
+  "longitude": 103.842033
+ },
+ {
+  "id": 235,
+  "name": "Robertson Walk",
+  "road": "Unity Street",
+  "location": "s",
+  "latitude": 1.292221,
+  "longitude": 103.841476
+ },
+ {
+  "id": 781,
+  "name": "Robinson 77",
+  "road": "Robinson Road",
+  "location": "s",
+  "latitude": 1.27756,
+  "longitude": 103.848351
+ },
+ {
+  "id": 928,
+  "name": "Robinson Point",
+  "road": "Robinson Road",
+  "location": "s",
+  "latitude": 1.279564,
+  "longitude": 103.849609
+ },
+ {
+  "id": 819,
+  "name": "Rochester Mall",
+  "road": "Rochester Drive",
+  "location": "s",
+  "latitude": 1.30528,
+  "longitude": 103.788391
+ },
+ {
+  "id": 417,
+  "name": "Rochor Centre",
+  "road": "Rochor Road",
+  "location": "s",
+  "latitude": 1.302014,
+  "longitude": 103.855072
+ },
+ {
+  "id": 237,
+  "name": "Roxy Square",
+  "road": "East Coast Road",
+  "location": "e",
+  "latitude": 1.303343,
+  "longitude": 103.904602
+ },
+ {
+  "id": 238,
+  "name": "Royal Hotel",
+  "road": "Newton Road",
+  "location": "s",
+  "latitude": 1.316768,
+  "longitude": 103.841743
+ },
+ {
+  "id": 239,
+  "name": "Royal Plaza on Scotts",
+  "road": "Scotts Road",
+  "location": "s",
+  "latitude": 1.307059,
+  "longitude": 103.832306
+ },
+ {
+  "id": 472,
+  "name": "Royal Selangor Pewter Museum",
+  "road": "Pandan Road",
+  "location": "w",
+  "latitude": 1.302131,
+  "longitude": 103.750206
+ },
+ {
+  "id": 988,
+  "name": "Royal Square @ Novena",
+  "road": "Irawaddy Road",
+  "location": "s",
+  "latitude": 1.320501,
+  "longitude": 103.842972
+ },
+ {
+  "id": 356,
+  "name": "Rutherford Building",
+  "road": "Science Park Drive",
+  "location": "w",
+  "latitude": 1.287923,
+  "longitude": 103.791435
+ },
+ {
+  "id": 1195,
+  "name": "SAFRA Choa Chu Kang",
+  "road": "",
+  "location": "w",
+  "latitude": 1.388441,
+  "longitude": 103.747192
+ },
+ {
+  "id": 681,
+  "name": "SAFRA Jurong",
+  "road": "Boon Lay Way",
+  "location": "w",
+  "latitude": 1.335927,
+  "longitude": 103.706261
+ },
+ {
+  "id": 413,
+  "name": "SAFRA Mount Faber",
+  "road": "Telok Blangah Way",
+  "location": "s",
+  "latitude": 1.277682,
+  "longitude": 103.817245
+ },
+ {
+  "id": 883,
+  "name": "SAFRA Punggol",
+  "road": "Sentul Crescent",
+  "location": "n",
+  "latitude": 1.410407,
+  "longitude": 103.90551
+ },
+ {
+  "id": 281,
+  "name": "SAFRA Tampines",
+  "road": "Tampines Street 92",
+  "location": "e",
+  "latitude": 1.344936,
+  "longitude": 103.941605
+ },
+ {
+  "id": 635,
+  "name": "SAFRA Toa Payoh",
+  "road": "Lorong 6 Toa Payoh",
+  "location": "n",
+  "latitude": 1.329944,
+  "longitude": 103.854942
+ },
+ {
+  "id": 381,
+  "name": "SAFRA Yishun",
+  "road": "Yishun Avenue 4",
+  "location": "n",
+  "latitude": 1.424154,
+  "longitude": 103.840904
+ },
+ {
+  "id": 508,
+  "name": "Saint Wilfrid Sports Complex / Saint Wilfred Field",
+  "road": "Saint Wilfred Road",
+  "location": "s",
+  "latitude": 1.325405,
+  "longitude": 103.861961
+ },
+ {
+  "id": 764,
+  "name": "SAKAE Building",
+  "road": "Tai Seng Street",
+  "location": "e",
+  "latitude": 1.334997,
+  "longitude": 103.889816
+ },
+ {
+  "id": 711,
+  "name": "Samsung Hub",
+  "road": "Church Street",
+  "location": "s",
+  "latitude": 1.283294,
+  "longitude": 103.849937
+ },
+ {
+  "id": 326,
+  "name": "Savoy Theatre",
+  "road": "Boon Lay Place",
+  "location": "w",
+  "latitude": 1.347367,
+  "longitude": 103.711952
+ },
+ {
+  "id": 869,
+  "name": "School of the Arts Singapore",
+  "road": "Zubir Said Drive",
+  "location": "s",
+  "latitude": 1.29962,
+  "longitude": 103.848679
+ },
+ {
+  "id": 1002,
+  "name": "Scotts Square",
+  "road": "Scotts Road",
+  "location": "s",
+  "latitude": 1.305934,
+  "longitude": 103.832787
+ },
+ {
+  "id": 361,
+  "name": "Sea Sports Centre",
+  "road": "Changi Coast Walk",
+  "location": "e",
+  "latitude": 1.316675,
+  "longitude": 103.977654
+ },
+ {
+  "id": 735,
+  "name": "Seah Im Carpark",
+  "road": "Seah Im Road ",
+  "location": "s",
+  "latitude": 1.267288,
+  "longitude": 103.818344
+ },
+ {
+  "id": 240,
+  "name": "Selegie Complex",
+  "road": "Selegie Road",
+  "location": "s",
+  "latitude": 1.302077,
+  "longitude": 103.849625
+ },
+ {
+  "id": 601,
+  "name": "Seletar Country Club",
+  "road": "Seletar Club Road",
+  "location": "n",
+  "latitude": 1.409577,
+  "longitude": 103.857903
+ },
+ {
+  "id": 663,
+  "name": "Sembawang Clubhouse",
+  "road": "Admiralty Road West",
+  "location": "n",
+  "latitude": 1.463631,
+  "longitude": 103.816734
+ },
+ {
+  "id": 602,
+  "name": "Sembawang Country Club",
+  "road": "Sembawang Road",
+  "location": "n",
+  "latitude": 1.417636,
+  "longitude": 103.814949
+ },
+ {
+  "id": 241,
+  "name": "Sembawang Shopping Centre",
+  "road": "Sembawang Road",
+  "location": "n",
+  "latitude": 1.441871,
+  "longitude": 103.824844
+ },
+ {
+  "id": 1180,
+  "name": "Sengkang Grand Mall",
+  "road": "Compassvale Bow",
+  "location": "n",
+  "latitude": 1.381832,
+  "longitude": 103.892731
+ },
+ {
+  "id": 690,
+  "name": "Senoko Fishery Port",
+  "road": "Attap Valley Road",
+  "location": "n",
+  "latitude": 1.463031,
+  "longitude": 103.792999
+ },
+ {
+  "id": 242,
+  "name": "Sentosa - Beach Station",
+  "road": "Beach View Road",
+  "location": "s",
+  "latitude": 1.25121,
+  "longitude": 103.817947
+ },
+ {
+  "id": 594,
+  "name": "Sentosa - Costa Sands Resort",
+  "road": "Imbiah Walk",
+  "location": "s",
+  "latitude": 1.255495,
+  "longitude": 103.814377
+ },
+ {
+  "id": 556,
+  "name": "Sentosa - Imbiah",
+  "road": "Imbiah Road",
+  "location": "s",
+  "latitude": 1.253362,
+  "longitude": 103.817513
+ },
+ {
+  "id": 558,
+  "name": "Sentosa - Palawan Beach",
+  "road": "Lighthouse Beach Walk",
+  "location": "s",
+  "latitude": 1.249841,
+  "longitude": 103.818993
+ },
+ {
+  "id": 560,
+  "name": "Sentosa - Tanjong Beach",
+  "road": "Tanjong Beach Walk",
+  "location": "s",
+  "latitude": 1.243269,
+  "longitude": 103.827209
+ },
+ {
+  "id": 682,
+  "name": "Sentosa Cove Village",
+  "road": "Clove Avenue",
+  "location": "s",
+  "latitude": 1.248199,
+  "longitude": 103.84034
+ },
+ {
+  "id": 603,
+  "name": "Sentosa Golf Club (SGC)",
+  "road": "Bukit Manis Road",
+  "location": "s",
+  "latitude": 1.243812,
+  "longitude": 103.829353
+ },
+ {
+  "id": 526,
+  "name": "Serangoon Stadium",
+  "road": "Yio Chu Kang Road",
+  "location": "n",
+  "latitude": 1.356471,
+  "longitude": 103.874985
+ },
+ {
+  "id": 330,
+  "name": "Serene Centre",
+  "road": "Jalan Serene",
+  "location": "w",
+  "latitude": 1.322484,
+  "longitude": 103.81369
+ },
+ {
+  "id": 243,
+  "name": "SGX Centre",
+  "road": "Shenton Way",
+  "location": "s",
+  "latitude": 1.279228,
+  "longitude": 103.849792
+ },
+ {
+  "id": 244,
+  "name": "Shangri-La Hotel",
+  "road": "Orange Grove Road",
+  "location": "s",
+  "latitude": 1.311164,
+  "longitude": 103.826782
+ },
+ {
+  "id": 245,
+  "name": "Shaw Centre",
+  "road": "Scotts Road",
+  "location": "s",
+  "latitude": 1.306082,
+  "longitude": 103.831902
+ },
+ {
+  "id": 246,
+  "name": "Shaw House",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.305748,
+  "longitude": 103.831635
+ },
+ {
+  "id": 247,
+  "name": "Shaw Plaza",
+  "road": "Balestier Road",
+  "location": "s",
+  "latitude": 1.324826,
+  "longitude": 103.851448
+ },
+ {
+  "id": 249,
+  "name": "Shenton House",
+  "road": "Shenton Way",
+  "location": "s",
+  "latitude": 1.278478,
+  "longitude": 103.850075
+ },
+ {
+  "id": 250,
+  "name": "Sheraton Towers Singapore",
+  "road": "Scotts Road",
+  "location": "s",
+  "latitude": 1.311851,
+  "longitude": 103.836487
+ },
+ {
+  "id": 804,
+  "name": "Shrewsbury Road",
+  "road": "Shrewsbury Road",
+  "location": "s",
+  "latitude": 1.31866,
+  "longitude": 103.850548
+ },
+ {
+  "id": 949,
+  "name": "Shriro House",
+  "road": "Chang Charn Road",
+  "location": "s",
+  "latitude": 1.288453,
+  "longitude": 103.811417
+ },
+ {
+  "id": 996,
+  "name": "Shun Li Industrial Park",
+  "road": "Kaki Bukit Avenue 1",
+  "location": "e",
+  "latitude": 1.336753,
+  "longitude": 103.911156
+ },
+ {
+  "id": 252,
+  "name": "Siglap Centre",
+  "road": "Siglap Road",
+  "location": "e",
+  "latitude": 1.312529,
+  "longitude": 103.923187
+ },
+ {
+  "id": 1113,
+  "name": "Siglap V",
+  "road": "First Sreet",
+  "location": "e",
+  "latitude": 1.313007,
+  "longitude": 103.923607
+ },
+ {
+  "id": 253,
+  "name": "Sim Lim Square",
+  "road": "Rochor Canal Road",
+  "location": "s",
+  "latitude": 1.302963,
+  "longitude": 103.85302
+ },
+ {
+  "id": 254,
+  "name": "Sim Lim Tower",
+  "road": "Jalan Besar",
+  "location": "s",
+  "latitude": 1.303741,
+  "longitude": 103.854668
+ },
+ {
+  "id": 946,
+  "name": "Sin Ming AutoCity",
+  "road": "Sin Ming Drive",
+  "location": "n",
+  "latitude": 1.359555,
+  "longitude": 103.838715
+ },
+ {
+  "id": 662,
+  "name": "Sin Ming Plaza",
+  "road": "Sin Ming Road",
+  "location": "n",
+  "latitude": 1.352551,
+  "longitude": 103.83625
+ },
+ {
+  "id": 112,
+  "name": "Singapore Art Museum",
+  "road": "Bras Basah Road",
+  "location": "s",
+  "latitude": 1.297294,
+  "longitude": 103.851006
+ },
+ {
+  "id": 414,
+  "name": "Singapore Botanic Gardens",
+  "road": "Cluny Road",
+  "location": "s",
+  "latitude": 1.314979,
+  "longitude": 103.816391
+ },
+ {
+  "id": 911,
+  "name": "Singapore Chinese Cultural Centre",
+  "road": "Straits Boulevard",
+  "location": "s",
+  "latitude": 1.275988,
+  "longitude": 103.849716
+ },
+ {
+  "id": 255,
+  "name": "Singapore Conference Hall",
+  "road": "Shenton Way",
+  "location": "s",
+  "latitude": 1.275909,
+  "longitude": 103.849556
+ },
+ {
+  "id": 439,
+  "name": "Singapore Discovery Centre (SDC)",
+  "road": "Upper Jurong Road",
+  "location": "w",
+  "latitude": 1.332728,
+  "longitude": 103.679024
+ },
+ {
+  "id": 256,
+  "name": "Singapore Expo",
+  "road": "Expo Drive",
+  "location": "e",
+  "latitude": 1.334307,
+  "longitude": 103.958641
+ },
+ {
+  "id": 530,
+  "name": "Singapore Flyer",
+  "road": "Raffles Avenue",
+  "location": "s",
+  "latitude": 1.290163,
+  "longitude": 103.862381
+ },
+ {
+  "id": 1165,
+  "name": "Singapore Funeral Parlour",
+  "road": "Tampines Link",
+  "location": "e",
+  "latitude": 1.36763,
+  "longitude": 103.929161
+ },
+ {
+  "id": 257,
+  "name": "Singapore General Hospital (SGH)",
+  "road": "Hospital Drive",
+  "location": "s",
+  "latitude": 1.279789,
+  "longitude": 103.835602
+ },
+ {
+  "id": 438,
+  "name": "Singapore Godown",
+  "road": "Tagore Lane",
+  "location": "n",
+  "latitude": 1.386174,
+  "longitude": 103.828781
+ },
+ {
+  "id": 251,
+  "name": "Singapore Institute of Architects (SIA)",
+  "road": "Neil Road",
+  "location": "s",
+  "latitude": 1.278885,
+  "longitude": 103.842323
+ },
+ {
+  "id": 835,
+  "name": "Singapore Institute of Management (SIM)",
+  "road": "Clementi Road",
+  "location": "w",
+  "latitude": 1.32881,
+  "longitude": 103.775848
+ },
+ {
+  "id": 783,
+  "name": "Singapore Islamic Hub",
+  "road": null,
+  "location": "n",
+  "latitude": 1.342569,
+  "longitude": 103.852188
+ },
+ {
+  "id": 784,
+  "name": "Singapore Land Tower",
+  "road": "Raffles Place",
+  "location": "s",
+  "latitude": 1.28479,
+  "longitude": 103.852013
+ },
+ {
+  "id": 58,
+  "name": "Singapore Marriott Hotel",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.304898,
+  "longitude": 103.832901
+ },
+ {
+  "id": 616,
+  "name": "Singapore National Eye Centre (SNEC Balestier Branch)",
+  "road": "Balestier Road",
+  "location": "s",
+  "latitude": 1.324527,
+  "longitude": 103.850578
+ },
+ {
+  "id": 614,
+  "name": "Singapore National Eye Centre (SNEC)",
+  "road": "Third Hospital Avenue",
+  "location": "s",
+  "latitude": 1.280973,
+  "longitude": 103.835991
+ },
+ {
+  "id": 443,
+  "name": "Singapore Pools Building",
+  "road": "Middle Road",
+  "location": "s",
+  "latitude": 1.301191,
+  "longitude": 103.851234
+ },
+ {
+  "id": 649,
+  "name": "Singapore Recreation Club",
+  "road": "Connaught Drive",
+  "location": "s",
+  "latitude": 1.292141,
+  "longitude": 103.853867
+ },
+ {
+  "id": 400,
+  "name": "Singapore Science Centre",
+  "road": "Science Centre Road",
+  "location": "w",
+  "latitude": 1.33441,
+  "longitude": 103.735497
+ },
+ {
+  "id": 261,
+  "name": "Singapore Shopping Centre",
+  "road": "Clemenceau Avenue",
+  "location": "s",
+  "latitude": 1.298117,
+  "longitude": 103.844101
+ },
+ {
+  "id": 673,
+  "name": "Singapore Sports Hub",
+  "road": "Stadium Walk",
+  "location": "e",
+  "latitude": 1.301275,
+  "longitude": 103.875046
+ },
+ {
+  "id": 752,
+  "name": "Singapore Swimming Club",
+  "road": "Tanjong Rhu Road",
+  "location": "e",
+  "latitude": 1.297,
+  "longitude": 103.881203
+ },
+ {
+  "id": 113,
+  "name": "Singapore Tourism Board (STB)",
+  "road": "Orchard Spring Lane",
+  "location": "s",
+  "latitude": 1.303605,
+  "longitude": 103.823997
+ },
+ {
+  "id": 634,
+  "name": "Singapore Turf Club (STC)",
+  "road": "Turf Club Avenue",
+  "location": "n",
+  "latitude": 1.422694,
+  "longitude": 103.762505
+ },
+ {
+  "id": 1006,
+  "name": "Singapore University of Technology and Design (SUTD)",
+  "road": "Somapah Road",
+  "location": "e",
+  "latitude": 1.341193,
+  "longitude": 103.96376
+ },
+ {
+  "id": 422,
+  "name": "Singapore Zoo / Singapore Night Safari",
+  "road": "Mandai Lake Road",
+  "location": "n",
+  "latitude": 1.40225,
+  "longitude": 103.789276
+ },
+ {
+  "id": 347,
+  "name": "Singapore-Johore Factory",
+  "road": "Kampong Bugis",
+  "location": "e",
+  "latitude": 1.307005,
+  "longitude": 103.866997
+ },
+ {
+  "id": 259,
+  "name": "SingPost Centre",
+  "road": "Eunos Road 8",
+  "location": "e",
+  "latitude": 1.318885,
+  "longitude": 103.894447
+ },
+ {
+  "id": 680,
+  "name": "Six Battery Road",
+  "road": "Battery Road",
+  "location": "s",
+  "latitude": 1.285392,
+  "longitude": 103.85144
+ },
+ {
+  "id": 1215,
+  "name": "SJ Campus",
+  "road": "Cleantech Loop",
+  "location": "w",
+  "latitude": 1.353324,
+  "longitude": 103.691483
+ },
+ {
+  "id": 1142,
+  "name": "SMU Administration Building",
+  "road": "Victoria Street",
+  "location": "s",
+  "latitude": 1.296561,
+  "longitude": 103.852127
+ },
+ {
+  "id": 466,
+  "name": "Snow City",
+  "road": "Jurong Town Hall Road",
+  "location": "w",
+  "latitude": 1.335025,
+  "longitude": 103.735146
+ },
+ {
+  "id": 905,
+  "name": "Sofitel Singapore Sentosa Resort & Spa Hotel",
+  "road": "Bukit Manis Road",
+  "location": "s",
+  "latitude": 1.245981,
+  "longitude": 103.827675
+ },
+ {
+  "id": 870,
+  "name": "South Beach Tower",
+  "road": "Beach Road",
+  "location": "s",
+  "latitude": 1.295428,
+  "longitude": 103.856804
+ },
+ {
+  "id": 407,
+  "name": "South Bridge Court",
+  "road": "Cross Street",
+  "location": "s",
+  "latitude": 1.284184,
+  "longitude": 103.846672
+ },
+ {
+  "id": 263,
+  "name": "South Point",
+  "road": "Cantonment Road",
+  "location": "s",
+  "latitude": 1.273514,
+  "longitude": 103.841202
+ },
+ {
+  "id": 978,
+  "name": "Space Kovan",
+  "road": "Yio Chu Kang Road",
+  "location": "e",
+  "latitude": 1.354592,
+  "longitude": 103.876923
+ },
+ {
+  "id": 993,
+  "name": "Space Tampines",
+  "road": "Tampines Industrial Crescent",
+  "location": "e",
+  "latitude": 1.37574,
+  "longitude": 103.929962
+ },
+ {
+  "id": 864,
+  "name": "Sports Hub@Punggol",
+  "road": "Tebing Lane",
+  "location": "e",
+  "latitude": 1.392446,
+  "longitude": 103.91671
+ },
+ {
+  "id": 264,
+  "name": "SPRING Singapore",
+  "road": "Bukit Merah Central",
+  "location": "w",
+  "latitude": 1.28384,
+  "longitude": 103.817368
+ },
+ {
+  "id": 265,
+  "name": "Springleaf Tower",
+  "road": "Anson Road",
+  "location": "s",
+  "latitude": 1.27525,
+  "longitude": 103.84623
+ },
+ {
+  "id": 440,
+  "name": "Square 2",
+  "road": "Sinaran Drive",
+  "location": "s",
+  "latitude": 1.320703,
+  "longitude": 103.843826
+ },
+ {
+  "id": 266,
+  "name": "St Andrew's Community Hospital",
+  "road": "Simei Street 3",
+  "location": "e",
+  "latitude": 1.341607,
+  "longitude": 103.94886
+ },
+ {
+  "id": 1205,
+  "name": "St Joseph's Church (Victoria Street)",
+  "road": "Victoria Street",
+  "location": "",
+  "latitude": 1.29842,
+  "longitude": 103.85305
+ },
+ {
+  "id": 267,
+  "name": "St Luke Hospital",
+  "road": "Bukit Batok Street 11",
+  "location": "w",
+  "latitude": 1.349872,
+  "longitude": 103.743004
+ },
+ {
+  "id": 655,
+  "name": "St Regis Singapore",
+  "road": "Tanglin Road",
+  "location": "s",
+  "latitude": 1.305903,
+  "longitude": 103.82608
+ },
+ {
+  "id": 434,
+  "name": "St. James Power Station",
+  "road": "Sentosa Gateway",
+  "location": "s",
+  "latitude": 1.265249,
+  "longitude": 103.824722
+ },
+ {
+  "id": 1160,
+  "name": "Stamford Court",
+  "road": "Stamford Road",
+  "location": "s",
+  "latitude": 1.294473,
+  "longitude": 103.850166
+ },
+ {
+  "id": 1019,
+  "name": "Standard Chartered @ Changi",
+  "road": "Changi Business Park Crescent",
+  "location": "e",
+  "latitude": 1.334879,
+  "longitude": 103.967545
+ },
+ {
+  "id": 1096,
+  "name": "Stars of Kovan",
+  "road": "Upper Serangoon Road",
+  "location": "e",
+  "latitude": 1.361394,
+  "longitude": 103.887077
+ },
+ {
+  "id": 639,
+  "name": "Strand Hotel",
+  "road": "Bencoolen Street",
+  "location": "s",
+  "latitude": 1.298659,
+  "longitude": 103.849876
+ },
+ {
+  "id": 897,
+  "name": "Studio M Hotel",
+  "road": "Nanson Road",
+  "location": "s",
+  "latitude": 1.290819,
+  "longitude": 103.839226
+ },
+ {
+  "id": 1128,
+  "name": "Suites @ Bukit Timah",
+  "road": "Jalan Jurong Kechil",
+  "location": "w",
+  "latitude": 1.340454,
+  "longitude": 103.77401
+ },
+ {
+  "id": 927,
+  "name": "Sultan Link",
+  "road": "Mohamed Sultan Road",
+  "location": "s",
+  "latitude": 1.29179,
+  "longitude": 103.840012
+ },
+ {
+  "id": 270,
+  "name": "Sultan Plaza",
+  "road": "Jalan Sultan",
+  "location": "s",
+  "latitude": 1.303071,
+  "longitude": 103.861969
+ },
+ {
+  "id": 271,
+  "name": "Sun Plaza",
+  "road": "Sembawang Drive",
+  "location": "n",
+  "latitude": 1.44839,
+  "longitude": 103.819481
+ },
+ {
+  "id": 491,
+  "name": "Sungei Buloh Wetland Reserve",
+  "road": "Neo Tiew Crescent",
+  "location": "w",
+  "latitude": 1.444656,
+  "longitude": 103.729958
+ },
+ {
+  "id": 272,
+  "name": "Sunshine Plaza",
+  "road": "Bencoolen Street",
+  "location": "s",
+  "latitude": 1.300341,
+  "longitude": 103.85099
+ },
+ {
+  "id": 273,
+  "name": "Suntec City Mall",
+  "road": "Temasek Boulevard",
+  "location": "s",
+  "latitude": 1.295276,
+  "longitude": 103.860008
+ },
+ {
+  "id": 951,
+  "name": "Suzue PSA Cold Storage",
+  "road": "Keppel Road",
+  "location": "s",
+  "latitude": 1.271765,
+  "longitude": 103.833199
+ },
+ {
+  "id": 274,
+  "name": "Swissotel Merchant Court Hotel",
+  "road": "Merchant Road",
+  "location": "s",
+  "latitude": 1.288243,
+  "longitude": 103.845863
+ },
+ {
+  "id": 275,
+  "name": "Swissotel The Stamford Hotel",
+  "road": "Stamford Road",
+  "location": "s",
+  "latitude": 1.293532,
+  "longitude": 103.853165
+ },
+ {
+  "id": 376,
+  "name": "Tagore 23 Warehouse",
+  "road": "Tagore Lane",
+  "location": "n",
+  "latitude": 1.385189,
+  "longitude": 103.828156
+ },
+ {
+  "id": 1218,
+  "name": "Tagore 8",
+  "road": "Tagore Industrial Avenue",
+  "location": "n",
+  "latitude": 1.384515,
+  "longitude": 103.827126
+ },
+ {
+  "id": 368,
+  "name": "Tagore Industrial Building",
+  "road": "Tagore Drive",
+  "location": "n",
+  "latitude": 1.386382,
+  "longitude": 103.82666
+ },
+ {
+  "id": 1109,
+  "name": "Tai Seng Centre",
+  "road": "Irving Road",
+  "location": "e",
+  "latitude": 1.335687,
+  "longitude": 103.886772
+ },
+ {
+  "id": 1222,
+  "name": "Tai Seng Exchange (TSX)",
+  "road": "Tai Seng Avenue",
+  "location": "e",
+  "latitude": 1.336214,
+  "longitude": 103.892159
+ },
+ {
+  "id": 1108,
+  "name": "Tai Seng Point",
+  "road": "Irving Place",
+  "location": "e",
+  "latitude": 1.336319,
+  "longitude": 103.887154
+ },
+ {
+  "id": 276,
+  "name": "Takashimaya, Ngee Ann City",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.302674,
+  "longitude": 103.834267
+ },
+ {
+  "id": 664,
+  "name": "Taman Jurong Shopping Centre",
+  "road": "Yung Sheng Road",
+  "location": "w",
+  "latitude": 1.33504,
+  "longitude": 103.720413
+ },
+ {
+  "id": 678,
+  "name": "Tampines 1",
+  "road": "Tampines Central 1",
+  "location": "e",
+  "latitude": 1.354169,
+  "longitude": 103.945358
+ },
+ {
+  "id": 1093,
+  "name": "Tampines Concourse",
+  "road": "Tampines Concourse",
+  "location": "e",
+  "latitude": 1.356189,
+  "longitude": 103.940666
+ },
+ {
+  "id": 278,
+  "name": "Tampines Mall",
+  "road": "Tampines Central 5",
+  "location": "e",
+  "latitude": 1.352665,
+  "longitude": 103.944756
+ },
+ {
+  "id": 279,
+  "name": "Tampines Mart",
+  "road": "Tampines Street 32",
+  "location": "e",
+  "latitude": 1.354049,
+  "longitude": 103.960602
+ },
+ {
+  "id": 656,
+  "name": "Tampines Plaza 1",
+  "road": "Tampines Central 1",
+  "location": "e",
+  "latitude": 1.352084,
+  "longitude": 103.942291
+ },
+ {
+  "id": 280,
+  "name": "Tampines Plaza 2",
+  "road": "Tampines Central 1",
+  "location": "e",
+  "latitude": 1.3531,
+  "longitude": 103.94268
+ },
+ {
+  "id": 518,
+  "name": "Tampines Stadium / Sports Hall / ClubFITT Gym",
+  "road": "Tampines Street 82",
+  "location": "e",
+  "latitude": 1.352756,
+  "longitude": 103.940094
+ },
+ {
+  "id": 761,
+  "name": "Tan Boon Liat Building",
+  "road": "Outram Road",
+  "location": "s",
+  "latitude": 1.287668,
+  "longitude": 103.834099
+ },
+ {
+  "id": 809,
+  "name": "Tan Chong Industrial Park",
+  "road": "Upper Bukit Timah Road",
+  "location": "w",
+  "latitude": 1.373494,
+  "longitude": 103.763924
+ },
+ {
+  "id": 282,
+  "name": "Tan Tock Seng Hospital (TTSH)",
+  "road": "Jalan Tan Tock Seng",
+  "location": "s",
+  "latitude": 1.320933,
+  "longitude": 103.845985
+ },
+ {
+  "id": 283,
+  "name": "Tanah Merah Ferry Terminal",
+  "road": "Tanah Merah Ferry Road",
+  "location": "e",
+  "latitude": 1.313985,
+  "longitude": 103.988594
+ },
+ {
+  "id": 286,
+  "name": "Tang Plaza",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.304898,
+  "longitude": 103.833099
+ },
+ {
+  "id": 284,
+  "name": "Tanglin Mall",
+  "road": "Tanglin Road",
+  "location": "s",
+  "latitude": 1.304835,
+  "longitude": 103.823761
+ },
+ {
+  "id": 1112,
+  "name": "Tanglin Place",
+  "road": "Tanglin Road",
+  "location": "s",
+  "latitude": 1.305173,
+  "longitude": 103.824974
+ },
+ {
+  "id": 1098,
+  "name": "Tanglin Post Office",
+  "road": "Tanglin Road",
+  "location": "s",
+  "latitude": 1.305586,
+  "longitude": 103.823082
+ },
+ {
+  "id": 597,
+  "name": "Tanglin Public Golf Course & Tennis Courts",
+  "road": "Minden Road",
+  "location": "s",
+  "latitude": 1.305458,
+  "longitude": 103.8153
+ },
+ {
+  "id": 285,
+  "name": "Tanglin Shopping Centre",
+  "road": "Tanglin Road",
+  "location": "s",
+  "latitude": 1.306299,
+  "longitude": 103.826958
+ },
+ {
+  "id": 287,
+  "name": "Tanjong Katong Complex",
+  "road": "Geylang Road",
+  "location": "e",
+  "latitude": 1.316327,
+  "longitude": 103.894341
+ },
+ {
+  "id": 288,
+  "name": "Tanjong Pagar Complex (Covered Carpark)",
+  "road": "Keppel Road",
+  "location": "s",
+  "latitude": 1.271968,
+  "longitude": 103.8424
+ },
+ {
+  "id": 1171,
+  "name": "Tanjong Pagar Complex (Open Carpark)",
+  "road": "Keppel Road",
+  "location": "s",
+  "latitude": 1.272018,
+  "longitude": 103.842987
+ },
+ {
+  "id": 582,
+  "name": "Tanjong Pagar Plaza",
+  "road": "Tanjong Pagar Plaza",
+  "location": "s",
+  "latitude": 1.275855,
+  "longitude": 103.842949
+ },
+ {
+  "id": 607,
+  "name": "Tanjong Pagar Railway Station",
+  "road": "Keppel Road",
+  "location": "s",
+  "latitude": 1.272736,
+  "longitude": 103.838875
+ },
+ {
+  "id": 964,
+  "name": "Tat Ann Building",
+  "road": "Jalan Pemimpin",
+  "location": "e",
+  "latitude": 1.348951,
+  "longitude": 103.842102
+ },
+ {
+  "id": 1076,
+  "name": "Techlink",
+  "road": "Kaki Bukit Road 3",
+  "location": "e",
+  "latitude": 1.335384,
+  "longitude": 103.905624
+ },
+ {
+  "id": 369,
+  "name": "Technolink Centre",
+  "road": "Chai Chee Road",
+  "location": "e",
+  "latitude": 1.325578,
+  "longitude": 103.922104
+ },
+ {
+  "id": 333,
+  "name": "Techplace 1",
+  "road": "Ang Mo Kio Avenue 10",
+  "location": "n",
+  "latitude": 1.359881,
+  "longitude": 103.856285
+ },
+ {
+  "id": 354,
+  "name": "Techpoint",
+  "road": "Ang Mo Kio Street 65",
+  "location": "n",
+  "latitude": 1.389257,
+  "longitude": 103.849258
+ },
+ {
+  "id": 363,
+  "name": "Techview",
+  "road": "Kaki Bukit View",
+  "location": "e",
+  "latitude": 1.336408,
+  "longitude": 103.909592
+ },
+ {
+  "id": 289,
+  "name": "Tekka Place",
+  "road": "Serangoon Road",
+  "location": "s",
+  "latitude": 1.305109,
+  "longitude": 103.851517
+ },
+ {
+  "id": 290,
+  "name": "TelePark",
+  "road": "Tampines Central 6",
+  "location": "e",
+  "latitude": 1.353497,
+  "longitude": 103.942062
+ },
+ {
+  "id": 358,
+  "name": "Teletech Park (Basement Car Park)",
+  "road": "Science Park Road",
+  "location": "s",
+  "latitude": 1.286796,
+  "longitude": 103.781731
+ },
+ {
+  "id": 703,
+  "name": "Temasek Club",
+  "road": "Rifle Range Road",
+  "location": "w",
+  "latitude": 1.347607,
+  "longitude": 103.781723
+ },
+ {
+  "id": 292,
+  "name": "Textile Centre",
+  "road": "Jalan Sultan",
+  "location": "s",
+  "latitude": 1.303876,
+  "longitude": 103.861488
+ },
+ {
+  "id": 293,
+  "name": "The Adelphi",
+  "road": "Coleman Street",
+  "location": "s",
+  "latitude": 1.291127,
+  "longitude": 103.851189
+ },
+ {
+  "id": 916,
+  "name": "The Alexcier",
+  "road": "Alexandra Road",
+  "location": "s",
+  "latitude": 1.291033,
+  "longitude": 103.81382
+ },
+ {
+  "id": 357,
+  "name": "The Alpha (Science Park II)",
+  "road": "Science Park Road",
+  "location": "w",
+  "latitude": 1.288911,
+  "longitude": 103.779755
+ },
+ {
+  "id": 359,
+  "name": "The Aquarius",
+  "road": "Science Park Road",
+  "location": "w",
+  "latitude": 1.289011,
+  "longitude": 103.781052
+ },
+ {
+  "id": 364,
+  "name": "The Aries",
+  "road": "Science Park Road",
+  "location": "w",
+  "latitude": 1.287411,
+  "longitude": 103.782997
+ },
+ {
+  "id": 412,
+  "name": "The Atrium @ Orchard",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.299437,
+  "longitude": 103.845619
+ },
+ {
+  "id": 565,
+  "name": "The Battle Box",
+  "road": "Canning Rise",
+  "location": "s",
+  "latitude": 1.295467,
+  "longitude": 103.847275
+ },
+ {
+  "id": 199,
+  "name": "The Bencoolen",
+  "road": "Bencoolen Street",
+  "location": "s",
+  "latitude": 1.301661,
+  "longitude": 103.853355
+ },
+ {
+  "id": 997,
+  "name": "The Brooks I",
+  "road": "Springside Walk",
+  "location": "n",
+  "latitude": 1.404697,
+  "longitude": 103.819427
+ },
+ {
+  "id": 998,
+  "name": "The Brooks II",
+  "road": "Springside Green",
+  "location": "n",
+  "latitude": 1.403969,
+  "longitude": 103.818932
+ },
+ {
+  "id": 336,
+  "name": "The Capricorn",
+  "road": "Science Park Road",
+  "location": "w",
+  "latitude": 1.289311,
+  "longitude": 103.778549
+ },
+ {
+  "id": 380,
+  "name": "The Cathay",
+  "road": "Handy Road",
+  "location": "s",
+  "latitude": 1.299663,
+  "longitude": 103.847694
+ },
+ {
+  "id": 190,
+  "name": "The Centrepoint",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.301616,
+  "longitude": 103.839729
+ },
+ {
+  "id": 98,
+  "name": "The Chevrons",
+  "road": "Boon Lay Way",
+  "location": "w",
+  "latitude": 1.330739,
+  "longitude": 103.748703
+ },
+ {
+  "id": 493,
+  "name": "The Church Of True Light",
+  "road": "Perak Road",
+  "location": "s",
+  "latitude": 1.305079,
+  "longitude": 103.853928
+ },
+ {
+  "id": 728,
+  "name": "The Clementi Mall",
+  "road": "Commonwealth Avenue West",
+  "location": "w",
+  "latitude": 1.315059,
+  "longitude": 103.764954
+ },
+ {
+  "id": 932,
+  "name": "The Clift",
+  "road": "Mccallum Street",
+  "location": "s",
+  "latitude": 1.279476,
+  "longitude": 103.847252
+ },
+ {
+  "id": 294,
+  "name": "The Concourse",
+  "road": "Beach Road",
+  "location": "s",
+  "latitude": 1.301064,
+  "longitude": 103.862343
+ },
+ {
+  "id": 754,
+  "name": "The Fleming",
+  "road": "Science Park Drive",
+  "location": "w",
+  "latitude": 1.29234,
+  "longitude": 103.786484
+ },
+ {
+  "id": 1007,
+  "name": "The Frontier Community Club",
+  "road": "Jurong West Central 3",
+  "location": "w",
+  "latitude": 1.340426,
+  "longitude": 103.704483
+ },
+ {
+  "id": 617,
+  "name": "The Galen, Singapore Science Park II",
+  "road": "Science Park Road",
+  "location": "w",
+  "latitude": 1.286489,
+  "longitude": 103.78389
+ },
+ {
+  "id": 166,
+  "name": "The Gateway @ 150 Beach Road",
+  "road": "Beach Road",
+  "location": "s",
+  "latitude": 1.298297,
+  "longitude": 103.858887
+ },
+ {
+  "id": 362,
+  "name": "The Gemini",
+  "road": "Science Park Road",
+  "location": "w",
+  "latitude": 1.288749,
+  "longitude": 103.783157
+ },
+ {
+  "id": 308,
+  "name": "The Grandstand",
+  "road": "Dunearn Road",
+  "location": "w",
+  "latitude": 1.338199,
+  "longitude": 103.793037
+ },
+ {
+  "id": 1150,
+  "name": "The Grassroots Club",
+  "road": "Ang Mo Kio Avenue 8",
+  "location": "n",
+  "latitude": 1.380752,
+  "longitude": 103.846397
+ },
+ {
+  "id": 298,
+  "name": "The Heeren",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.302949,
+  "longitude": 103.837303
+ },
+ {
+  "id": 962,
+  "name": "The Herencia",
+  "road": "Kim Yam Road",
+  "location": "s",
+  "latitude": 1.292751,
+  "longitude": 103.83918
+ },
+ {
+  "id": 713,
+  "name": "The Lawn @ Marina Bay",
+  "road": "Marina Boulevard",
+  "location": "s",
+  "latitude": 1.280348,
+  "longitude": 103.853424
+ },
+ {
+  "id": 1126,
+  "name": "The Luxe",
+  "road": "Handy Road",
+  "location": "s",
+  "latitude": 1.299535,
+  "longitude": 103.847153
+ },
+ {
+  "id": 1223,
+  "name": "The M Condo (Residential)",
+  "road": "Middle Road",
+  "location": "s",
+  "latitude": 1.29755,
+  "longitude": 103.855949
+ },
+ {
+  "id": 859,
+  "name": "The Metropolis",
+  "road": "North Buona Vista Drive",
+  "location": "w",
+  "latitude": 1.30635,
+  "longitude": 103.791161
+ },
+ {
+  "id": 687,
+  "name": "The Midtown",
+  "road": "Upper Serangoon Road",
+  "location": "e",
+  "latitude": 1.370801,
+  "longitude": 103.894661
+ },
+ {
+  "id": 1206,
+  "name": "The Mill",
+  "road": "Jalan Kilang",
+  "location": "",
+  "latitude": 1.285242,
+  "longitude": 103.809715
+ },
+ {
+  "id": 454,
+  "name": "The Mint Museum of Toys",
+  "road": "Seah Street",
+  "location": "s",
+  "latitude": 1.296154,
+  "longitude": 103.854591
+ },
+ {
+  "id": 471,
+  "name": "The National Museum of Singapore",
+  "road": "Stamford Road",
+  "location": "s",
+  "latitude": 1.296607,
+  "longitude": 103.848541
+ },
+ {
+  "id": 612,
+  "name": "The Necessary Stage",
+  "road": "Marine Parade Road",
+  "location": "e",
+  "latitude": 1.304862,
+  "longitude": 103.909775
+ },
+ {
+  "id": 838,
+  "name": "The Octagon",
+  "road": "Cecil Street",
+  "location": "s",
+  "latitude": 1.28059,
+  "longitude": 103.848991
+ },
+ {
+  "id": 1012,
+  "name": "The Oval @ Seletar Aerospace Park",
+  "road": "Park Lane",
+  "location": "n",
+  "latitude": 1.408738,
+  "longitude": 103.868073
+ },
+ {
+  "id": 1060,
+  "name": "The Pier at Robertson",
+  "road": "Mohamed Sultan Road",
+  "location": "s",
+  "latitude": 1.291824,
+  "longitude": 103.840691
+ },
+ {
+  "id": 839,
+  "name": "The Pinnacle @ Duxton",
+  "road": "Cantonment Road",
+  "location": "s",
+  "latitude": 1.27755,
+  "longitude": 103.841278
+ },
+ {
+  "id": 299,
+  "name": "The Plaza",
+  "road": "Beach Road",
+  "location": "s",
+  "latitude": 1.29988,
+  "longitude": 103.860924
+ },
+ {
+  "id": 945,
+  "name": "The Punggol Settlement",
+  "road": "Punggol Point Road",
+  "location": "e",
+  "latitude": 1.420815,
+  "longitude": 103.912308
+ },
+ {
+  "id": 1119,
+  "name": "The Quayside",
+  "road": "Robertson Quay",
+  "location": "s",
+  "latitude": 1.29025,
+  "longitude": 103.83905
+ },
+ {
+  "id": 1125,
+  "name": "The Rail Mall",
+  "road": "Upper Bukit Timah Road",
+  "location": "",
+  "latitude": 1.359869,
+  "longitude": 103.767532
+ },
+ {
+  "id": 233,
+  "name": "The Ritz Carlton, Millenia Singapore",
+  "road": "Raffles Avenue",
+  "location": "s",
+  "latitude": 1.290621,
+  "longitude": 103.860214
+ },
+ {
+  "id": 300,
+  "name": "The Riverwalk",
+  "road": "Upper Circular Road",
+  "location": "s",
+  "latitude": 1.288704,
+  "longitude": 103.84864
+ },
+ {
+  "id": 742,
+  "name": "The Sail @ Marina Bay",
+  "road": "Marina Boulevard",
+  "location": "s",
+  "latitude": 1.28105,
+  "longitude": 103.852646
+ },
+ {
+  "id": 669,
+  "name": "The Scarlet Hotel",
+  "road": "Erskine Road",
+  "location": "s",
+  "latitude": 1.280768,
+  "longitude": 103.84549
+ },
+ {
+  "id": 851,
+  "name": "The Seletar Mall",
+  "road": "Sengkang West Avenue",
+  "location": "e",
+  "latitude": 1.391506,
+  "longitude": 103.876091
+ },
+ {
+  "id": 445,
+  "name": "The Signature (Changi Business Park)",
+  "road": "Changi Business Park Central 2",
+  "location": "e",
+  "latitude": 1.334736,
+  "longitude": 103.964951
+ },
+ {
+  "id": 480,
+  "name": "The Singapore Mint",
+  "road": "Teban Gardens Crescent",
+  "location": "w",
+  "latitude": 1.325504,
+  "longitude": 103.739685
+ },
+ {
+  "id": 955,
+  "name": "The Sports Stage",
+  "road": "Pandan Gardens",
+  "location": "w",
+  "latitude": 1.32114,
+  "longitude": 103.746834
+ },
+ {
+  "id": 792,
+  "name": "The Star Vista",
+  "road": "Vista Exchange Green",
+  "location": "w",
+  "latitude": 1.30695,
+  "longitude": 103.788391
+ },
+ {
+  "id": 446,
+  "name": "The Strategy (International Business Park)",
+  "road": "International Business Park",
+  "location": "w",
+  "latitude": 1.32984,
+  "longitude": 103.746803
+ },
+ {
+  "id": 447,
+  "name": "The Synergy (International Business Park)",
+  "road": "International Business Park",
+  "location": "w",
+  "latitude": 1.329003,
+  "longitude": 103.748764
+ },
+ {
+  "id": 314,
+  "name": "The URA Centre (Basement Car Park)",
+  "road": "Maxwell Road",
+  "location": "s",
+  "latitude": 1.279581,
+  "longitude": 103.845261
+ },
+ {
+  "id": 1131,
+  "name": "The URA Centre East Wing",
+  "road": "Maxwell Road",
+  "location": "s",
+  "latitude": 1.280146,
+  "longitude": 103.845566
+ },
+ {
+  "id": 977,
+  "name": "The Venue Residences and Shoppes",
+  "road": "Upper Serangoon Road",
+  "location": "e",
+  "latitude": 1.328554,
+  "longitude": 103.868874
+ },
+ {
+  "id": 701,
+  "name": "The Village Centre",
+  "road": "South Buona Vista",
+  "location": "s",
+  "latitude": 1.280204,
+  "longitude": 103.785477
+ },
+ {
+  "id": 907,
+  "name": "The Warehouse Hotel",
+  "road": "Havelock Road",
+  "location": "s",
+  "latitude": 1.289155,
+  "longitude": 103.837372
+ },
+ {
+  "id": 1216,
+  "name": "The Woodgrove",
+  "road": "Woodlands Avenue 1",
+  "location": "n",
+  "latitude": 1.429275,
+  "longitude": 103.781151
+ },
+ {
+  "id": 1184,
+  "name": "The Woodleigh Mall",
+  "road": "Bidadari Park Drive",
+  "location": "e",
+  "latitude": 1.338758,
+  "longitude": 103.871643
+ },
+ {
+  "id": 1172,
+  "name": "The Yards @ Joo Chiat",
+  "road": "Joo Chiat Place",
+  "location": "e",
+  "latitude": 1.315164,
+  "longitude": 103.911407
+ },
+ {
+  "id": 301,
+  "name": "Thomson Medical Centre",
+  "road": "Thomson Road",
+  "location": "s",
+  "latitude": 1.325332,
+  "longitude": 103.841446
+ },
+ {
+  "id": 302,
+  "name": "Thomson Plaza",
+  "road": "Upper Thomson Road",
+  "location": "n",
+  "latitude": 1.354664,
+  "longitude": 103.830963
+ },
+ {
+  "id": 1003,
+  "name": "Thong Chai Building",
+  "road": "Chin Swee Road",
+  "location": "s",
+  "latitude": 1.287602,
+  "longitude": 103.840172
+ },
+ {
+  "id": 739,
+  "name": "Thye Hong Centre",
+  "road": "Leng Kee Road ",
+  "location": "s",
+  "latitude": 1.291084,
+  "longitude": 103.814911
+ },
+ {
+  "id": 1202,
+  "name": "TimMac @ Kranji",
+  "road": "Kranji Loop",
+  "location": "",
+  "latitude": 1.43765,
+  "longitude": 103.755775
+ },
+ {
+  "id": 1028,
+  "name": "Tiong Bahru Market",
+  "road": "Seng Poh Road",
+  "location": "s",
+  "latitude": 1.284601,
+  "longitude": 103.832405
+ },
+ {
+  "id": 303,
+  "name": "Tiong Bahru Plaza",
+  "road": "Tiong Bahru Road",
+  "location": "w",
+  "latitude": 1.286471,
+  "longitude": 103.827103
+ },
+ {
+  "id": 519,
+  "name": "Toa Payoh Stadium / Sports Hall / ClubFITT Gym",
+  "road": "Lorong 6 Toa Payoh",
+  "location": "n",
+  "latitude": 1.330704,
+  "longitude": 103.851646
+ },
+ {
+  "id": 304,
+  "name": "Tong Eng Building",
+  "road": "Cecil Street",
+  "location": "s",
+  "latitude": 1.28091,
+  "longitude": 103.849403
+ },
+ {
+  "id": 375,
+  "name": "Tong Lee Building",
+  "road": "Kallang Pudding Road",
+  "location": "e",
+  "latitude": 1.330121,
+  "longitude": 103.878387
+ },
+ {
+  "id": 613,
+  "name": "Toy Factory Productions",
+  "road": "Smith Street",
+  "location": "s",
+  "latitude": 1.281096,
+  "longitude": 103.84404
+ },
+ {
+  "id": 661,
+  "name": "TradeHub 21",
+  "road": "Boon Lay Way",
+  "location": "w",
+  "latitude": 1.329815,
+  "longitude": 103.75222
+ },
+ {
+  "id": 1139,
+  "name": "Trio",
+  "road": "Sam Leong Road",
+  "location": "s",
+  "latitude": 1.309094,
+  "longitude": 103.856949
+ },
+ {
+  "id": 306,
+  "name": "Tristar Complex (Inn S'pore)",
+  "road": "Geylang Road",
+  "location": "e",
+  "latitude": 1.315612,
+  "longitude": 103.897568
+ },
+ {
+  "id": 963,
+  "name": "Trivex",
+  "road": "Burn Road",
+  "location": "e",
+  "latitude": 1.335813,
+  "longitude": 103.885536
+ },
+ {
+  "id": 956,
+  "name": "Tuas Vista",
+  "road": "Tuas South Avenue 2",
+  "location": "w",
+  "latitude": 1.319032,
+  "longitude": 103.629807
+ },
+ {
+  "id": 774,
+  "name": "Tung Ann Association Building",
+  "road": "Cecil Street",
+  "location": "s",
+  "latitude": 1.279301,
+  "longitude": 103.84845
+ },
+ {
+  "id": 755,
+  "name": "TUV SUD PSB",
+  "road": "Science Park Drive",
+  "location": "w",
+  "latitude": 1.323272,
+  "longitude": 103.751038
+ },
+ {
+  "id": 982,
+  "name": "Twenty Anson",
+  "road": "Anson Road",
+  "location": "s",
+  "latitude": 1.27533,
+  "longitude": 103.845619
+ },
+ {
+  "id": 1130,
+  "name": "Tye Soon Building",
+  "road": "Toh Guan Road East",
+  "location": "w",
+  "latitude": 1.339223,
+  "longitude": 103.749229
+ },
+ {
+  "id": 896,
+  "name": "UB. One",
+  "road": "Ubi Ave 4",
+  "location": "e",
+  "latitude": 1.333461,
+  "longitude": 103.891403
+ },
+ {
+  "id": 1227,
+  "name": "Ubi 55",
+  "road": null,
+  "location": "e",
+  "latitude": 1.32502,
+  "longitude": 103.895432
+ },
+ {
+  "id": 1154,
+  "name": "UBIX",
+  "road": "Ubi Road 4",
+  "location": "e",
+  "latitude": 1.330574,
+  "longitude": 103.8992
+ },
+ {
+  "id": 47,
+  "name": "UBS Singapore",
+  "road": "Penang Road",
+  "location": "s",
+  "latitude": 1.297809,
+  "longitude": 103.845169
+ },
+ {
+  "id": 1168,
+  "name": "UE BizHub West",
+  "road": "Alexandra Road",
+  "location": "s",
+  "latitude": 1.276489,
+  "longitude": 103.801811
+ },
+ {
+  "id": 387,
+  "name": "UE Square",
+  "road": "Clemenceau Avenue",
+  "location": "s",
+  "latitude": 1.29223,
+  "longitude": 103.842636
+ },
+ {
+  "id": 309,
+  "name": "UIC Building",
+  "road": "Shenton Way",
+  "location": "s",
+  "latitude": 1.277465,
+  "longitude": 103.849434
+ },
+ {
+  "id": 1207,
+  "name": "Union Food Industrial Centre",
+  "road": "9 Lorong 21A Geylang",
+  "location": "",
+  "latitude": 1.31525,
+  "longitude": 103.880295
+ },
+ {
+  "id": 310,
+  "name": "United House",
+  "road": "Kramat Lane",
+  "location": "s",
+  "latitude": 1.301046,
+  "longitude": 103.84243
+ },
+ {
+  "id": 311,
+  "name": "United Square Shopping Mall",
+  "road": "Thomson Road",
+  "location": "s",
+  "latitude": 1.317168,
+  "longitude": 103.843636
+ },
+ {
+  "id": 312,
+  "name": "UOB Plaza",
+  "road": "Raffles Place",
+  "location": "s",
+  "latitude": 1.285322,
+  "longitude": 103.850754
+ },
+ {
+  "id": 313,
+  "name": "UOL Building",
+  "road": "Somerset Road",
+  "location": "s",
+  "latitude": 1.300856,
+  "longitude": 103.837891
+ },
+ {
+  "id": 1042,
+  "name": "Up @ Robertson Quay",
+  "road": "Robertson Quay",
+  "location": "s",
+  "latitude": 1.291232,
+  "longitude": 103.837624
+ },
+ {
+  "id": 1105,
+  "name": "V Hotel Lavender",
+  "road": "Jellicoe Road",
+  "location": "s",
+  "latitude": 1.307774,
+  "longitude": 103.86235
+ },
+ {
+  "id": 315,
+  "name": "Valley Point",
+  "road": "River Valley Road",
+  "location": "w",
+  "latitude": 1.292854,
+  "longitude": 103.826439
+ },
+ {
+  "id": 929,
+  "name": "Vantage Automotive Centre",
+  "road": "Alexandra Road",
+  "location": "s",
+  "latitude": 1.289477,
+  "longitude": 103.807129
+ },
+ {
+  "id": 7,
+  "name": "Velocity @ Novena Square",
+  "road": "Thomson Road",
+  "location": "s",
+  "latitude": 1.319265,
+  "longitude": 103.844109
+ },
+ {
+  "id": 1077,
+  "name": "Vertex",
+  "road": "Ubi Ave 3",
+  "location": "e",
+  "latitude": 1.332958,
+  "longitude": 103.894333
+ },
+ {
+  "id": 1124,
+  "name": "Victoria Wholesale Centre",
+  "road": "Kallang Avenue",
+  "location": "s",
+  "latitude": 1.311424,
+  "longitude": 103.867371
+ },
+ {
+  "id": 860,
+  "name": "Victory 8",
+  "road": "Jalan Legundi",
+  "location": "n",
+  "latitude": 1.44159,
+  "longitude": 103.823692
+ },
+ {
+  "id": 1137,
+  "name": "VIIO @ Balestier",
+  "road": "Balestier Road",
+  "location": "s",
+  "latitude": 1.326734,
+  "longitude": 103.845894
+ },
+ {
+  "id": 937,
+  "name": "Village Residence Robertson Quay",
+  "road": "Robertson Quay",
+  "location": "s",
+  "latitude": 1.291291,
+  "longitude": 103.841324
+ },
+ {
+  "id": 1147,
+  "name": "Vision Exchange",
+  "road": "Venture Drive",
+  "location": "w",
+  "latitude": 1.330012,
+  "longitude": 103.744736
+ },
+ {
+  "id": 1163,
+  "name": "VisionCrest",
+  "road": "Oxley Rise",
+  "location": "s",
+  "latitude": 1.298978,
+  "longitude": 103.842621
+ },
+ {
+  "id": 427,
+  "name": "VivoCity",
+  "road": "HarbourFront Walk",
+  "location": "s",
+  "latitude": 1.264418,
+  "longitude": 103.822533
+ },
+ {
+  "id": 105,
+  "name": "voco Orchard Singapore",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.305768,
+  "longitude": 103.829544
+ },
+ {
+  "id": 875,
+  "name": "W Singapore Sentosa Cove",
+  "road": "Ocean Way",
+  "location": "s",
+  "latitude": 1.246194,
+  "longitude": 103.842484
+ },
+ {
+  "id": 878,
+  "name": "Waterway Point",
+  "road": "Punggol Central",
+  "location": "n",
+  "latitude": 1.406564,
+  "longitude": 103.901627
+ },
+ {
+  "id": 923,
+  "name": "Wave9",
+  "road": "Woodlands Industrial Park",
+  "location": "n",
+  "latitude": 1.448533,
+  "longitude": 103.797974
+ },
+ {
+  "id": 1146,
+  "name": "WCEGA Plaza & Tower",
+  "road": "Bukit Batok Crescent",
+  "location": "w",
+  "latitude": 1.337812,
+  "longitude": 103.759834
+ },
+ {
+  "id": 650,
+  "name": "West Coast Park (Carpark 1, 2 and 3)",
+  "road": "West Coast Park",
+  "location": "w",
+  "latitude": 1.316308,
+  "longitude": 103.755989
+ },
+ {
+  "id": 379,
+  "name": "West Coast Recreation Centre",
+  "road": "West Coast Walk",
+  "location": "w",
+  "latitude": 1.30969,
+  "longitude": 103.764061
+ },
+ {
+  "id": 317,
+  "name": "West Mall",
+  "road": "Bukit Batok Central Link",
+  "location": "w",
+  "latitude": 1.349808,
+  "longitude": 103.749184
+ },
+ {
+  "id": 1056,
+  "name": "West Park BizCentral",
+  "road": "Pioneer Crescent",
+  "location": "w",
+  "latitude": 1.312407,
+  "longitude": 103.694923
+ },
+ {
+  "id": 318,
+  "name": "West Point Family Hospital",
+  "road": "Corporation Drive",
+  "location": "w",
+  "latitude": 1.331001,
+  "longitude": 103.722923
+ },
+ {
+  "id": 828,
+  "name": "Westgate",
+  "road": "Gateway Drive",
+  "location": "w",
+  "latitude": 1.334257,
+  "longitude": 103.742805
+ },
+ {
+  "id": 370,
+  "name": "Westinton Building",
+  "road": "Ang Mo Kio Industrial Park 2",
+  "location": "n",
+  "latitude": 1.376952,
+  "longitude": 103.865845
+ },
+ {
+  "id": 676,
+  "name": "WestWay",
+  "road": "West Coast Highway",
+  "location": "s",
+  "latitude": 1.283219,
+  "longitude": 103.780899
+ },
+ {
+  "id": 319,
+  "name": "Wheelock Place",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.304563,
+  "longitude": 103.830574
+ },
+ {
+  "id": 320,
+  "name": "White Sands",
+  "road": "Pasir Ris Central Street 3",
+  "location": "e",
+  "latitude": 1.372404,
+  "longitude": 103.949654
+ },
+ {
+  "id": 675,
+  "name": "Whitley Road URA Car Park",
+  "road": "Whitley Road",
+  "location": "s",
+  "latitude": 1.327832,
+  "longitude": 103.840446
+ },
+ {
+  "id": 823,
+  "name": "Wilby Central",
+  "road": null,
+  "location": "s",
+  "latitude": 1.2981,
+  "longitude": 103.8526
+ },
+ {
+  "id": 692,
+  "name": "Wilkie Edge",
+  "road": "Wilkie Road",
+  "location": "s",
+  "latitude": 1.302992,
+  "longitude": 103.84919
+ },
+ {
+  "id": 393,
+  "name": "Winsland House 1",
+  "road": "Killiney Road",
+  "location": "s",
+  "latitude": 1.299491,
+  "longitude": 103.840202
+ },
+ {
+  "id": 394,
+  "name": "Winsland House 2",
+  "road": "Penang Road",
+  "location": "s",
+  "latitude": 1.299437,
+  "longitude": 103.841087
+ },
+ {
+  "id": 321,
+  "name": "Wisma Atria",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.303731,
+  "longitude": 103.833237
+ },
+ {
+  "id": 1224,
+  "name": "Wisma Geylang Serai",
+  "road": "Engku Aman Road",
+  "location": "e",
+  "latitude": 1.316577,
+  "longitude": 103.896568
+ },
+ {
+  "id": 984,
+  "name": "Wisteria Mall",
+  "road": "Yishun Ring Road",
+  "location": "n",
+  "latitude": 1.418208,
+  "longitude": 103.841019
+ },
+ {
+  "id": 1173,
+  "name": "Woodlands 11",
+  "road": "Woodlands Close",
+  "location": "n",
+  "latitude": 1.434659,
+  "longitude": 103.802773
+ },
+ {
+  "id": 322,
+  "name": "Woodlands Civic Centre",
+  "road": "South Woodlands Drive",
+  "location": "n",
+  "latitude": 1.435036,
+  "longitude": 103.787193
+ },
+ {
+  "id": 782,
+  "name": "Woodlands East Industrial Estate",
+  "road": "Woodlands Link",
+  "location": "n",
+  "latitude": 1.45348,
+  "longitude": 103.812126
+ },
+ {
+  "id": 770,
+  "name": "Woodlands Loop",
+  "road": "Woodlands Loop",
+  "location": "n",
+  "latitude": 1.44967,
+  "longitude": 103.805183
+ },
+ {
+  "id": 749,
+  "name": "Woodlands Mart",
+  "road": "Woodlands Avenue 6",
+  "location": "n",
+  "latitude": 1.445546,
+  "longitude": 103.798241
+ },
+ {
+  "id": 1211,
+  "name": "Woodlands North Coast",
+  "road": "North Coast Ave",
+  "location": "n",
+  "latitude": 1.446413,
+  "longitude": 103.790848
+ },
+ {
+  "id": 1009,
+  "name": "Woodlands Spectrum",
+  "road": "Woodlands Sector 1",
+  "location": "n",
+  "latitude": 1.453858,
+  "longitude": 103.806992
+ },
+ {
+  "id": 520,
+  "name": "Woodlands Stadium / Sports Hall / ClubFITT Gym",
+  "road": "Woodlands Street 12",
+  "location": "n",
+  "latitude": 1.434421,
+  "longitude": 103.780632
+ },
+ {
+  "id": 992,
+  "name": "Woodlands Waterfront Park",
+  "road": "Admiralty Road West",
+  "location": "n",
+  "latitude": 1.451484,
+  "longitude": 103.778221
+ },
+ {
+  "id": 1111,
+  "name": "Woods Square",
+  "road": "Woodlands Square",
+  "location": "n",
+  "latitude": 1.435235,
+  "longitude": 103.785889
+ },
+ {
+  "id": 970,
+  "name": "Yan Kit Road / Cantonment Road Off-Street",
+  "road": "Yan Kit Road",
+  "location": "s",
+  "latitude": 1.274359,
+  "longitude": 103.841415
+ },
+ {
+  "id": 1014,
+  "name": "Yew Tee Industrial Estate",
+  "road": "Woodlands Road",
+  "location": "n",
+  "latitude": 1.397004,
+  "longitude": 103.75425
+ },
+ {
+  "id": 815,
+  "name": "Yew Tee Point",
+  "road": "Choa Chu Kang North 6",
+  "location": "n",
+  "latitude": 1.39725,
+  "longitude": 103.746948
+ },
+ {
+  "id": 1117,
+  "name": "Yi Guang Factory Building",
+  "road": "Paya Lebar Road",
+  "location": "e",
+  "latitude": 1.330887,
+  "longitude": 103.889961
+ },
+ {
+  "id": 521,
+  "name": "Yio Chu Kang Stadium / Sports Hall / ClubFITT Gym",
+  "road": "Ang Mo Kio Avenue 9",
+  "location": "n",
+  "latitude": 1.386,
+  "longitude": 103.846001
+ },
+ {
+  "id": 323,
+  "name": "Yishun 10",
+  "road": "Yishun Central 1",
+  "location": "n",
+  "latitude": 1.430099,
+  "longitude": 103.836494
+ },
+ {
+  "id": 522,
+  "name": "Yishun Stadium / Sports Hall / ClubFITT Gym",
+  "road": "Yishun Avenue 1",
+  "location": "n",
+  "latitude": 1.412404,
+  "longitude": 103.832375
+ },
+ {
+  "id": 1143,
+  "name": "Yong Pung How School of Law (SMU)",
+  "road": "Armenian Street",
+  "location": "s",
+  "latitude": 1.294866,
+  "longitude": 103.848763
+ },
+ {
+  "id": 324,
+  "name": "York Hotel",
+  "road": "Mount Elizabeth",
+  "location": "s",
+  "latitude": 1.307086,
+  "longitude": 103.835426
+ },
+ {
+  "id": 938,
+  "name": "YOTEL Singapore",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.306434,
+  "longitude": 103.831261
+ },
+ {
+  "id": 418,
+  "name": "Young Men's Christian Association Of Singapore (YMCA)",
+  "road": "Orchard Road",
+  "location": "s",
+  "latitude": 1.297601,
+  "longitude": 103.848167
+ },
+ {
+  "id": 325,
+  "name": "Young Women Christian Association (YWCA) Fort Canning Lodge",
+  "road": "Fort Canning Road",
+  "location": "s",
+  "latitude": 1.29733,
+  "longitude": 103.844933
+ },
+ {
+  "id": 812,
+  "name": "YS-One",
+  "road": "Yishun Street 23",
+  "location": "n",
+  "latitude": 1.438931,
+  "longitude": 103.841125
+ },
+ {
+  "id": 912,
+  "name": "Zhongshan Mall",
+  "road": "Ah Hood Road",
+  "location": "s",
+  "latitude": 1.327308,
+  "longitude": 103.846352
+ },
+ {
+  "id": 504,
+  "name": "Zion Riverside Food Centre",
+  "road": "Zion Road",
+  "location": "s",
+  "latitude": 1.291172,
+  "longitude": 103.832291
+ },
+ {
+  "id": 595,
+  "name": "Zirca Mega Club",
+  "road": "River Valley Road",
+  "location": "s",
+  "latitude": 1.290431,
+  "longitude": 103.845879
+ }
+]

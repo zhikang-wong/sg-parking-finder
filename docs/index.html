@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SG Parking Finder</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>🅿️ SG Parking Finder</h1>
+  <div class="search-wrap">
+    <input id="search" type="text" placeholder="Where are you headed? (e.g. Orchard Road, VivoCity, 018956)"
+           autocomplete="off" spellcheck="false">
+    <button id="locate" title="Use my current location">📍</button>
+    <div id="suggestions" class="suggestions hidden"></div>
+  </div>
+  <div class="controls hidden" id="controls">
+    <div class="control-row">
+      <label>Sort by
+        <select id="sort">
+          <option value="walk">Shortest walk</option>
+          <option value="price">Lowest price (est. 2 hrs)</option>
+          <option value="avail">Most lots available</option>
+        </select>
+      </label>
+      <label>Within
+        <select id="radius">
+          <option value="500">500 m</option>
+          <option value="800" selected>800 m</option>
+          <option value="1200">1.2 km</option>
+          <option value="2000">2 km</option>
+        </select>
+      </label>
+    </div>
+    <div class="control-row">
+      <label class="chk"><input type="checkbox" id="sheltered"> Sheltered only</label>
+      <label class="chk"><input type="checkbox" id="hasLots"> Has lots now</label>
+      <span id="availStatus" class="avail-status"></span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div id="map"></div>
+  <div id="results">
+    <div id="placeholder" class="placeholder">
+      <p>Search for your destination to find the nearest, cheapest or most sheltered carparks —
+      with live HDB lot availability — then navigate there with Google&nbsp;Maps or Waze.</p>
+      <p class="hint">Covers 1,100+ mall / office / hotel carparks (rates from sgcarmart) and
+      1,900+ HDB carparks (LTA / data.gov.sg live availability).</p>
+    </div>
+    <div id="list"></div>
+  </div>
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
