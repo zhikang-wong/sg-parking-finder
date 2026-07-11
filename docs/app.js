@@ -2,6 +2,9 @@
 
 const ONEMAP_SEARCH = "https://www.onemap.gov.sg/api/common/elastic/search";
 const AVAIL_API = "https://api.data.gov.sg/v1/transport/carpark-availability";
+// LTA DataMall mall/URA lots, refreshed every 5 min by a GitHub Action
+const LTA_AVAIL_URL = "https://raw.githubusercontent.com/zhikang-wong/sg-parking-finder/availability/availability.json";
+const MATCH_RADIUS = 150; // m: max distance to pair an LTA record with a carpark
 const WALK_SPEED = 80;      // metres per minute
 const ROUTE_FACTOR = 1.25;  // straight-line -> street distance fudge
 const MAX_RESULTS = 40;
@@ -9,9 +12,11 @@ const MAX_RESULTS = 40;
 const state = {
   carparks: [],
   avail: {},          // hdb carpark_no -> {lots, total}
+  availById: {},      // carpark id -> {lots} (LTA/URA malls, proximity-matched)
   dest: null,         // {lat, lng, name}
   activeId: null,
 };
+const getAvail = (cp) => cp.hdbNo ? state.avail[cp.hdbNo] : state.availById[cp.id];
 
 const $ = (id) => document.getElementById(id);
 
@@ -64,6 +69,29 @@ async function loadAvailability() {
   } catch {
     el.textContent = "live availability unavailable";
   }
+}
+
+async function loadLtaAvailability() {
+  // Pair each LTA/URA record with the nearest commercial carpark within MATCH_RADIUS.
+  try {
+    const res = await fetch(LTA_AVAIL_URL, { cache: "no-store" });
+    if (!res.ok) return;
+    const data = await res.json();
+    const commercial = state.carparks.filter(cp => !cp.hdbNo);
+    const byId = {};
+    for (const r of data.carparks || []) {
+      let best = null, bestDist = MATCH_RADIUS;
+      for (const cp of commercial) {
+        const d = haversine(r.lat, r.lng, cp.lat, cp.lng);
+        if (d < bestDist) { best = cp; bestDist = d; }
+      }
+      if (best) {
+        const cur = byId[best.id];
+        byId[best.id] = { lots: (cur?.lots || 0) + r.lots }; // sum multi-zone developments
+      }
+    }
+    state.availById = byId;
+  } catch { /* mall availability is best-effort */ }
 }
 
 // ---------------------------------------------------------------- search
@@ -137,8 +165,7 @@ function candidates() {
   let rows = state.carparks
     .map(cp => {
       const dist = haversine(dest.lat, dest.lng, cp.lat, cp.lng);
-      const av = cp.hdbNo ? state.avail[cp.hdbNo] : undefined;
-      return { cp, dist, av };
+      return { cp, dist, av: getAvail(cp) };
     })
     .filter(r => r.dist <= radius)
     .filter(r => !shelteredOnly || r.cp.sheltered)
@@ -237,7 +264,9 @@ for (const id of ["sort", "radius", "sheltered", "hasLots"])
 
 (async function init() {
   await Promise.all([loadCarparks(), loadAvailability()]);
-  setInterval(loadAvailability, 60_000).unref?.();
+  await loadLtaAvailability(); // needs carparks loaded for proximity matching
+  setInterval(loadAvailability, 60_000);
+  setInterval(loadLtaAvailability, 120_000);
   // re-render on availability refresh if a destination is active
   setInterval(() => { if (state.dest) render(); }, 60_000);
 })();
