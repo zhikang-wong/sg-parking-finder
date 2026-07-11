@@ -4,28 +4,54 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>SG Parking Finder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
-  <h1>🅿️ SG Parking Finder</h1>
+  <div class="brand">
+    <span class="brand-mark">P</span>
+    <div>
+      <h1>SG Parking Finder</h1>
+      <p class="tagline">Nearest · cheapest · sheltered — with live lots</p>
+    </div>
+  </div>
+
   <div class="search-wrap">
-    <input id="search" type="text" placeholder="Where are you headed? (e.g. Orchard Road, VivoCity, 018956)"
-           autocomplete="off" spellcheck="false">
-    <button id="locate" title="Use my current location">📍</button>
+    <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <input id="search" type="text" placeholder="Where are you headed?"
+           autocomplete="off" spellcheck="false" aria-label="Destination">
+    <button id="locate" title="Use my current location" aria-label="Use my current location">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/><circle cx="12" cy="12" r="8"/></svg>
+    </button>
     <div id="suggestions" class="suggestions hidden"></div>
   </div>
+
   <div class="controls hidden" id="controls">
     <div class="control-row">
-      <label>Sort by
-        <select id="sort">
-          <option value="walk">Shortest walk</option>
-          <option value="price">Lowest price (est. 2 hrs)</option>
-          <option value="avail">Most lots available</option>
+      <label class="field">
+        <span>Arriving</span>
+        <input type="datetime-local" id="when">
+      </label>
+      <label class="field">
+        <span>Staying</span>
+        <select id="duration">
+          <option value="30">30 min</option>
+          <option value="60">1 hr</option>
+          <option value="90">1.5 hrs</option>
+          <option value="120" selected>2 hrs</option>
+          <option value="180">3 hrs</option>
+          <option value="240">4 hrs</option>
+          <option value="360">6 hrs</option>
+          <option value="480">8 hrs</option>
+          <option value="720">12 hrs</option>
         </select>
       </label>
-      <label>Within
+      <label class="field">
+        <span>Within</span>
         <select id="radius">
           <option value="500">500 m</option>
           <option value="800" selected>800 m</option>
@@ -35,8 +61,13 @@
       </label>
     </div>
     <div class="control-row">
-      <label class="chk"><input type="checkbox" id="sheltered"> Sheltered only</label>
-      <label class="chk"><input type="checkbox" id="hasLots"> Has lots now</label>
+      <div class="segmented" role="tablist" aria-label="Sort by">
+        <button data-sort="walk" class="on">🚶 Walk</button>
+        <button data-sort="price">💰 Price</button>
+        <button data-sort="avail">🚗 Lots</button>
+      </div>
+      <button class="chip" id="sheltered" aria-pressed="false">☂️ Sheltered</button>
+      <button class="chip" id="hasLots" aria-pressed="false">● Available now</button>
       <span id="availStatus" class="avail-status"></span>
     </div>
   </div>
@@ -46,10 +77,12 @@
   <div id="map"></div>
   <div id="results">
     <div id="placeholder" class="placeholder">
-      <p>Search for your destination to find the nearest, cheapest or most sheltered carparks —
-      with live HDB lot availability — then navigate there with Google&nbsp;Maps or Waze.</p>
-      <p class="hint">Covers 1,100+ mall / office / hotel carparks (rates from sgcarmart) and
-      1,900+ HDB carparks (LTA / data.gov.sg live availability).</p>
+      <div class="ph-icon">🅿️</div>
+      <h2>Find your parking spot</h2>
+      <p>Search a destination to compare nearby carparks by walking time,
+      estimated cost for your stay, shelter and live lot availability —
+      then navigate straight there.</p>
+      <p class="hint">3,100+ carparks · rates from sgcarmart &amp; HDB · live lots from LTA / data.gov.sg</p>
     </div>
     <div id="list"></div>
   </div>

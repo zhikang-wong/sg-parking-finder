@@ -14,6 +14,7 @@ const state = {
   avail: {},          // hdb carpark_no -> {lots, total}
   availById: {},      // carpark id -> {lots} (LTA/URA malls, proximity-matched)
   dest: null,         // {lat, lng, name}
+  sort: "walk",
   activeId: null,
 };
 const getAvail = (cp) => cp.hdbNo ? state.avail[cp.hdbNo] : state.availById[cp.id];
@@ -24,12 +25,11 @@ const $ = (id) => document.getElementById(id);
 const map = L.map("map", { zoomControl: true }).setView([1.3521, 103.8198], 12);
 L.tileLayer("https://www.onemap.gov.sg/maps/tiles/Default/{z}/{x}/{y}.png", {
   maxZoom: 19,
-  attribution: '<img src="https://www.onemap.gov.sg/web-assets/images/logo/om_logo.png" style="height:16px;vertical-align:middle"> ' +
-    '&copy; <a href="https://www.onemap.gov.sg/">OneMap</a> &copy; Singapore Land Authority',
+  attribution: '&copy; <a href="https://www.onemap.gov.sg/">OneMap</a> &copy; Singapore Land Authority',
 }).addTo(map);
 const markerLayer = L.layerGroup().addTo(map);
 let destMarker = null;
-new ResizeObserver(() => map.invalidateSize()).observe(document.getElementById("map"));
+new ResizeObserver(() => map.invalidateSize()).observe($("map"));
 
 // ---------------------------------------------------------------- utils
 function haversine(lat1, lng1, lat2, lng2) {
@@ -43,6 +43,60 @@ const walkMins = (m) => Math.max(1, Math.round(m * ROUTE_FACTOR / WALK_SPEED));
 const fmtDist = (m) => m < 1000 ? `${Math.round(m)} m` : `${(m / 1000).toFixed(1)} km`;
 const esc = (s) => (s || "").replace(/[&<>"']/g, c =>
   ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+function fmtDur(min) {
+  if (min < 60) return `${min} min`;
+  const h = min / 60;
+  return Number.isInteger(h) ? `${h} hr${h > 1 ? "s" : ""}` : `${h.toFixed(1)} hrs`;
+}
+
+// ---------------------------------------------------------------- cost engine
+// Mirrors scripts/rates.py. Segments: ["f",s,e,fp,fd,pp,pi] first-block rate,
+// ["p",s,e,pp,pi] per-interval, ["e",s,e,p] per-entry, ["z",s,e] free.
+function findSeg(segs, m) {
+  let best = null;
+  for (const seg of segs) {
+    const s = seg[1], e = seg[2];
+    if ((e > s && m >= s && m < e) || (e <= s && (m >= s || m < e))) return seg;
+    if (s <= m && (!best || s > best[1])) best = seg;
+  }
+  return best || segs[0];
+}
+
+function estimateCost(rates, when, durMin) {
+  if (!rates) return null;
+  let total = 0, rem = durMin, first = true, guard = 0;
+  let day = when.getDay();                       // 0 sun ... 6 sat
+  let m = when.getHours() * 60 + when.getMinutes();
+  while (rem > 0 && guard++ < 40) {
+    const segs = day === 0 ? rates.u : day === 6 ? rates.a : rates.w;
+    if (!segs || !segs.length) return null;
+    const mm = m % 1440;
+    const seg = findSeg(segs, mm);
+    const s = seg[1], e = seg[2];
+    let until;
+    if (e > s) until = (mm >= s && mm < e) ? e - mm : mm < s ? s - mm : 1440 - mm;
+    else until = mm >= s ? (1440 - mm) + e : mm < e ? e - mm : s - mm;
+    const visit = Math.min(rem, Math.max(1, until));
+    const kind = seg[0];
+    if (kind === "e") total += seg[3];
+    else if (kind === "p") total += Math.ceil(visit / seg[4]) * seg[3];
+    else if (kind === "f") {
+      const [, , , fp, fd, pp, pi] = seg;
+      if (first) {
+        total += fp;
+        if (visit > fd) total += Math.ceil((visit - fd) / pi) * pp;
+      } else {
+        total += Math.ceil(visit / pi) * pp;
+      }
+    }
+    first = false;
+    rem -= visit;
+    m += visit;
+    if (m >= 1440) { m -= 1440; day = (day + 1) % 7; }
+  }
+  return Math.round(total * 100) / 100;
+}
 
 // ---------------------------------------------------------------- data
 async function loadCarparks() {
@@ -104,6 +158,7 @@ $("search").addEventListener("input", (e) => {
 });
 document.addEventListener("click", (e) => {
   if (!e.target.closest(".search-wrap")) hideSuggestions();
+  if (!e.target.closest(".nav-menu")) closeNavMenus();
 });
 
 async function suggest(q) {
@@ -149,92 +204,135 @@ function setDestination(lat, lng, name) {
   $("placeholder").classList.add("hidden");
   if (destMarker) destMarker.remove();
   destMarker = L.marker([lat, lng], {
-    icon: L.divIcon({ className: "dest-pin", html: "🎯", iconSize: [26, 26], iconAnchor: [13, 13] }),
+    icon: L.divIcon({ className: "dest-pin", html: "📍", iconSize: [28, 28], iconAnchor: [14, 26] }),
     zIndexOffset: 1000,
   }).addTo(map).bindPopup(`<b>${esc(name)}</b>`);
   render();
 }
 
+function selectedWhen() {
+  const v = $("when").value;
+  const d = v ? new Date(v) : new Date();
+  return isNaN(d) ? new Date() : d;
+}
+
 function candidates() {
   const { dest } = state;
   const radius = +$("radius").value;
-  const shelteredOnly = $("sheltered").checked;
-  const mustHaveLots = $("hasLots").checked;
-  const sort = $("sort").value;
+  const shelteredOnly = $("sheltered").getAttribute("aria-pressed") === "true";
+  const mustHaveLots = $("hasLots").getAttribute("aria-pressed") === "true";
+  const when = selectedWhen();
+  const durMin = +$("duration").value;
 
   let rows = state.carparks
     .map(cp => {
       const dist = haversine(dest.lat, dest.lng, cp.lat, cp.lng);
-      return { cp, dist, av: getAvail(cp) };
+      if (dist > radius) return null;
+      return { cp, dist, av: getAvail(cp), cost: estimateCost(cp.rates, when, durMin) };
     })
-    .filter(r => r.dist <= radius)
+    .filter(Boolean)
     .filter(r => !shelteredOnly || r.cp.sheltered)
     .filter(r => !mustHaveLots || (r.av && r.av.lots > 0));
 
-  const price = (r) => r.cp.p2 ?? Infinity;
-  if (sort === "walk") rows.sort((a, b) => a.dist - b.dist);
-  else if (sort === "price") rows.sort((a, b) => price(a) - price(b) || a.dist - b.dist);
-  else if (sort === "avail") rows.sort((a, b) => (b.av?.lots ?? -1) - (a.av?.lots ?? -1) || a.dist - b.dist);
+  const price = (r) => r.cost ?? Infinity;
+  if (state.sort === "walk") rows.sort((a, b) => a.dist - b.dist);
+  else if (state.sort === "price") rows.sort((a, b) => price(a) - price(b) || a.dist - b.dist);
+  else if (state.sort === "avail") rows.sort((a, b) => (b.av?.lots ?? -1) - (a.av?.lots ?? -1) || a.dist - b.dist);
   return rows.slice(0, MAX_RESULTS);
 }
 
 function lotsBadge(av) {
   if (!av || isNaN(av.lots)) return "";
   const cls = av.lots === 0 ? "lots-none" : av.lots < 20 ? "lots-low" : "lots-ok";
-  return `<span class="badge ${cls}">🚗 ${av.lots} lots free</span>`;
+  return `<span class="badge ${cls}">🚗 ${av.lots} lots</span>`;
+}
+
+function priceBox(cost, durMin) {
+  if (cost == null) return `<div class="price na">—</div><div class="price-sub">see rate details</div>`;
+  const label = cost === 0 ? "Free" : `$${cost.toFixed(2)}`;
+  return `<div class="price">${label}</div><div class="price-sub">est · ${fmtDur(durMin)}</div>`;
+}
+
+function closeNavMenus() {
+  document.querySelectorAll(".nav-options").forEach(el => el.classList.add("hidden"));
 }
 
 function render() {
   if (!state.dest) return;
   const rows = candidates();
+  const durMin = +$("duration").value;
   const list = $("list");
-  list.innerHTML = `<div class="count">${rows.length} carpark${rows.length === 1 ? "" : "s"} within ${fmtDist(+$("radius").value)} of <b>${esc(state.dest.name)}</b></div>`;
+  list.innerHTML = `<div class="count"><b>${rows.length}</b> carpark${rows.length === 1 ? "" : "s"} within ${fmtDist(+$("radius").value)} of <b>${esc(state.dest.name)}</b></div>`;
   markerLayer.clearLayers();
 
   const bounds = [[state.dest.lat, state.dest.lng]];
   rows.forEach((r, i) => {
-    const { cp, dist, av } = r;
-    const priceBadge = cp.p2 != null
-      ? `<span class="badge price">~$${cp.p2.toFixed(2)} / 2 hrs</span>`
-      : `<span class="badge">rates: see below</span>`;
+    const { cp, dist, av, cost } = r;
     const card = document.createElement("div");
     card.className = "card";
     card.dataset.id = cp.id;
     card.innerHTML = `
-      <h3>${i + 1}. ${esc(cp.name)}</h3>
-      <p class="addr">${esc(cp.addr)}${cp.type ? " · " + esc(cp.type) : ""}</p>
+      <div class="card-top">
+        <span class="rank">${i + 1}</span>
+        <div class="card-main">
+          <h3>${esc(cp.name)}</h3>
+          <p class="addr">${esc(cp.addr)}${cp.type ? " · " + esc(cp.type) : ""}</p>
+        </div>
+        <div class="price-box">${priceBox(cost, durMin)}</div>
+      </div>
       <div class="badges">
-        <span class="badge walk">🚶 ${walkMins(dist)} min (${fmtDist(dist)})</span>
-        ${priceBadge}
+        <span class="badge walk">🚶 ${walkMins(dist)} min · ${fmtDist(dist)}</span>
         ${cp.sheltered ? '<span class="badge shelter">☂️ Sheltered</span>' : ""}
         ${lotsBadge(av)}
         ${cp.gantry ? `<span class="badge">↕ ${cp.gantry.toFixed(2)} m</span>` : ""}
       </div>
-      <p class="rates">
-        <b>Weekday:</b> ${esc(cp.rateWd) || "–"}
-        ${cp.rateSat ? `<br><b>Sat:</b> ${esc(cp.rateSat)}` : ""}
-        ${cp.rateSun ? `<br><b>Sun/PH:</b> ${esc(cp.rateSun)}` : ""}
-        ${cp.freeParking ? `<br><b>Free:</b> ${esc(cp.freeParking)}` : ""}
-        ${cp.nightParking ? "<br><b>Night parking:</b> Yes" : ""}
-        ${cp.remarks ? `<br>${esc(cp.remarks)}` : ""}
-      </p>
-      <div class="nav-btns">
-        <a class="gmaps" target="_blank" rel="noopener"
-           href="https://www.google.com/maps/dir/?api=1&destination=${cp.lat},${cp.lng}&travelmode=driving">Google Maps</a>
-        <a class="waze" target="_blank" rel="noopener"
-           href="https://www.waze.com/ul?ll=${cp.lat}%2C${cp.lng}&navigate=yes">Waze</a>
+      <details class="rates-details">
+        <summary>Rate details</summary>
+        <p class="rates">
+          <b>Weekday:</b> ${esc(cp.rateWd) || "–"}
+          ${cp.rateSat ? `<br><b>Sat:</b> ${esc(cp.rateSat)}` : ""}
+          ${cp.rateSun ? `<br><b>Sun/PH:</b> ${esc(cp.rateSun)}` : ""}
+          ${cp.freeParking ? `<br><b>Free:</b> ${esc(cp.freeParking)}` : ""}
+          ${cp.nightParking ? "<br><b>Night parking:</b> Yes" : ""}
+          ${cp.remarks ? `<br>${esc(cp.remarks)}` : ""}
+        </p>
+      </details>
+      <div class="card-actions">
+        <div class="nav-menu">
+          <div class="nav-options hidden">
+            <a href="https://www.google.com/maps/dir/?api=1&destination=${cp.lat},${cp.lng}&travelmode=driving"
+               target="_blank" rel="noopener"><span class="nav-ico g">G</span>Google Maps</a>
+            <a href="https://www.waze.com/ul?ll=${cp.lat}%2C${cp.lng}&navigate=yes"
+               target="_blank" rel="noopener"><span class="nav-ico w">W</span>Waze</a>
+          </div>
+          <button class="nav-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M12 2 19 21l-7-4-7 4L12 2z"/></svg>
+            Navigate
+          </button>
+        </div>
       </div>`;
+
+    card.querySelector(".nav-btn").addEventListener("click", (e) => {
+      e.stopPropagation();
+      const opts = card.querySelector(".nav-options");
+      const wasHidden = opts.classList.contains("hidden");
+      closeNavMenus();
+      if (wasHidden) opts.classList.remove("hidden");
+    });
     card.addEventListener("click", (e) => {
-      if (e.target.closest("a")) return;
+      if (e.target.closest("a, .nav-menu, details")) return;
       focusCarpark(cp.id, true);
     });
     list.appendChild(card);
 
-    const m = L.circleMarker([cp.lat, cp.lng], {
-      radius: 8, weight: 2, color: "#0b6e4f",
-      fillColor: av && av.lots === 0 ? "#b91c1c" : "#0b6e4f", fillOpacity: .75,
+    const full = av && av.lots === 0;
+    const m = L.marker([cp.lat, cp.lng], {
+      icon: L.divIcon({
+        className: `cp-pin${full ? " full" : ""}`,
+        html: `${i + 1}`, iconSize: [24, 24], iconAnchor: [12, 12],
+      }),
     }).addTo(markerLayer)
-      .bindTooltip(`${i + 1}. ${cp.name}`)
+      .bindTooltip(`${cp.name}${cost != null ? ` · $${cost.toFixed(2)}` : ""}`)
       .on("click", () => focusCarpark(cp.id, false));
     m._cpId = cp.id;
     bounds.push([cp.lat, cp.lng]);
@@ -259,10 +357,33 @@ function focusCarpark(id, fromCard) {
 }
 
 // ---------------------------------------------------------------- wiring
-for (const id of ["sort", "radius", "sheltered", "hasLots"])
+for (const id of ["when", "duration", "radius"])
   $(id).addEventListener("change", render);
 
+for (const btn of document.querySelectorAll(".segmented button"))
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".segmented button").forEach(b => b.classList.toggle("on", b === btn));
+    state.sort = btn.dataset.sort;
+    render();
+  });
+
+for (const id of ["sheltered", "hasLots"])
+  $(id).addEventListener("click", () => {
+    const el = $(id);
+    el.setAttribute("aria-pressed", el.getAttribute("aria-pressed") !== "true");
+    render();
+  });
+
+function initWhen() {
+  // default: now, rounded up to the next 5 minutes, in local time
+  const d = new Date(Date.now() + 4 * 60000);
+  d.setMinutes(d.getMinutes() + (5 - d.getMinutes() % 5) % 5, 0, 0);
+  const pad = (n) => String(n).padStart(2, "0");
+  $("when").value = `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}`;
+}
+
 (async function init() {
+  initWhen();
   await Promise.all([loadCarparks(), loadAvailability()]);
   await loadLtaAvailability(); // needs carparks loaded for proximity matching
   setInterval(loadAvailability, 60_000);

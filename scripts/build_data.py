@@ -11,6 +11,8 @@ import math
 import os
 import re
 
+from rates import parse_carpark_rates
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 HDB_CSV = "/Users/ZhiKang/Desktop/CarParkAvailability/HDBCarparkInformation.csv"
 DETAILS = os.path.join(ROOT, "data", "sgcarmart_details.json")
@@ -188,10 +190,8 @@ def main():
         sat, sun = (d.get("sat") or "").strip(), (d.get("sun") or "").strip()
         if UNUSABLE.search(wd1) or UNUSABLE.search(d.get("remarks") or ""):
             continue
-        p1, p2 = parse_rate(wd1)
-        if p1 is None:
-            p1, p2 = parse_rate(wd2)
-        if p1 is not None:
+        rates = parse_carpark_rates(wd1, wd2, sat, sun)
+        if rates:
             n_rates += 1
         name = (d.get("name") or "").strip()
         out.append({
@@ -201,7 +201,7 @@ def main():
             "addr": (d.get("address") or "").strip(),
             "lat": d["latitude"], "lng": d["longitude"],
             "sheltered": not SURFACE_HINTS.search(name + " " + wd1),
-            "p1": p1, "p2": p2,
+            "rates": rates,
             "rateWd": wd1 + (" | " + wd2 if wd2 and wd2 not in ("-", wd1) else ""),
             "rateSat": sat if sat not in ("-", "") else None,
             "rateSun": sun if sun not in ("-", "") else None,
@@ -223,6 +223,13 @@ def main():
             rate_txt = (f"${half_hr:.2f} per 30 min"
                         + (" (7am-5pm, central area)" if central else "")
                         + f"; short-term parking: {short.title()}")
+            base = ["p", 0, 1440, 0.60, 30]
+            wd_segs = ([["p", 0, 420, 0.60, 30], ["p", 420, 1020, 1.20, 30],
+                        ["p", 1020, 1440, 0.60, 30]] if central else [base])
+            free_sun = row["free_parking"] != "NO"
+            sun_segs = ([["p", 0, 420, 0.60, 30], ["z", 420, 1350],
+                         ["p", 1350, 1440, 0.60, 30]] if free_sun else [base])
+            rates = {"w": wd_segs, "a": [base], "u": sun_segs}
             out.append({
                 "id": f"hdb_{row['car_park_no']}",
                 "src": "hdb",
@@ -232,7 +239,7 @@ def main():
                 "lat": lat, "lng": lng,
                 "sheltered": any(k in cp_type for k in ("MULTI-STOREY", "BASEMENT", "COVERED", "MECHANISED")),
                 "type": cp_type.title(),
-                "p1": half_hr * 2, "p2": half_hr * 4,
+                "rates": rates,
                 "rateWd": rate_txt,
                 "rateSat": None, "rateSun": None,
                 "freeParking": None if row["free_parking"] == "NO" else row["free_parking"].title(),

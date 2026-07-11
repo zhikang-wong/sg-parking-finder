@@ -27,9 +27,12 @@ repo secret — never committed) and force-pushes `availability.json` to the `av
 branch, which the app reads via raw.githubusercontent.com and matches to carparks by
 proximity (≤150 m).
 
-Prices shown are **estimates for a 2-hour weekday daytime park**, parsed from free-text
-rate descriptions — always check the displayed rate text. HDB carparks use the standard
-$0.60/30 min rate ($1.20/30 min for the 16 central-area carparks).
+Rate text is parsed (`scripts/rates.py`) into structured time segments — first-hour,
+per-interval, per-entry and free rules with day/evening windows for weekday / Sat / Sun —
+and the app walks your selected arrival time + duration through those segments to
+estimate the total cost. Public holidays are treated as regular days; always check the
+displayed rate text. HDB carparks use the standard $0.60/30 min rate ($1.20/30 min
+weekday daytime for the 16 central-area carparks; free Sun 7am–10.30pm where offered).
 
 ## Run it
 
