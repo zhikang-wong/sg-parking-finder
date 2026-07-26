@@ -399,11 +399,18 @@ main { flex: 1; display: flex; min-height: 0; }
 }
 
 @media (max-width: 780px) {
+  /* Mobile scrolls the whole document: header, map and results are one page,
+     so the header scrolls away and the list gets the full screen — instead of
+     the list being trapped in a short inner scroll pane. */
+  html, body { height: auto; min-height: 100%; overflow: visible; }
   header { padding: 10px 14px 8px; padding-top: max(10px, env(safe-area-inset-top)); gap: 9px; }
-  main { flex-direction: column; min-height: 0; }
+  /* flex:none so the page (not a flex container) decides the height */
+  main { flex: none; flex-direction: column; min-height: 0; }
   #map { flex: none; height: 30vh; }
   #results {
+    flex: none;
     max-width: none;
+    overflow: visible;   /* cards flow into the page scroll */
     border-left: 0;
     border-top: 1px solid var(--border);
     /* room for the floating list/map toggle + iOS home-indicator */
@@ -411,7 +418,7 @@ main { flex: 1; display: flex; min-height: 0; }
   }
   .avail-status { width: 100%; margin-left: 2px; }
 
-  /* full-height list/map toggle, shown once a destination is picked */
+  /* list/full-screen-map toggle, shown once a destination is picked */
   .mobile-toggle {
     display: flex;
     position: fixed;
@@ -439,9 +446,11 @@ main { flex: 1; display: flex; min-height: 0; }
   }
   .mobile-toggle button.on { background: #fff; color: var(--ink); }
 
-  body.show-list #map { display: none; }
-  body.show-list #results { flex: 1; height: auto; }
+  /* Full-screen map: pin the page to the viewport so the map owns the
+     gestures and nothing scrolls behind it. */
+  body.show-map { height: 100dvh; overflow: hidden; }
   body.show-map #results { display: none; }
+  body.show-map main { flex: 1; min-height: 0; }
   body.show-map #map { flex: 1; height: auto; }
 }
 

@@ -254,7 +254,7 @@ function setDestination(lat, lng, name) {
   $("controls").classList.remove("hidden");
   $("placeholder").classList.add("hidden");
   $("mobileToggle").classList.remove("hidden");
-  document.body.classList.add("show-list");
+  setMobileView("list");
   if (destMarker) destMarker.remove();
   destMarker = L.marker([lat, lng], {
     icon: L.divIcon({ className: "dest-pin", html: "📍", iconSize: [28, 28], iconAnchor: [14, 26] }),
@@ -460,18 +460,41 @@ for (const id of ["sheltered", "hasLots"])
     render();
   });
 
-// mobile-only list/map full-height toggle (see .mobile-toggle in style.css)
-for (const btn of document.querySelectorAll(".mobile-toggle button"))
-  btn.addEventListener("click", () => {
-    document.querySelectorAll(".mobile-toggle button").forEach(b => {
-      b.classList.toggle("on", b === btn);
-      b.setAttribute("aria-selected", b === btn ? "true" : "false");
-    });
-    const showMap = btn.dataset.view === "map";
-    document.body.classList.toggle("show-map", showMap);
-    document.body.classList.toggle("show-list", !showMap);
-    if (showMap) setTimeout(() => map.invalidateSize(), 50);
+// ------------------------------------------------- mobile list / map views
+// On mobile the page itself scrolls (header + map + list are one document), so
+// the inline map must not eat vertical swipes — panning is enabled only in the
+// full-screen map view. See the max-width:780px block in style.css.
+const isNarrow = () => window.matchMedia("(max-width: 780px)").matches;
+let listScrollY = 0;
+
+function syncMapDragging() {
+  const inlineOnMobile = isNarrow() && !document.body.classList.contains("show-map");
+  if (inlineOnMobile) map.dragging.disable();
+  else map.dragging.enable();
+}
+
+function setMobileView(view) {
+  const showMap = view === "map";
+  if (showMap && !document.body.classList.contains("show-map")) listScrollY = window.scrollY;
+  document.body.classList.toggle("show-map", showMap);
+  document.querySelectorAll(".mobile-toggle button").forEach(b => {
+    const on = b.dataset.view === view;
+    b.classList.toggle("on", on);
+    b.setAttribute("aria-selected", on ? "true" : "false");
   });
+  syncMapDragging();
+  if (showMap) setTimeout(() => map.invalidateSize(), 50);
+  else window.scrollTo(0, listScrollY);
+}
+
+for (const btn of document.querySelectorAll(".mobile-toggle button"))
+  btn.addEventListener("click", () => setMobileView(btn.dataset.view));
+
+// a viewport crossing the mobile breakpoint changes who owns the gestures
+window.matchMedia("(max-width: 780px)").addEventListener("change", () => {
+  if (!isNarrow()) document.body.classList.remove("show-map");
+  syncMapDragging();
+});
 
 function initWhen() {
   // default: now, rounded up to the next 5 minutes, in local time
@@ -483,6 +506,7 @@ function initWhen() {
 
 (async function init() {
   initWhen();
+  syncMapDragging();
   await Promise.all([loadCarparks(), loadAvailability()]);
   await loadLtaAvailability(); // needs carparks loaded for proximity matching
   setInterval(loadAvailability, 60_000);

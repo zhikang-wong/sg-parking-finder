@@ -5,11 +5,14 @@ with live HDB lot availability and one-tap navigation via Google Maps or Waze.
 
 ## Features
 
-- **Destination search** — OneMap (SLA) address/POI autocomplete, or use your current location
+- **Destination search** — OneMap (SLA) + OpenStreetMap autocomplete, or use your current location
 - **Ranked results** — sort by shortest walk, lowest estimated price (2-hr park), or most lots available
 - **Filters** — sheltered-only, has-lots-now, search radius (500 m – 2 km)
 - **Live availability** — HDB lot counts from data.gov.sg, refreshed every minute
 - **Navigation deeplinks** — Google Maps and Waze buttons on every carpark
+- **Mobile layout** — the whole page scrolls (header and map scroll away with the
+  list), with a List/Map toggle for a full-screen map. Desktop keeps the
+  side-by-side map + scrolling results pane.
 
 ## Data sources
 
