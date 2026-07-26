@@ -39,7 +39,15 @@ Mall availability: DataMall blocks browser calls (no CORS) and needs an AccountK
 `.github/workflows/availability.yml` fetches it every 5 minutes (key in the `DATAMALL_KEY`
 repo secret — never committed) and force-pushes `availability.json` to the `availability`
 branch, which the app reads via raw.githubusercontent.com and matches to carparks by
-proximity (≤150 m).
+proximity (≤150 m). The branch is rewritten to a single commit each run, so it never
+accumulates history.
+
+Two things to know about that schedule: GitHub runs `cron` on a best-effort basis and
+drops or delays runs under load, so the real interval is often longer than 5 minutes;
+and it **disables scheduled workflows after 60 days without repo activity**, which you
+have to re-enable by hand. If mall lot counts look stale, check the Actions tab first.
+The app degrades quietly here — carparks just show no lot count — so nothing surfaces
+a stalled refresh.
 
 Rate text is parsed (`scripts/rates.py`) into structured time segments — first-hour,
 per-interval, per-entry and free rules with day/evening windows for weekday / Sat / Sun —
