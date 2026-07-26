@@ -19,7 +19,7 @@
   --shadow-lg: 0 12px 32px rgba(15, 23, 42, .16);
 }
 * { box-sizing: border-box; }
-html, body { height: 100%; }
+html, body { height: 100%; height: 100dvh; }
 body {
   margin: 0;
   font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -29,6 +29,7 @@ body {
   flex-direction: column;
   font-size: 15px;
   -webkit-font-smoothing: antialiased;
+  overflow: hidden; /* only #results (or #suggestions) scrolls, never the page */
 }
 
 /* ---------------------------------------------------------------- header */
@@ -118,6 +119,17 @@ h1 { margin: 0; font-size: 1.06rem; font-weight: 700; letter-spacing: -.01em; }
 .suggestions div:last-child { border-bottom: 0; }
 .suggestions div:hover { background: var(--accent-soft); }
 .suggestions .addr { color: var(--muted); font-size: .76rem; display: block; font-weight: 400; margin-top: 1px; }
+.src-tag {
+  display: inline-block;
+  font-size: .62rem;
+  font-weight: 700;
+  color: var(--muted);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 0 4px;
+  vertical-align: middle;
+}
 
 /* controls */
 .controls { display: flex; flex-direction: column; gap: 10px; }
@@ -194,6 +206,8 @@ main { flex: 1; display: flex; min-height: 0; }
   flex: 1;
   max-width: 470px;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior: contain;
   padding: 14px;
   border-left: 1px solid var(--border);
   background: var(--bg);
@@ -379,10 +393,58 @@ main { flex: 1; display: flex; min-height: 0; }
 #results::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 8px; }
 #results::-webkit-scrollbar-track { background: transparent; }
 
+@media (max-width: 480px) {
+  .tagline { display: none; }
+  .brand { gap: 9px; }
+}
+
 @media (max-width: 780px) {
-  header { padding: 12px 14px 10px; }
-  main { flex-direction: column; }
+  header { padding: 10px 14px 8px; padding-top: max(10px, env(safe-area-inset-top)); gap: 9px; }
+  main { flex-direction: column; min-height: 0; }
   #map { flex: none; height: 30vh; }
-  #results { max-width: none; border-left: 0; border-top: 1px solid var(--border); }
+  #results {
+    max-width: none;
+    border-left: 0;
+    border-top: 1px solid var(--border);
+    /* room for the floating list/map toggle + iOS home-indicator */
+    padding-bottom: calc(80px + env(safe-area-inset-bottom));
+  }
   .avail-status { width: 100%; margin-left: 2px; }
+
+  /* full-height list/map toggle, shown once a destination is picked */
+  .mobile-toggle {
+    display: flex;
+    position: fixed;
+    left: 50%;
+    bottom: calc(14px + env(safe-area-inset-bottom));
+    transform: translateX(-50%);
+    z-index: 1500;
+    background: var(--ink);
+    border-radius: 999px;
+    padding: 4px;
+    gap: 2px;
+    box-shadow: var(--shadow-lg);
+  }
+  .mobile-toggle.hidden { display: none; }
+  .mobile-toggle button {
+    font: inherit;
+    font-size: .82rem;
+    font-weight: 700;
+    padding: 9px 16px;
+    border: 0;
+    border-radius: 999px;
+    background: transparent;
+    color: #cbd5e1;
+    cursor: pointer;
+  }
+  .mobile-toggle button.on { background: #fff; color: var(--ink); }
+
+  body.show-list #map { display: none; }
+  body.show-list #results { flex: 1; height: auto; }
+  body.show-map #results { display: none; }
+  body.show-map #map { flex: 1; height: auto; }
+}
+
+@media (min-width: 781px) {
+  .mobile-toggle { display: none !important; }
 }

@@ -1,6 +1,10 @@
 /* SG Parking Finder */
 
 const ONEMAP_SEARCH = "https://www.onemap.gov.sg/api/common/elastic/search";
+// OpenStreetMap (Nominatim) — picks up POIs/businesses (e.g. small studios, cafes)
+// that OneMap's SLA address/building index doesn't carry.
+const NOMINATIM_SEARCH = "https://nominatim.openstreetmap.org/search";
+const SG_VIEWBOX = "103.59,1.48,104.09,1.13"; // minlon,maxlat,maxlon,minlat
 const AVAIL_API = "https://api.data.gov.sg/v1/transport/carpark-availability";
 // LTA DataMall mall/URA lots, refreshed every 5 min by a GitHub Action
 const LTA_AVAIL_URL = "https://raw.githubusercontent.com/zhikang-wong/sg-parking-finder/availability/availability.json";
@@ -29,7 +33,8 @@ const $ = (id) => document.getElementById(id);
 const map = L.map("map", { zoomControl: true }).setView([1.3521, 103.8198], 12);
 L.tileLayer("https://www.onemap.gov.sg/maps/tiles/Default/{z}/{x}/{y}.png", {
   maxZoom: 19,
-  attribution: '&copy; <a href="https://www.onemap.gov.sg/">OneMap</a> &copy; Singapore Land Authority',
+  attribution: '&copy; <a href="https://www.onemap.gov.sg/">OneMap</a> &copy; Singapore Land Authority | ' +
+    'Geocoding &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
 }).addTo(map);
 const markerLayer = L.layerGroup().addTo(map);
 let destMarker = null;
@@ -158,29 +163,71 @@ $("search").addEventListener("input", (e) => {
   clearTimeout(debounceTimer);
   const q = e.target.value.trim();
   if (q.length < 3) { hideSuggestions(); return; }
-  debounceTimer = setTimeout(() => suggest(q), 280);
+  debounceTimer = setTimeout(() => suggest(q), 350);
 });
 document.addEventListener("click", (e) => {
   if (!e.target.closest(".search-wrap")) hideSuggestions();
   if (!e.target.closest(".nav-menu")) closeNavMenus();
 });
 
+async function fetchOneMapSuggestions(q) {
+  const url = `${ONEMAP_SEARCH}?searchVal=${encodeURIComponent(q)}&returnGeom=Y&getAddrDetails=Y&pageNum=1`;
+  const res = await fetch(url);
+  const data = await res.json();
+  return (data.results || [])
+    .map(r => ({
+      name: r.SEARCHVAL || r.BUILDING || r.ADDRESS,
+      addr: r.ADDRESS || "",
+      lat: +r.LATITUDE, lng: +r.LONGITUDE,
+      src: "onemap",
+    }))
+    .filter(r => r.name && !isNaN(r.lat) && !isNaN(r.lng));
+}
+
+async function fetchOsmSuggestions(q) {
+  // OSM/Nominatim carries named POIs (shops, studios, gyms, ...) that OneMap's
+  // official address index generally doesn't index.
+  const url = `${NOMINATIM_SEARCH}?format=jsonv2&q=${encodeURIComponent(q)}` +
+    `&countrycodes=sg&addressdetails=1&limit=6&viewbox=${SG_VIEWBOX}&bounded=1`;
+  const res = await fetch(url, { headers: { "Accept-Language": "en" } });
+  const data = await res.json();
+  return (data || [])
+    .map(r => ({
+      name: r.name || (r.display_name || "").split(",")[0],
+      addr: r.display_name || "",
+      lat: +r.lat, lng: +r.lon,
+      src: "osm",
+    }))
+    .filter(r => r.name && !isNaN(r.lat) && !isNaN(r.lng));
+}
+
+// Merge OneMap + OSM results, deduping anything within ~60m of an
+// already-picked hit (OneMap wins the dedupe since its addresses read cleaner).
+function mergeSuggestions(primary, extra) {
+  const out = [...primary];
+  for (const cand of extra) {
+    const dup = out.some(o => haversine(o.lat, o.lng, cand.lat, cand.lng) < 60);
+    if (!dup) out.push(cand);
+  }
+  return out.slice(0, 8);
+}
+
 async function suggest(q) {
   try {
-    const url = `${ONEMAP_SEARCH}?searchVal=${encodeURIComponent(q)}&returnGeom=Y&getAddrDetails=Y&pageNum=1`;
-    const res = await fetch(url);
-    const data = await res.json();
+    const [oneMap, osm] = await Promise.all([
+      fetchOneMapSuggestions(q).catch(() => []),
+      fetchOsmSuggestions(q).catch(() => []),
+    ]);
+    const results = mergeSuggestions(oneMap, osm);
     const box = $("suggestions");
     box.innerHTML = "";
-    const results = (data.results || []).slice(0, 8);
     if (!results.length) { hideSuggestions(); return; }
     for (const r of results) {
       const div = document.createElement("div");
-      const name = r.SEARCHVAL || r.BUILDING || r.ADDRESS;
-      div.innerHTML = `${esc(name)}<span class="addr">${esc(r.ADDRESS)}</span>`;
+      div.innerHTML = `${esc(r.name)}<span class="addr">${esc(r.addr)}${r.src === "osm" ? ' <span class="src-tag">OSM</span>' : ""}</span>`;
       div.addEventListener("click", () => {
-        setDestination(+r.LATITUDE, +r.LONGITUDE, name);
-        $("search").value = name;
+        setDestination(r.lat, r.lng, r.name);
+        $("search").value = r.name;
         hideSuggestions();
       });
       box.appendChild(div);
@@ -206,6 +253,8 @@ function setDestination(lat, lng, name) {
   state.dest = { lat, lng, name };
   $("controls").classList.remove("hidden");
   $("placeholder").classList.add("hidden");
+  $("mobileToggle").classList.remove("hidden");
+  document.body.classList.add("show-list");
   if (destMarker) destMarker.remove();
   destMarker = L.marker([lat, lng], {
     icon: L.divIcon({ className: "dest-pin", html: "📍", iconSize: [28, 28], iconAnchor: [14, 26] }),
@@ -409,6 +458,19 @@ for (const id of ["sheltered", "hasLots"])
     const el = $(id);
     el.setAttribute("aria-pressed", el.getAttribute("aria-pressed") !== "true");
     render();
+  });
+
+// mobile-only list/map full-height toggle (see .mobile-toggle in style.css)
+for (const btn of document.querySelectorAll(".mobile-toggle button"))
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".mobile-toggle button").forEach(b => {
+      b.classList.toggle("on", b === btn);
+      b.setAttribute("aria-selected", b === btn ? "true" : "false");
+    });
+    const showMap = btn.dataset.view === "map";
+    document.body.classList.toggle("show-map", showMap);
+    document.body.classList.toggle("show-list", !showMap);
+    if (showMap) setTimeout(() => map.invalidateSize(), 50);
   });
 
 function initWhen() {
