@@ -3,7 +3,7 @@
 
 Sources:
   data/sgcarmart_details.json  - scraped commercial carpark rates (lat/lng included)
-  HDBCarparkInformation.csv    - HDB carparks, SVY21 coords, type, night/free parking
+  data/HDBCarparkInformation.csv - HDB carparks, SVY21 coords, type, night/free parking
 """
 import csv
 import json
@@ -14,7 +14,7 @@ import re
 from rates import parse_carpark_rates
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-HDB_CSV = "/Users/ZhiKang/Desktop/CarParkAvailability/HDBCarparkInformation.csv"
+HDB_CSV = os.path.join(ROOT, "data", "HDBCarparkInformation.csv")
 DETAILS = os.path.join(ROOT, "data", "sgcarmart_details.json")
 OUT = os.path.join(ROOT, "docs", "carparks.json")
 

@@ -65,7 +65,10 @@ python3 scripts/scrape_sgcarmart.py   # re-scrape sgcarmart rates (resumable, ~6
 python3 scripts/build_data.py         # rebuild docs/carparks.json
 ```
 
-`build_data.py` reads `HDBCarparkInformation.csv` from `~/Desktop/CarParkAvailability/`.
+`build_data.py` reads `data/HDBCarparkInformation.csv` (source: data.gov.sg, HDB carpark
+information). `data/sg_poi.csv` is a Singapore points-of-interest dataset kept alongside
+the carpark data for potential future use (e.g. destination suggestions) — not currently
+consumed by the app.
 
 ## Notes
 
