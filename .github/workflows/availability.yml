@@ -1,0 +1,66 @@
+name: Refresh mall availability
+
+# DataMall blocks browser calls (no CORS) and needs an AccountKey, so the app
+# can't fetch it directly. This job polls DataMall and force-pushes the result
+# to the `availability` branch, which the app reads over raw.githubusercontent.com.
+#
+# Requires a repo secret DATAMALL_KEY holding your LTA DataMall AccountKey.
+
+on:
+  schedule:
+    # GitHub treats this as best-effort and delays or drops runs under load,
+    # so real refresh intervals are often longer than 5 minutes.
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+# overlapping runs would race on the force-push
+concurrency:
+  group: availability
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch DataMall availability
+        env:
+          DATAMALL_KEY: ${{ secrets.DATAMALL_KEY }}
+        run: python3 scripts/fetch_datamall.py availability.json
+
+      - name: Sanity-check the payload
+        # Never publish an empty or malformed file over a good one — the app has
+        # no way to tell a broken refresh from a genuine "no lots anywhere".
+        run: |
+          python3 - <<'PY'
+          import json, sys
+          data = json.load(open("availability.json"))
+          n = len(data.get("carparks", []))
+          if n < 50:
+              sys.exit(f"only {n} carparks in payload — refusing to publish")
+          print(f"{n} carparks, ts={data.get('ts')}")
+          PY
+
+      - name: Publish to the availability branch
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          # Build the commit in a throwaway repo so the branch stays a single
+          # commit — at ~288 runs a day, accumulating history would be unusable.
+          pub=$(mktemp -d)
+          cp availability.json "$pub/"
+          cd "$pub"
+          git init -q
+          git checkout -q -b availability
+          git add availability.json
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -q -m "availability @ $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push -q --force \
+            "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" \
+            availability
